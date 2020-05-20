@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Example_function_012</title>
+  <meta charset="utf-8">
+<style>
+header, footer {
+  position: -webkit-sticky;
+  position: sticky;
+  border: 2px solid orange;
+}
+header { top: 0; }
+footer { bottom: 0; }
+main { min-height: 200px; }
+span { font-weight: bold; }
+</style>  
+</head>
+<body>
+  <header>
+    <h1>Page Title</h1>
+  </header>
+  <nav>
+    <a href="#">link1</a> 
+    <a href="#">linkN</a>
+  </nav>
+  <main>
+    <input id="uval" type="number">
+    <output id="out"></output>
+  </main>
+  <footer>
+    <address>Web Programming © Sheridan College</address>
+  </footer>
+<script>
+function plusOne(x) {
+	return x + 1;
+}
+// start processing the input only when user change the value
+uval.onchange = function() {
+  // get value from the user
+  var x = uval.value;
+  document.write("plusOne(",x,") ", plusOne(x),"<br>" );
+  document.write("Notice the overwritten DOM!");
+}
+// notice the page appearance and calculated value!
+</script>	
+</body>
+</html>
+
+
