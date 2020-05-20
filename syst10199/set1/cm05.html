@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Example01_002</title>
+  <meta charset="UTF-8">
+<!-- 
+Author: 	Ellen Bajcar
+Program: 	ipo.html
+Date: 		Fall 2017
+Updated: 	Oct. 2, 2017 
+Version: 	1.5
+Purpose: 	programming and development process
+Copyright: 
+    This work is the intellectual property of Sheridan 
+    College. Any further copying and distribution outside 
+    of class must be within the copyright law. Posting to 
+    commercial sites for profit is prohibited.
+Description:
+    Compare Java and HTML programming.
+    Output: 
+        "The sum of 5 and 7 is 12."
+    Input:
+        variable x to hold value 5
+        variable y to hold value 7
+        variable sum to hold calculated value 12
+    Process: (potential algorithm)
+        * declare variables
+        * assignments 
+			x=5
+			y=7
+			sum=?
+        * addition 
+			x+y
+        * display (print) 
+			strings to screen
+  Constraints and assumptions:
+    *values 5, 7, and 12 are fixed; 
+      a single fixed string (assumption 1) 
+    *values appear to be integers (assumption 2) 
+    if both of these assumptions are correct,
+      they become constraints
+      and the solution will address only this situation.
+    If either of these assumptions is incorrect, 
+      how will the potential solution change?
+      
+Potential solutions:
+  Java (solution 1: assumption 1 is true; 
+      constraint is a single fixed string)
+    system.out.println("The sum of 5 and 7 is 12");
+    
+  Java (solution 2: assumption 2 is true; 
+      constraint is that all values are integers)
+    int x = 5; 
+    int x = 7; 
+    int sum;
+    sum = x + y;
+    system.out.println("The sum of " + x + " and " + y + 
+                       " is " + sum ".");
+    
+  HTML5
+    See SOME of the possibilities below.
+    Which elements are best choices depends on individual situations.
+-->
+
+</head>
+<body>
+<!-- good if the values are fixed; similar to Java solution 1 -->
+
+<!-- TODO: consider the difference using p versus div.
+     a "chicken" is a more specific (meaningful)  
+         description than an "animal"
+     a "paragraph" is a more specific (meaningful) 
+         description than a "division" -->
+<p>The sum of 5 and 7 is 12.</p>
+<div>The sum of 5 and 7 is 12.</div>
+
+<!-- since the value for each variable is in a container, 
+     the value can be manipulated by functional languages 
+     as a property of an object -->
+     
+<!-- good if part of a form -->
+<p>The sum of <output>5</output> and 
+              <output>7</output> is 
+              <output>12</output>.</p>
+              
+<p>The sum of <input type="number" value="5"> and 
+              <input type="number" value="7"> is 
+              <output>12</output>.</p>
+
+<!-- other possibilities -->    
+<p>The sum of <span>5</span> and <span>7</span> is <span>12</span>.</p>
+<p>The sum of <var>5</var> and <var>7</var> is <var>12</var>.</p>
+<p>The sum of <kbd>5</kbd> and <kbd>7</kbd> is <kbd>12</kbd>.</p>
+<p>The sum of <em>5</em> and <em>7</em> is <em>12</em>.</p> 
+
+<!-- what about? other ideas... 
+--> 
+	
+</body>
+</html>
+
+
+
