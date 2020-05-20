@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Example_function_011</title>
+  <meta charset="utf-8">
+<style>
+header, footer {
+  position: -webkit-sticky;
+  position: sticky;
+  border: 2px solid orange;
+}
+header { top: 0; }
+footer { bottom: 0; }
+main { min-height: 200px; }
+span { font-weight: bold; }
+</style>  
+</head>
+<body>
+  <header>
+    <h1>Page Title</h1>
+  </header>
+  <nav>
+    <a href="#">link1</a> 
+    <a href="#">linkN</a>
+  </nav>
+  <main>
+    <input id="uval" type="number" value="1">
+    <output id="out"></output>
+  </main>
+  <footer>
+    <address>Web Programming © Sheridan College</address>
+  </footer>
+<script>
+function plusOne(x) {
+	return x + 1;
+}
+// get value from the user
+var x = uval.value;
+/* notice that this is appended 
+to the end of the document */
+document.write("<span>Notice</span> that the input value is always the default of 1, because the value was assigned when page loaded. When we select a new value, nothing happens.<br>");
+document.write("<span>Notice</span> that the result is not incremented, it is concatenated!<br>")
+document.write("plusOne(",x,") ", plusOne(x),"<br>" );
+document.write("<p><span>Next step: execute the code only when value is changed by user.</span></p>")
+</script>	
+</body>
+</html>
+
+
