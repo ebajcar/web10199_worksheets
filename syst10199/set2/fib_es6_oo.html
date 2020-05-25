@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+</style>
+</head>
+<body>
+
+<script>
+var fibonacci = {
+    next: (function () {
+        var pre = 0, cur = 1;
+        return function () {
+            tmp = pre;
+            pre = cur;
+            cur += tmp;
+            return cur;
+        };
+    })()
+};
+
+var n;
+for (;;) {
+    n = fibonacci.next();
+    if (n > 1000)
+        break;
+    console.log(n);
+}
+</script>
+</body>
+</html>
