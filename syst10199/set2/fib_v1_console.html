@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fibbonaci Numbers</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<header>
+		<h1>Fibbonaci Numbers v1.</h1>
+	</header>
+<script>
+// Calculate and display in console the first 5 Fibbonaci numbers
+var n = 10, tmp;
+var pre = 0, cur = 1;
+console.log(pre);
+console.log(cur);
+// explore the for loop
+for (var i = 0;i < n-2; i++) {
+	tmp = pre;  //tmp is first number
+	pre = cur;  //pre is second number
+	cur += tmp; //cur is first plus second (or newly calculated)
+    console.log(cur);
+}
+</script>
+</body>
+</html>
