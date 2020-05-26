@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>for Loop and name Attribute</title>
+	<meta charset="utf-8">	
+<!-- 
+Author: Ellen Bajcar
+Date: Summer 2018
+Version: 1.0
+Purpose: learning Javascript programming
+Copyright: 
+	This work is the intellectual property of Sheridan College. 
+	Any further copying and distribution outside of class must be within 
+	the copyright law. Posting to commercial sites for profit is prohibited.
+Description:
+	The following function contains a for statement that counts the number 
+	of selected options in a scrolling list (a <select> element that allows 
+	multiple selections). The for statement declares the variable i and 
+	initializes it to zero. It checks that i is less than the number of 
+	options in the <select> element, performs the succeeding if statement, 
+	and increments i by one after each pass through the loop.
+	cite: 
+	developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
+-->	
+<style>
+body {
+	margin: auto;
+	width:80%;
+}
+select {
+	min-width: 300px;
+}
+</style>
+</head>
+<body>
+  <header><h1><code>for</code> Loops</h1></header>
+  <form name="selectForm">
+	<p>
+	  <label for="musicTypes">Choose some music types (genres and moods), then click the button below:</label>
+	  <br>
+	  <select id="musicTypes" name="musicTypes" multiple="multiple" size="8">
+		<option selected>Blues</option>
+		<option>Classical</option>
+		<option>Focus</option>
+		<option>Hip Hop</option>
+		<option>Jazz</option>
+		<option>Latin</option>
+		<option>Opera</option>
+		<option>Movie</option>	 
+		<option>R&amp;B</option>
+		<option>Reggae</option>  
+	  </select>
+	</p>
+	<p><input id="btn" type="button" value="How many are selected?" /></p>
+	<p id="result"></p>
+  </form>
+  <footer><address>SYST10199 Web Programming &copy; Sheridan College</address></footer>
+
+<script>
+/*
+	The following function contains a for statement that counts the number 
+	of selected options in a scrolling list (a <select> element that allows 
+	multiple selections). The for statement declares the variable i and 
+	initializes it to zero. It checks that i is less than the number of 
+	options in the <select> element, performs the succeeding if statement, 
+	and increments i by one after each pass through the loop. 
+*/
+function howMany(selectObject) {
+  var numberSelected = 0;
+  for (var i = 0; i < selectObject.options.length; i++) {
+    if (selectObject.options[i].selected) {
+      numberSelected++;
+    }
+  }
+  return numberSelected;
+}
+
+var btn = document.getElementById('btn');
+var result = document.getElementById('result');
+
+btn.onclick = function() {
+	result.innerText = 'Number of options selected: ' + 
+			howMany(document.selectForm.musicTypes);
+}
+
+/*
+https://www.w3schools.com/jsref/dom_obj_document.asp 
+https://www.w3schools.com/tags/att_name.asp
+The name attribute specifies a name for the element.
+This name attribute can be used to reference the element in a JavaScript.
+For form elements it is also used as a reference when the data is submitted,
+For iframe element it can be used to target a form submission.
+For the map element, the name attribute is associated with the <img>'s usemap attribute and creates a relationship between the image and the map.
+For the meta element, the name attribute specifies a name for the information/value of the content attribute.
+For the param element, the name attribute is used together with the value attribute to specify parameters for the plugin specified with the <object> tag.
+*/
+</script>
+
+</body>
+</html>
