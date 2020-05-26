@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Compute prime numbers</title>
+	<meta charset="UTF-8">	
+	<meta name="viewport" content="width=device-width">    
+<!--
+Author: Ellen Bajcar
+Date created: Spring 2019
+Date updated: Spring 2019
+Version: 1.0
+Copyright: 
+	This work is the intellectual property of Sheridan College. 
+	Any further copying and distribution outside of class must be within 
+	the copyright law. Posting to commercial sites for profit is prohibited.
+Purpose: 
+	Practice Javascript, HTML5, CSS3, and progressive enhancement	
+Description:	
+	http://www.algolist.net/Algorithms/Number_theoretic/Sieve_of_Eratosthenes
+public void runEratosthenesSieve(int upperBound) {
+      int upperBoundSquareRoot = (int) Math.sqrt(upperBound);
+      boolean[] isComposite = new boolean[upperBound + 1];
+      for (int m = 2; m <= upperBoundSquareRoot; m++) {
+            if (!isComposite[m]) {
+                  System.out.print(m + " ");
+                  for (int k = m * m; k <= upperBound; k += m)
+                        isComposite[k] = true;
+            }
+      }
+      for (int m = upperBoundSquareRoot; m <= upperBound; m++)
+            if (!isComposite[m])
+                  System.out.print(m + " ");
+}	
+https://www.khanacademy.org/computing/computer-science/cryptography/comp-number-theory/v/sieve-of-eratosthenes-prime-adventure-part-4
+	
+-->	
+<style>
+/* general selectors */
+body {
+	text-align: center;
+	font-family: monospace;
+	max-width: 1100px;
+	margin: 30px auto;
+}
+header {
+	margin-bottom: 30px;
+	border-bottom: thick double gray;
+	background-color: white;
+}
+footer {
+	margin-top: 30px;
+	border-top: thick double gray;
+	background-color: white;
+}
+
+/* selectors specific to this page */
+ul, ol {
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+	background-color: white;
+	color: black;
+}
+ul:first-child, ol:first-child  {
+	margin-top: 0;
+	padding-top: 0;
+	list-style: none;
+}
+li {
+    text-align: left;
+}
+p {
+	margin: 5px auto;
+	width: 260px;
+}
+p:first-child {
+	background-color: black;
+	color: white;
+    -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;	
+}
+span {
+	display: inline-block;
+	width: 50px;
+}
+
+</style>
+</head>
+<body>
+	<header><h1>Compute prime numbers by the Sieve of Eratosthenes</h1></header>
+	<main>
+		<h2>Open console to view the results.</h2>
+		<var id="limit"></var>
+		<ol id="output"></ol>
+	</main>
+	<footer><address>Web Programming @ Sheridan College</address></footer>
+    
+<noscript>Your browser does not support JavaScript!</noscript>
+<script>
+
+/**
+ *      Prime number list.
+ *
+ * Wait for the program to sieve-out the all of the
+ * prime numbers less than LIMIT.  Then use the scrollbar
+ * to explore the list.
+ * 
+ * Change the value of LIMIT for larger lists.  Be patient
+ * for large values.
+ */
+var LIMIT = 1000*10;  /* Find all primes less than LIMIT */
+/*
+ * Return all the primes less than n.
+ * Implements a simple Sieve of Eratosthenes. See
+ * https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
+ */
+function eratosthenes(n) {
+    var limit = Math.sqrt(n);
+    var composite = [];
+    /* Find primes between two and limit. */
+    for (var candidate = 2; candidate <= limit; candidate++) {
+        if (! composite[candidate]) {
+            /* A new prime! All its multiples are composite. */
+            for (var c = candidate * candidate; c < n; c += candidate) {
+                composite[c] = true;
+            }
+        }
+    }
+    /* Harvest the non-composites > 1 */
+    var primes = [];
+    for (candidate = 2; candidate < n; candidate++) {
+        if (! composite[candidate]) {
+            primes.push(candidate);
+        }
+    }
+    return primes;
+};
+// 10,000,000
+console.log(eratosthenes(LIMIT));
+var primes = eratosthenes(LIMIT);
+document.getElementById("limit").innerText = LIMIT;
+var parent = document.getElementById("output");
+for (curr of primes) {
+	parent.appendChild(document.createElement("li")).innerText = curr;
+}
+</script>
+</body>
+</html>
