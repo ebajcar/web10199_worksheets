@@ -10,12 +10,12 @@ plan).
 ### Problem A: Fibonacci numbers
 
 1. Write a program that displays the first 20 Fibonacci numbers in the console.
-2. Refactor your code to display a table in the console (see `console.table()` property.
+2. Refactor your code to display a table in the console (see `console.table()` property).
 3. Extend the program to capture user’s input to determine how many numbers to display.
 
 ### Problem B: Convert temperature
 
-1. Write a program that calculates 25 degress Celsius in Fahrenheit and displays a phrase\
+1. Write a program that calculates 25 degrees Celsius in Fahrenheit and displays a phrase\
    that includes both values in the console.
 2. Modify your program to display on the page.
 3. Extend the program to capture user's input to determine what value to convert.\
