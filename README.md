@@ -6,5 +6,5 @@
 
 # Examples
 
-- [`for` loop diagram](syst10199/set2/for_loop_diagram.html)
-- [`for` loop used to loop through options in a `select` element](syst10199/set2/for_loop_diagram.html)
+- [`for` loop diagram](syst10199/set2/diagram_for_loop.html)
+- [`for` loop used to loop through options in a `select` element](syst10199/set2/for_loop_options.html)
