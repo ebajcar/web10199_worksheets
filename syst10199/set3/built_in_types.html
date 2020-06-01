@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  font-size: 1.4em;
+{
+</style>
+</head>
+<body>
+<h2>Date object</h2>
+<pre><code>
+let d = new Date();
+document.write("&lt;p>Today's date is " + d + "&lt;/p>");
+</code></pre>
+<p></p>
+
+<pre><code>
+// 7 numbers specify year, month, day, hour, minute, second, and millisecond (in that order)
+let d = new Date(2018, 11, 24, 10, 33, 30, 0);
+</code></pre>
+<p></p>
+
+<pre><code>
+// 3 numbers specify year, month, and day
+let d = new Date(2018, 11, 24);
+</code></pre>
+<p></p>
+
+<pre><code>
+let d4 = new Date('June 3, 2020 03:24:00');
+</code></pre>
+<p></p>
+
+<pre><code>
+// retrive machine-readable datetime from time element
+// display as date object
+let x = document.getElementsByTagName("time")[0];
+let d5 = new Date(x.dateTime);
+document.getElementsByTagName("p")[4].innerHTML = x.dateTime + "&lt;br>" +  d5;
+</code></pre>
+<time datetime="05-22-2011">May 22, 2020</time>
+<p></p>
+
+<script>
+let d1 = new Date();
+document.getElementsByTagName("p")[0].innerHTML = "Today's date is " + d1;
+
+// 7 numbers specify year, month, day, hour, minute, second, and millisecond (in that order)
+let d2 = new Date(2018, 11, 24, 10, 33, 30, 0);
+document.getElementsByTagName("p")[1].innerHTML = d2;
+
+// 3 numbers specify year, month, and day
+let d3 = new Date(2018, 11, 24);
+document.getElementsByTagName("p")[2].innerHTML = d3;
+
+// JavaScript stores dates as number of milliseconds since 
+// January 01, 1970, 00:00:00 UTC 
+let d4 = new Date('June 3, 2020 03:24:00');
+document.getElementsByTagName("p")[3].innerHTML = d4;
+
+// retrive machine-readable datetime from time element
+// display as date object; retrieve parts of the date
+let x = document.getElementsByTagName("time")[0];  // get handle to time element (first and only)
+let d5 = new Date(x.dateTime); // retrieve the value of datetime attribute
+let par5 = document.getElementsByTagName("p")[4]; // create once, use many times
+par5.innerHTML = x.dateTime + "<br>" +  d5;
+par5.innerHTML += "<br>Year: " +  d5.getFullYear();
+par5.innerHTML += "<br>Month index: " +  d5.getMonth();
+par5.innerHTML += "<br>Day of the week: " +  d5.getDay();
+</script>
+</body>
+</html>
