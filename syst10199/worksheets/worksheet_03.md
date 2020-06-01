@@ -16,16 +16,16 @@ Class examples
 
 
 ### Problem A: Fibonacci numbers
-(1.-3. see worksheet 1) Consider what might be the next improvement(s) to your versions.
+(1.-3. see worksheet 2) Consider what might be the next improvement(s) to your versions.
 
 ### Problem B: Convert temperature
-(1.-3. see worksheet 1) Consider what might be the next improvement(s) to your versions.
+(1.-3. see worksheet 2) Consider what might be the next improvement(s) to your versions.
 
 ### Problem C: Calculate the area of a circle
-(1.-2. see worksheet 1) Consider what might be the next improvement(s) to your versions.
+(1.-2. see worksheet 2) Consider what might be the next improvement(s) to your versions.
 
 ### Problem D: Calculate roots of a quadratic equation
-(1.-2. see worksheet 1) 
+(1.-2. see worksheet 2) 
 
 3. Modify the previous version to create and populate a table, where  `a` range is 1 to 5 (columns), `b` range is 1 to 5 (rows), and `c=4`(can be displayed above or below the table. Create the appropriate HTML and populate with Javascript.
 4. Modify solution to use DOM methods to create and populate the table.
@@ -33,7 +33,7 @@ Class examples
 5. Modify previous version to capture initial values for `a` and `b`, and enter the `c` values from the user.
 
 ### Problem E: Calculate prime numbers
-(1.-3. see worksheet 1) 
+(1.-3. see worksheet 2) 
 
 4. Modify the previous version to create and populate the unordered list using DOM methods.
 
