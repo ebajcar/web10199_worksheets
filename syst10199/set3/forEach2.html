@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess Number 2</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+<script>
+// array of objects
+var province = [
+	{ name: "Alberta", 					postal: "AB" },
+	{ name: "British Comumbia", 		postal: "BC" },
+	{ name: "Manitoba", 				postal: "MB" },
+	{ name: "New Brunswick", 			postal: "NB" },
+	{ name: "Newfoundland and Labrador", postal: "NL" },
+	{ name: "Northwest Territories", 	postal: "NT" },
+	{ name: "Nova Scotia", 				postal: "NS" },
+	{ name: "Nunavut", 					postal: "NU" },
+	{ name: "Ontario", 					postal: "ON" },
+	{ name: "Prince Edward Island", 	postal: "PE" },
+	{ name: "Quebec", 					postal: "QC" },
+	{ name: "Saskatchewan", 			postal: "SK" },
+	{ name: "Yukon Territories", 		postal: "YT" }
+];
+document.write("<h3>\"province\" variable is an array of ", typeof(province),"s</h3>");
+document.write("<ol>");
+for (var i=0; i < province.length; i++) {
+	document.write("<li>" + province[i].name + " " + province[i].postal + "</li>");
+}
+document.write("</ol>");
+
+var list = [];
+//var numbers = [];
+
+// explore methods reverse() and forEach()
+// sort backwards first, then apply myFunction to each member
+province.reverse().forEach(myFunction);
+function myFunction(item, index) {
+	//console.log(item.name + ", "+ item.postal);
+	list[index] = item.name;
+}
+console.log("list ", list);
+
+//console.log(list.sort().join(" - "));
+console.log(list.join(" - "));
+
+var sortedList = list.sort();
+console.log("Removing the last item: " + sortedList.pop());
+console.log(sortedList.join("::"));
+console.log("Sorted list less one item: " + sortedList.join(" - "));
+var firstItem = sortedList.shift()
+console.log("First item: " + firstItem);
+console.log("Less first item: " + sortedList.join(" - "));
+
+</script>
+<!-- 
+Author: Ellen Bajcar
+Date: Winter 2018
+Version: 1.0
+Purpose: learning Javascript programming
+Copyright: 
+	This work is the intellectual property of Sheridan College. 
+	Any further copying and distribution outside of class must be within 
+	the copyright law. Posting to commercial sites for profit is prohibited.
+Description:
+  Exploring Javascript objects.
+-->	
+</body>
+</html>
