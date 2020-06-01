@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>family array</title>
+	<meta charset="utf-8">	
+<!-- 
+Author: Ellen Bajcar
+Date: Summer 2018
+Version: 1.0
+Purpose: learning Javascript programming
+Copyright: 
+	This work is the intellectual property of Sheridan College. 
+	Any further copying and distribution outside of class must be within 
+	the copyright law. Posting to commercial sites for profit is prohibited.
+Description:
+	.
+-->	
+<style>
+body {
+	margin: auto;
+	width:50%;
+}
+select {
+	min-width: 300px;
+}
+#result {
+	font-size: 2em;
+	color: darkorange;
+}
+</style>
+</head>
+<body>
+  <header><h1>Array: family</h1></header>
+  <hr>
+  <form name="family">
+	<ul></ul>
+  </form>
+  <hr>
+  <footer><address>SYST10199 Web Programming &copy; Sheridan College</address></footer>
+
+<script>
+var family = ["Joan","Charlie","Peter","Anne","Tim"];
+function showList() {
+	family.sort().reverse();
+	var len = family.length;
+	var dispHandle = document.getElementsByTagName("ul")[0];
+	
+	for (var i = 0; i < len; i++) {
+		var newItem = document.createElement("li");
+		dispHandle.appendChild(newItem);
+		newItem.innerText = family[i] + " is " + family[i].length + " characters long.";
+	}
+}
+function showL2() {
+	family.sort().reverse();
+	var len = family.length;
+	var dispHandle = document.getElementsByTagName("ul")[0];
+	
+	for (var i = 0; i < len; i++) {
+		//ERROR: appendChild is not a method of createElement
+		var newItem = document.createElement("li").appendChild(newItem);
+		newItem.innerText = family[i] + " is " + family[i].length + " characters long.";
+	}
+}
+function showL3() {
+	family.sort().reverse();
+	var len = family.length;
+	var dispHandle = document.getElementsByTagName("ul")[0];
+	
+	for (var i = 0; i < len; i++) {
+		dispHandle.appendChild(document.createElement("li")).appendChild(document.createTextNode(family[i] + " is " + family[i].length + " characters long."));
+	}
+}
+function showL4() {
+	family.sort().reverse();
+	var len = family.length;
+	var dispHandle = document.getElementsByTagName("ul")[0];
+	family.forEach(function (item) {
+		dispHandle.appendChild(document.createElement("li")).appendChild(document.createTextNode(item + " is " + item.length + " characters long."));
+	});
+	
+}
+document.addEventListener("DOMContentLoaded", showL4);
+</script>
+</body>
+</html>
