@@ -36,7 +36,7 @@ plan).
    when `a=4`, `b=3`, and `c=2`.
 2. Extend the problem to display the results on the page.
 
-### Problem D: Calculate prime numbers
+### Problem E: Calculate prime numbers
 
 1. Write a program that displays the first 20 prime numbers (starting with 2). Display in console.
 2. Extend the program to display on the page.
