@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>querySelector vs. getElement* DOM methods</title>
+	<meta charset="UTF-8">	
+	<meta name="viewport" content="width=device-width">    
+<!--
+Author: Ellen Bajcar
+Date created: Spring 2019
+Date updated: Spring 2019
+Version: 1.0
+Copyright: 
+	This work is the intellectual property of Sheridan College. 
+	Any further copying and distribution outside of class must be within 
+	the copyright law. Posting to commercial sites for profit is prohibited.
+Purpose: 
+	Practice Javascript, HTML5, CSS3, and progressive enhancement	
+Description:	
+	demonstrate the difference between using a live DOM and a copy of DOM.
+-->	
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+/* general selectors */
+body {
+    font-size:1.2em;
+	max-width: 1100px;
+	margin: 30px auto;
+}
+header {
+	margin-bottom: 30px;
+	border-bottom: thick double gray;
+	background-color: white;
+}
+footer {
+	margin-top: 30px;
+	border-top: thick double gray;
+	background-color: white;
+}
+
+/* selectors specific to this page */
+ul {
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+	background-color: white;
+	color: black;
+}
+ul:first-child {
+	margin-top: 0;
+	padding-top: 0;
+	list-style: none;
+}
+li {
+    text-align: left;
+}
+
+
+</style>
+</head>
+<body>
+	<header><h1>querySelector vs. getElement* DOM methods</h1></header>
+	<main>
+      <ul>
+       <li>item one</li>
+        <li>item two</li>
+      </ul>
+  <pre class="w3-code jsHigh notranslate">
+80  var x = document.querySelectorAll("li");  /* nodelist of li elements */
+81  console.log("81 x " + x + " x length " + x.length);
+82  var y = document.getElementsByTagName("li"); /* HTML collection of li elements */
+83  console.log("83 y " + y + " y length " + y.length);
+84  var parent = document.getElementsByTagName("ul")[0];
+85  var newItem = parent.appendChild(document.createElement("li"));
+86  newItem.innerText = "added item";
+87  console.log("newItem "+ newItem);
+88  console.log("88 y " + y + " y length " + y.length); /* HTML Collection updated */
+89  console.log("89 x " + x + " x length " + x.length); /* NodeList NOT updated */</pre>
+	</main>
+	<footer><address>Web Programming @ Sheridan College</address></footer>
+<script src="https://www.w3schools.com/lib/w3codecolor.js"></script>   
+<script>
+w3CodeColor();
+</script> 
+<noscript>Your browser does not support JavaScript!</noscript>
+<script>
+"use strict";
+// select the same set of objects using both methods
+// NOTE: both x and y contain the two list item nodes
+//       x is a NodeList and y is an HTMLCollection
+var x = document.querySelectorAll("li");
+console.log("81 x " + x + " x length " + x.length);
+var y = document.getElementsByTagName("li");
+console.log("83 y " + y + " y length " + y.length);
+
+// modify the DOM by adding a new list item
+var parent = document.getElementsByTagName("ul")[0];
+var newItem = parent.appendChild(document.createElement("li"));
+newItem.innerText = "added item";
+console.log("newItem "+ newItem);
+
+// NOTE: after the modification, 
+//       y is automatically updated, x remains unchanged
+console.log("88 y " + y + " y length " + y.length);
+console.log("89 x " + x + " x length " + x.length);
+
+</script>
+</body>
+</html>
