@@ -5,7 +5,7 @@
 For each class example, create your own copy of the solution, modify and expand on the examples. Document observations. Post on Piazza Q&A for discussion and feedback.
 
 Class examples
-- explore primitives Boolean, BigInt, Number, null, undefined (*primitives.html*)
+- explore primitives Boolean, BigInt, Number, null, undefined ([*primitives.html*](../set3/primitives.html))
 - explore primitives Strings (*primities_strings.html*)
 - explore the Date object (*built_in_types.html*)
 - explore more loops `for...in`, `for...of`, and array method `foreach()` (*more_iteration.html*)
