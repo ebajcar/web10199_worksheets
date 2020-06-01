@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess Number 2</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<!-- 
+Author: Ellen Bajcar
+Date: Winter 2018
+Version: 1.0
+Purpose: learning Javascript programming
+Copyright: 
+	This work is the intellectual property of Sheridan College. 
+	Any further copying and distribution outside of class must be within 
+	the copyright law. Posting to commercial sites for profit is prohibited.
+Description:
+
+avaScript supports different kinds of loops:
+
+for - loops through a block of code a number of times
+for/in - loops through the properties of an object
+for/of - loops through the values of an iterable object
+while - loops through a block of code while a specified condition is true
+do/while - loops through a block of code once, and then repeats the loop while a specified condition is true
+
+-->	
+
+
+<script>
+
+
+// The for...of statement loops through the values of an iterable object.
+// iterable object includes string and array; NOT object
+/*
+for (variable of iterable) {
+  code block to be executed
+}
+*/
+var astring = 'JavaScript';
+var achar;
+
+for (achar of astring) {
+  console.log(achar + " ");
+}
+
+
+
+const arr = [0, 1, 1, 2, 3, 5, 8, 13];
+var mem, str = "";
+
+for (mem of arr) {
+  str += " " + mem;
+}
+console.log("2. for mem of arr ", str);
+
+
+// for...in
+// https://www.w3schools.com/jsref/jsref_forin.asp
+// The for/in statement loops through the properties of an object.
+// The block of code inside the loop will be executed ONCE FOR EACH PROPERTY.
+// DO NOT USE to loop through arrays where index order is important. Use the for statement instead.
+
+/* SYNTAX
+for (var in object) {
+  code block to be executed
+}
+*/
+function funForIn() {
+  var person = {fname:"John", lname:"Doe", age:25};   
+  var text = "";
+  let x;
+  for (x in person) {
+    text += person[x] + " ";
+  }
+  return text;
+}
+console.log("3. call ", funForIn());
+
+
+
+
+// forEach() method calls a function once for each element in an array, in order.
+// https://www.w3schools.com/js/js_array_iteration.asp
+
+var out = "";
+var numbers = [45, 4, 9, 16, 25];
+numbers.forEach(myFunction);
+
+function myFunction(value, index, array) {
+  out = out + value + "<br>";
+}
+console.log("4. forEach numbers ", numbers);
+console.log("5. forEach out ", out);
+</script>
+
+</body>
+</html>
