@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>String</h2>
+<p>See primitives_string.html</p>
+
+<h2>Boolean</h2>
+<pre><code>
+let nameFieldChecked = true; // yes, name field is checked
+let gameState = false; // off, game is over
+let isGreater = 4 > 1;
+let isGreater2 = 4 &lt; 1;
+console.log(nameFieldChecked, gameState, isGreater, isGreater2, typeof(isGreater));
+</code></pre>
+
+<h2>BigInt</h2>
+<pre><code>
+// the "n" at the end means it's a BigInt
+const bigInt = 1234567890123456789012345678901234567890n;
+console.log(bigInt, typeof(bigInt));
+</code></pre>
+
+<h2>Number</h2>
+<pre><code>
+var n = 123;
+{
+let n = 12.345;
+console.log(n, typeof(n), "inside first block");
+}
+console.log(n, typeof(n), "outside");
+// cannot re-declare with let
+var n = "abcd";
+console.log("var n = 'abcd'; // declaration");
+{
+let n = 7.3;
+console.log(n, typeof(n), "inside second block");
+}
+console.log(n, typeof(n), "outside"); 
+</code></pre>
+
+<h2>null</h2>
+<pre><code>
+let age = null;
+console.log("age ", age, typeof(age)); 
+</code></pre>
+
+<h2>undefined</h2>
+<pre><code>
+let gender;
+console.log("gender ", gender, typeof(gender));
+</code></pre>
+
+<script>
+// The boolean type has only two values: true and false.
+// commonly used to store yes/no, correct/incorrect, true/false, on/off.
+let nameFieldChecked = true; // yes, name field is checked
+let gameState = false; // off, game is over
+let isGreater = 4 > 1;
+let isGreater2 = 4 < 1;
+console.log(nameFieldChecked, gameState, isGreater, isGreater2, typeof(isGreater));
+
+// BigInt type was recently added, rarely needed. 
+// May not be supported by all browsers.
+// BigInt is a special numeric type that provides support for integers of arbitrary length.
+// the "n" at the end means it's a BigInt
+const bigInt = 1234567890123456789012345678901234567890n;
+console.log(bigInt, typeof(bigInt));
+
+// numbers
+var n = 123;
+{
+let n = 12.345;
+console.log(n, typeof(n), "inside first block");
+}
+console.log(n, typeof(n), "outside");
+// cannot re-declare with let
+var n = "abcd";
+console.log("var n = 'abcd'; // declaration");
+{
+let n = 7.3;
+console.log(n, typeof(n), "inside second block");
+}
+console.log(n, typeof(n), "outside");
+
+// null is not a “reference to a non-existing object” or a “null pointer” like in some other languages.
+// a special value which represents “nothing”, “empty” or “value unknown”.
+let age = null;
+console.log("age ", age, typeof(age));
+
+
+// The special value undefined makes a type of its own, just like null.
+// The meaning of undefined is “value is not assigned”.
+// If a variable is declared, but not assigned, then its value is undefined.
+let gender;
+console.log("gender ", gender, typeof(gender));
+</script>
+
+
+</body>
+</html>
