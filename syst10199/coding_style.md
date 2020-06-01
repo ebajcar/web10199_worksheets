@@ -19,3 +19,8 @@ This is a set of rules used in this class.
 9. An empty line between logical blocks.
 10. A space after for/if/while.
 11. Indentation 2 spaces.
+
+---
+
+> SYST10199 Web Programming @ Sheridan College
+
