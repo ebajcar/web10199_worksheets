@@ -63,6 +63,7 @@ Go through the material on SLATE for Week 3 and follow through all suggested lin
 ### MDN Tutorials
 
 Go through the material on SLATE for Week 3 and follow through all suggested links.
+[Learn more about arrays](../set3/more_about_arrays.md)
 
 ---
 
