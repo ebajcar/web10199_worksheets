@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Strings</h2>
+
+<pre><code>
+var name = "Ellen";
+var a = (name)
+  ? "Hello, ${name}!"
+  : "the result is ${1 + 2}";
+console.log("a: ", a);
+
+var b = (name)
+  ? 'Hello, ${name}!'
+  : 'the result is ${1 + 2}';
+console.log("b: ", b);
+
+var c = (name)
+  ? `Hello, ${name}!`
+  : `the result is ${1 + 2}`;
+console.log("c: ", c);
+
+var d = (name === "John")
+  ? `Hello, ${name}!`
+  : `the result is ${1 + 2}`;
+console.log("d: ", d);
+</code></pre>
+<script>
+var name = "Ellen";
+var a = (name)
+  ? "Hello, ${name}!"
+  : "the result is ${1 + 2}";
+console.log("a: ", a);
+
+var b = (name)
+  ? 'Hello, ${name}!'
+  : 'the result is ${1 + 2}';
+console.log("b: ", b);
+
+var c = (name)
+  ? `Hello, ${name}!`
+  : `the result is ${1 + 2}`;
+console.log("c: ", c);
+
+var d = (name === "John")
+  ? `Hello, ${name}!`
+  : `the result is ${1 + 2}`;
+console.log("d: ", d);
+</script>
+
+
+</body>
+</html>
