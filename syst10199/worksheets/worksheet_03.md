@@ -48,7 +48,7 @@ Class examples
 ### Problem G: Game of Tic Tac Toe
 
 1. Write out the algorithm for a game of Tic Tac Toe. Assume both players sit at the same monitor and take turns using the mouse.
-2. Copy the class example version that creates and removes the board and add your algorithm. Identify what other functionality you need to include to complete the game. Identify what input and output you will need and how you would set up the appropriate variables. Do not make changes to the CSS and HTML at this time. All comments should appear in the Description of the prologue. Change instructor's name to yours and add "Citation: SYST10199 Web Programming, Summer 2020, Sheridan College" between Copyrigth and Description.
+2. Copy the class example version that creates and removes the board and add your algorithm. Identify what other functionality you need to include to complete the game. Identify what input and output you will need and how you would set up the appropriate variables. Do not make changes to the CSS and HTML at this time. All comments should appear in the Description of the prologue. Change instructor's name to yours and add "Citation: SYST10199 Web Programming, Summer 2020, Sheridan College" between Copyright and Description.
 
 ### Problem H: Game of Rock Paper Scissors Lizard Spock
 
