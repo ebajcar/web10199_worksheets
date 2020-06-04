@@ -17,3 +17,5 @@
 - [Fibonacci -ES6,iterator](syst10199/set2/fib_es6_iterator.html)
 - [Eratosthenes Sieve (prime numbers)](syst10199/set2/eratosthenes_sieve.html)
 
+# More on Piazza Q&A
+[Summer 2020](apiazza.com/sheridan/spring2020/syst10199/home)
