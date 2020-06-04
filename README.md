@@ -2,7 +2,7 @@
 
 - [Worksheet 1](syst10199/worksheets/worksheet_01.md)
 - [Worksheet 2](syst10199/worksheets/worksheet_02.md)
-- [Worksheet 3](syst10199/worksheets/worksheet_02.md)
+- [Worksheet 3](syst10199/worksheets/worksheet_03.md)
 
 
 # Examples
@@ -18,4 +18,4 @@
 - [Eratosthenes Sieve (prime numbers)](syst10199/set2/eratosthenes_sieve.html)
 
 # More on Piazza Q&A
-[Summer 2020](http://piazza.com/sheridan/spring2020/syst10199/home)
+[Summer 2020](https://piazza.com/sheridan/spring2020/syst10199/home)
