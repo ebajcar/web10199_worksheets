@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Functions</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+Author: Ellen Bajcar
+Date created: June 2020
+Date updated: 
+Version: 1.0
+Copyright: 
+	This work is the intellectual property of Sheridan College. Any further copying and distribution outside of class must be within the copyright law. Posting to commercial sites for profit is prohibited.
+Purpose: 
+	Javascript functions and events	
+Description:	
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+-->	
+<style>
+</style>
+</head>
+<body>
+	<header><h1>Functions</h1></header>
+	<nav></nav>
+	<main></main>
+	<footer><address>Web Programming &copy; Sheridan College</address></footer>
+<script>
+  /* 
+   * Example 1
+   * creating custom methods
+   */
+var points = [
+    {x:0, y:0},
+    {x:1, y:1}
+];
+points.dist = function () {  	
+	var p1 = this[0];
+	var p2 = this[1];
+	var a = p2.x - p1.x;
+	var b = p2.y - p1.y;
+	return Math.sqrt( a * a + b * b );
+};
+document.write("<p>Output 1: " + points.dist() + "</p>");
+
+  /* 
+   * Example 2
+   * nested function
+   */
+function outside(x) {
+  function inside(y) {
+    return x + y;
+  }
+  return inside;
+}
+fn_inside = outside(3); // Think of it like: give me a function that adds 3 to whatever you give it             
+result = fn_inside(5); // returns 8
+result1 = outside(3)(45); // returns 8
+document.write("<p>Output 2: " + result1 + "</p>");
+  
+
+  /* 
+   * Example 3
+   *  arguments[i]
+   */
+function myConcat(separator) {
+   var result = ''; // initialize list
+   var i;
+   // iterate through arguments
+   for (i = 1; i < arguments.length; i++) {
+      result += arguments[i] + separator;
+   }
+   return result;
+}
+// returns "red, orange, blue, "
+document.write("<p>Output 3A: " + myConcat(', ', 'red', 'orange', 'blue') + "</p>");
+// returns "elephant; giraffe; lion; cheetah; "
+document.write("<p>Output 3B: " + myConcat('; ', 'elephant', 'giraffe', 'lion', 'cheetah') + "</p>");
+// returns "sage. basil. oregano. pepper. parsley. "
+document.write("<p>Output 3C: " + myConcat('. ', 'sage', 'basil', 'oregano', 'pepper', 'parsley') + "</p>");
+
+  
+
+  /* 
+   * Example 4
+   * default parameters
+   */   
+function multiply1(a, b) {
+  b = typeof b !== 'undefined' ?  b : 1;  // you could test 
+  return a * b;
+}
+document.write("<p>Output is it an error?: using multiply1(5) " + multiply1(5) + "</p>");
+// better using default parameters
+function multiply2(a, b = 1) {
+  return a * b;
+}
+document.write("<p>Output 4A: using multiply2(5) " + multiply2(5) + "</p>");
+document.write("<p>Output 4B: using multiply2(5,3) " + multiply2(5,3) + "</p>");  
+ 
+  
+  /* 
+   * Example 5
+   * rest parameters
+   */   
+function multiply3(multiplier, ...theArgs) {
+  return theArgs.map(x => multiplier * x);
+}
+var arr = multiply3(7, 1, 2, 3);
+document.write("<p>Output 5: " + arr + "</p>"); // [2, 4, 6]
+</script>	
+</body>
+</html>
