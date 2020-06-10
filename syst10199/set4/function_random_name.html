@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Functions: Task 1</title>
+<style>
+h3 {
+  font-size: 3em;
+  margin: 0.5em;
+}
+section {
+  border: 1px black solid;
+}
+.preview {
+  background-color: #a1fabe;
+  height: 200px;
+}
+</style>
+</head>
+
+<body>
+  <section></section>
+  <section class="preview"></section>
+<script>
+// generic random number generator
+function random(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+// array random function
+function chooseItem(array, len) {
+  return array[random(0, len)];
+}
+
+document.getElementsByTagName("body")[0].onclick = function (h3) {
+  const names = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada'];
+  var h3 = document.createElement('h3');
+  h3.textContent = chooseItem(names, names.length);
+  const section = document.querySelector('section');
+  section.innerHTML = "";
+  section.appendChild(h3);
+}
+</script>
+</body>
+</html>
