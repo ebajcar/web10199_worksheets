@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fibonacci Numbers with array and dom</title>
+	<meta charset="utf-8">
+  <style>
+table {
+  border: 2px solid orange;
+  margin: 25px;
+}  
+td {
+  border: 1px solid lightgray;
+  width: 50px;
+}
+  </style>
+</head>
+<body>
+	<header><h1>Fibonacci Numbers</h1></header>
+  <main></main>
+  <footer><address>Web Programming &copy; Sheridan College</address></footer>
+<script>
+// converted to functional
+function createTable(newList) {
+  const parent = document.getElementsByTagName("main")[0];
+  let table = parent.appendChild(document.createElement("table"));
+  for (let rows = 0; rows < newList.length; rows++) {
+    let curRow = table.appendChild(document.createElement("tr"));
+    let curTD = curRow.appendChild(document.createElement("td"));
+    curTD.appendChild(document.createTextNode("F"));
+    curTD.appendChild(document.createElement("sub")).innerText= rows; 
+    curRow.appendChild(document.createElement("td")).innerText = newList[rows];
+  }
+}
+
+function createArray(howmany) {
+  // properties and methods available for arrays
+  // https://www.w3schools.com/jsref/jsref_obj_array.asp
+  var values = [];
+  var n = howmany;
+  var pre = 0, cur = 1;
+  //console.log(pre); 
+  values.push(pre);
+  //console.log(cur); 
+  values.push(cur);
+  // explore the while loop
+  var i = 0, tmp;
+  while (i < n-2) {
+	  tmp = pre;
+	  pre = cur;
+	  cur += tmp;
+    //console.log(cur);
+	  values.push(cur);	
+	  i++;
+  }
+  return values;
+}
+var newList = createArray(10);
+createTable(newList);
+console.table(newList);
+// https://www.w3schools.com/jsref/obj_console.asp
+</script>
+</body>
+</html>
+
