@@ -2,7 +2,7 @@
 
 #### SYST10199 Web Programming
 
----
+
 
 ### W3 Consortium (specifications)
 
@@ -50,3 +50,7 @@ Regular expressions are patterns used to match character combinations in strings
 also objects. These patterns are used with the exec and test methods of RegExp, and with the match, replace, search, and 
 split methods of String&hellip;
 
+
+---
+
+> Web Programming @ Sheridan College
