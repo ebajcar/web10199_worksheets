@@ -1,6 +1,6 @@
 # Lists
 
-# DOM Properties and methods
+### DOM Properties and methods
 
 | method or property | description |
 |--------------------|-------------|
