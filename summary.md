@@ -53,7 +53,10 @@
 48. Explain what are function arguments? parameters? what are default parameters? rest parameters? arguments[]?
 49. What are anonymous functions? callback functions?
 50. What is the difference if you assign a function with brackets and a function without brackets? when would you use one over the other?
-
+51. What are events? event handlers?
+52. How do you elicit user feedback?
+53. Explain what is meant by events cascading through the entire DOM hierarchy? what happens when elements are nested or overlapping?
+54. What are the three ways of assigning Javascript to an event? event attributes? event methods? event listeners? Give example with explanation how it works for each.
 
 
 
