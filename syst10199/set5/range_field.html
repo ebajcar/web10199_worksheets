@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Range field</title>
+<!--
+Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation
+-->
+<style>
+body {
+  width: 90%;
+  margin: auto;
+  padding-top: 3em;
+}
+form {
+    width: 600px;
+    font-family: cursive;
+}
+
+output {
+    font-size: 3em;
+}
+
+input {
+    width: 350px;
+    min-height: 30px;
+    margin: 15px;
+} 
+</style>
+</head>
+<body>
+			<h1>Range field</h1> 
+
+     <form name="form1">
+      <p> Range ( 0 to 150 ):</p>
+      <input type="range"  id="rangeEl" name="rangeEl" value="25" min="0" max="150" step="1" />
+      <output id="output1">-</output>     		
+    </form>
+
+<script>
+document.forms[0].oninput = function() {
+  output1.innerText = rangeEl.value;
+};
+</script> 
+</body>
+</html>
