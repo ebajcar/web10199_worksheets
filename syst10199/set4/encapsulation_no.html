@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Functions: Task 1</title>
+<style>
+h3 {
+  font-size: 3em;
+  margin: 0.5em;
+}
+section {
+  border: 1px black solid;
+}
+.preview {
+  background-color: #a1fabe;
+  height: 200px;
+}
+</style>
+</head>
+
+<body>
+  <h1>Encapsulation</h1>
+
+<script>
+/*
+See step-by-step development: https://www.intertech.com/Blog/encapsulation-in-javascript/
+
+Encapsulation in Javascript
+Encapsulation includes the idea that the data of an object should not be directly exposed. Instead, callers that want to achieve a given result are coaxed into proper usage by invoking methods (rather than accessing the data directly) ...our responsibility and to create maintainable and flexible code.
+*/
+var person = {
+  fullName : "Jason Shapiro",
+};
+
+ // Note the '()', this means we're calling the function 
+     // and assigning the *returned object,* instead of 
+     // the *function itself* for the value of 'person.'
+ 
+document.write("<br>Call 1: " + person.fullName);   // Jason Shapiro
+person.fullName = "Jim White";
+document.write("<br>Call 2: " + person.fullName);  // Jim White
+person.fullName = 42;     // PROBLEM!
+document.write("<br>Call 3: " + person.fullName);  // 42
+
+</script>
+</body>
+</html>
