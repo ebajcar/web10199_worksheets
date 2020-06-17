@@ -3,6 +3,8 @@
 - [Worksheet 1](syst10199/worksheets/worksheet_01.md)
 - [Worksheet 2](syst10199/worksheets/worksheet_02.md)
 - [Worksheet 3](syst10199/worksheets/worksheet_03.md)
+- [Worksheet 4](syst10199/worksheets/worksheet_04.md)
+- [Worksheet 5](syst10199/worksheets/worksheet_05.md)
 
 
 # Examples
