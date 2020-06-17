@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inclass Form 2</title>
+    <meta charset="utf-8" />
+    <!--
+File name: cleanData.html
+Author: Ellen Bajcar
+Date created: Winter 2017
+Date modified:
+Version: 1.0
+Description:
+	TODO: explore styling forms, how can you ensure that
+		  the user provides clean data; how can you help?
+	TODO: describe the purpose of this page
+	TODO: clean up and annotate css rules
+  TODO: add unobtrusive Javascript 
+-->
+<style>
+form {
+  width: 600px;
+  margin: 20px auto;
+  font: 15pt "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: right;
+}
+form :invalid {
+  border-color: #e88;
+  -webkit-box-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 5px rbba(255, 0, 0, 0.8);
+  -o-box-shadow: 0 0 5px rbba(255, 0, 0, 0.8);
+  -ms-box-shadow: 0 0 5px rbba(255, 0, 0, 0.8);
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
+}
+
+form :required {
+  border-color: #88a;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+  -o-box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+  -ms-box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
+output {
+  display: inline;
+}
+input {
+  font: 15pt "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border: 1px solid #ccc;
+  width: 350px;
+  min-height: 40px;
+  display: block;
+  margin-bottom: 5px 0 15px 0;
+  outline: none;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+input[placeholder] {
+  font-weight: bold;
+  border-color: blue;
+  color: blue;
+}
+input[type="submit"] {
+  background: yellow;
+  padding: 10px;
+}
+
+input[type="text"]:focus:valid,
+input[type="email"]:focus:valid,
+input[type="number"]:focus:in-range {
+  outline: 2px #0f0 solid;
+}
+
+input[type="text"]:focus:invalid,
+input[type="email"]:focus:invalid,
+input[type="number"]:focus:out-of-range {
+  outline: 2px #f00 solid;
+}
+input[type="range"] {
+  width: 250px;
+}
+textarea {
+  width: 96%;
+  height: 60px;
+  margin-right: 5px;
+}
+</style>
+</head>
+<body>
+  <form
+      oninput="document.getElementById('rangeOutput').innerHTML = document.getElementById('age').value"
+  >
+  <table>
+    <tr>
+      <th>Name:</th>
+
+      <td><input name="fullname" placeholder="Optional" type="text" /></td>
+    </tr>
+
+    <tr>
+      <th>Secret code:</th>
+
+      <td>
+        <input
+          name="password"
+          placeholder="Required"
+          required
+          type="password"
+        />
+      </td>
+    </tr>
+
+    <tr>
+      <th>Age:</th>
+
+      <td>
+        <input
+          id="age"
+          max="150"
+          min="18"
+          name="age"
+          type="range"
+        />&nbsp;&nbsp; <output id="rangeOutput">-</output>
+      </td>
+    </tr>
+
+    <tr>
+      <th>Birthdate:</th>
+
+      <td>
+        <input max="2001-01-01" min="2000-01-02" name="bday" type="date" />
+      </td>
+    </tr>
+
+    <tr>
+      <th>Zip Code:</th>
+
+      <td>
+        <input
+          name="zipc"
+          pattern="[0-9]{5}([-][0-9]{4})?"
+          placeholder="Optional (e.g. 90210)"
+          type="text"
+        />
+      </td>
+    </tr>
+
+    <tr>
+      <th>Postal Code:</th>
+
+      <td>
+        <input
+          title="You must enter a proper zip code (e.g. A1A1A1)"
+          name="zipc"
+          pattern="[A-Za-z][0-9][A-Za-z][ ]?[0-9][A-Za-z][0-9]"
+          placeholder="Required (e.g. A1A1A1)"
+          required="required"
+          type="text"
+        />
+      </td>
+    </tr>
+
+    <tr>
+      <th>Your email:</th>
+
+      <td><input type="email" /></td>
+    </tr>
+
+    <tr>
+      <th>Fave website:</th>
+
+      <td><input type="url" /></td>
+    </tr>
+
+    <tr>
+      <th>Fave Color:</th>
+
+      <td><input type="color" /></td>
+    </tr>
+
+    <tr>
+      <th>Phone Number:</th>
+
+      <td><input type="tel" /></td>
+    </tr>
+
+    <tr>
+      <th>Fave Browser:</th>
+      <td>
+        <input list="browsers" />
+        <datalist id="browsers">
+          <option value="Internet Explorer"></option>
+          <option value="Firefox"></option>
+          <option value="Google Chrome"></option>
+          <option value="Opera"></option>
+          <option value="Safari"></option>
+        </datalist>
+      </td>
+    </tr>
+
+    <tr>
+      <th>&nbsp;</th>
+      <td>
+        <textarea
+          placeholder="Describe yourself with three words..."
+          spellcheck
+        ></textarea>
+      </td>
+    </tr>
+
+    <tr>
+      <th>&nbsp;</th>
+      <td><input type="submit" value="Submit" /></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
