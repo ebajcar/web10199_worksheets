@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>verify password strength</title>
+<!--
+Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation
+-->
+<style>
+body {
+  width: 90%;
+  margin: auto;
+  padding-top: 3em;
+}
+
+</style>
+</head>
+<body>
+			<h1>Validating email: setCustomValidity</h1> 
+
+  <form>
+    <label for="mail">I would like you to provide me an e-mail</label>
+    <input type="email" id="mail" name="mail">
+    <button>Submit</button>
+  </form>
+
+<script>
+var email = document.getElementById("mail");
+
+email.addEventListener("input", function (event) {
+  if (email.validity.typeMismatch) {
+    email.setCustomValidity("This does not look like a valid email!");
+  } else {
+    email.setCustomValidity("OK, that may be valid!");
+  }
+});
+</script> 
+</body>
+</html>
