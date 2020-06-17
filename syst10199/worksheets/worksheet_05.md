@@ -53,4 +53,88 @@ split methods of String&hellip;
 
 ---
 
+
+## Regular Expressions
+
+### [Character classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Character_Classes)
+`\`, `.`, `\cX`, `\d`, `\D`, `\f`, `\n`, `\r`, `\s`, `\S`, `\t`, `\v`, `\w`, `\W`, `\0`, `\xhh`, `\uhhhh`, `\uhhhhh`, `[\b]`
+```js
+const chessStory = 'He played the King in a8 and she moved her Queen in c2.';
+const regexpCoordinates = /\w\d/g;
+console.log(chessStory.match(regexpCoordinates));
+// expected output: Array [ 'a8', 'c2']
+
+const moods = 'happy 🙂, confused 😕, sad 😢';
+const regexpEmoticons = /[\u{1F600}-\u{1F64F}]/gu;
+console.log(moods.match(regexpEmoticons));
+// expected output: Array ['🙂', '😕', '😢']
+```
+#### More Examples
+- Looking for a series of digits
+- Looking for a word (from the Latin alphabet) starting with A
+- Looking for a word (from Unicode characters)
+
+#### Specifications
+- [https://tc39.es/ecma262/#sec-characterclass](https://tc39.es/ecma262/#sec-characterclass)
+
+---
+
+### [Groups and ranges](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Groups_and_Ranges)
+`(x)`, `(?:x)`, `x|y`, `[xyz]`, `[^xyz]`, `\`_Number_
+```js
+const aliceExcerpt = 'The Caterpillar and Alice looked at each other';
+const regexpWithoutE = /\b[a-df-z]+\b/ig;
+console.log(aliceExcerpt.match(regexpWithoutE));
+// expected output: Array ["and", "at"]
+
+const imageDescription = 'This image has a resolution of 1440×900 pixels.';
+const regexpSize = /([0-9]+)×([0-9]+)/;
+const match = imageDescription.match(regexpSize);
+console.log(`Width: ${match[1]} / Height: ${match[2]}.`);
+// expected output: "Width: 1440 / Height: 900."
+```
+#### More Examples
+- Counting vowels
+- Using groups
+- Using named groups
+
+#### Specifications
+[https://tc39.es/ecma262/#sec-classranges](https://tc39.es/ecma262/#sec-classranges)
+
+---
+### [Quantifiers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Quantifiers)
+
+
+```js
+const ghostSpeak = 'booh boooooooh';
+const regexpSpooky = /bo{3,}h/;
+console.log(ghostSpeak.match(regexpSpooky));
+// expected output: Array ["boooooooh"]
+
+const modifiedQuote = '[He] ha[s] to go read this novel [Alice in Wonderland].';
+const regexpModifications = /\[.*?\]/g;
+console.log(modifiedQuote.match(regexpModifications));
+// expected output: Array ["[He]", "[s]", "[Alice in Wonderland]"]
+
+const regexpTooGreedy = /\[.*\]/g;
+console.log(modifiedQuote.match(regexpTooGreedy));
+// expected output: Array ["[He] ha[s] to go read this novel [Alice in Wonderland]"]
+```
+
+#### More Examples
+- Repeated pattern
+- Counting characters
+- Optional character
+- Greedy versus non-greedy
+
+
+#### Specifications
+
+[https://tc39.es/ecma262/#sec-quantifier](https://tc39.es/ecma262/#sec-quantifier)
+
+---
+
+
+
+
 > Web Programming @ Sheridan College
