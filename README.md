@@ -8,7 +8,7 @@
 
 # Notes
 
-- [Convert internal JS and CSS to external](syst10199/noteworthy/convert_int_to_ext.md#3-link-js-file-to-html-file)
+- [Convert internal JS and CSS to external](syst10199/noteworthy/convert_int_to_ext.md)
 
 # Examples
 
