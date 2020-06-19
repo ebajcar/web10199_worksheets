@@ -18,7 +18,7 @@
 #### 3. link CSS file to HTML file
 
   * **replace** the `<style>` tags with a `<link>` element
-  * use relative path to point to the new CSS file using the `href="path/file.css"`
+  * use relative path to point to the new CSS file using the `href="path/file.css"` attribute
   * **add** the `rel="stylesheet"` attribute
   * **update** relevant comments in the HTML file
 
