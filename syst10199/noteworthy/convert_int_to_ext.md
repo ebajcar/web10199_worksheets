@@ -1,6 +1,6 @@
 # Note the similarities!
 
-### Converting internal CSS to external
+## Converting internal CSS to external
 
 #### 1. cut and paste CSS rules
 
@@ -23,7 +23,7 @@
   * update relevant comments in the HTML file
 
 
-### 1. Converting internal Jaascript to external
+## Converting internal Jaascript to external
 
 
 #### 1. cut and paste JS code
