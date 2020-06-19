@@ -6,6 +6,9 @@
 - [Worksheet 4](syst10199/worksheets/worksheet_04.md)
 - [Worksheet 5](syst10199/worksheets/worksheet_05.md)
 
+# Notes
+
+- [Convert internal JS and CSS to external](syst10199/noteworthy/convert_int_to_ext.md#3-link-js-file-to-html-file)
 
 # Examples
 
