@@ -23,7 +23,7 @@
   * **update** relevant comments in the HTML file
 
 
-## Converting internal Jaascript to external
+## Converting internal Javascript to external
 
 
 #### 1. cut and paste JS code
