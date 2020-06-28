@@ -2,19 +2,13 @@
 
 ### [Worksheet 5](syst10199/worksheets/worksheet_05.md)
 
+- [Convert internal JS and CSS to external](syst10199/noteworthy/convert_int_to_ext.md)
+
 ### [Worksheet 4](syst10199/worksheets/worksheet_04.md)
 
 ### [Worksheet 3](syst10199/worksheets/worksheet_03.md)
 
 ### [Worksheet 2](syst10199/worksheets/worksheet_02.md)
-
-### [Worksheet 1](syst10199/worksheets/worksheet_01.md)
-
-# Notes
-
-- [Convert internal JS and CSS to external](syst10199/noteworthy/convert_int_to_ext.md)
-
-# Examples
 
 - [var vs. let](syst10199/set2/var_vs_let.html)
 - [if control structure and conditionals](syst10199/set2/if_structure.html)
@@ -26,5 +20,13 @@
 - [Fibonacci -ES6,iterator](syst10199/set2/fib_es6_iterator.html)
 - [Eratosthenes Sieve (prime numbers)](syst10199/set2/eratosthenes_sieve.html)
 
-# More on Piazza Q&A
+### [Worksheet 1](syst10199/worksheets/worksheet_01.md)
+
+# Notes
+
+### More on Piazza Q&A
 [Summer 2020](https://piazza.com/sheridan/spring2020/syst10199/home)
+
+---
+
+> Web Programming @ Sheridan College
