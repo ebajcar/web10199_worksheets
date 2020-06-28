@@ -22,6 +22,16 @@
 
 ### [Worksheet 1](syst10199/worksheets/worksheet_01.md)
 
+- [Javascript in the browser](syst10199/set1/cm01.html)
+- [1. Start with valid HTML5 and CSS3](syst10199/set1/cm02.html)
+- [2. Add Javascript to HTML document](syst10199/set1/cm03.html)
+- [3. Use comments to write algorithm](syst10199/set1/cm04.html)
+- [4. Convert each step to JS code and test in console](syst10199/set1/cm05.html)
+- [5. Refactor to connect to the document](syst10199/set1/cm07.html)
+- [document.write can overwrite your DOM!](syst10199/set1/cm08.html)
+- [add vs. concatenate!](syst10199/set1/cm09.html)
+- [8. Cross the t's and dot the i's](syst10199/set1/cm10.html)
+
 # Notes
 
 ### More on Piazza Q&A
