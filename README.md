@@ -3,8 +3,15 @@
 ### [Worksheet 5](syst10199/worksheets/worksheet_05.md)
 
 - [Convert internal JS and CSS to external](syst10199/noteworthy/convert_int_to_ext.md)
+- [Forms - clean data](syst10199/set5/clean_data.html)
+
+---
 
 ### [Worksheet 4](syst10199/worksheets/worksheet_04.md)
+
+- [Functions](syst10199/set4/functions_mix.html)
+
+---
 
 ### [Worksheet 3](syst10199/worksheets/worksheet_03.md)
 
