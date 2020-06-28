@@ -8,6 +8,17 @@
 
 ### [Worksheet 3](syst10199/worksheets/worksheet_03.md)
 
+- [Primitive types](syst10199/set3/primitives.html)
+- [Built-in types](syst10199/set3/built_in_types.html)
+- [More about arrays](syst10199/set3/more_about_arrays.md)
+- [Example: array](syst10199/set3/family_array.html)
+- [Example: forEach method](syst10199/set3/forEach2.html)
+- [Example: for...in, for...of](syst10199/set3/more_iteration.html)
+- [select vs. getelement](syst10199/set3/select_vs_getelement.html)
+- [Example: createElement, appendChild](syst10199/set3/select_vs_getelement.html)
+
+---
+
 ### [Worksheet 2](syst10199/worksheets/worksheet_02.md)
 
 - [var vs. let](syst10199/set2/var_vs_let.html)
@@ -19,6 +30,9 @@
 - [Fibonacci -ES6](syst10199/set2/fib_es6_oo.html)
 - [Fibonacci -ES6,iterator](syst10199/set2/fib_es6_iterator.html)
 - [Eratosthenes Sieve (prime numbers)](syst10199/set2/eratosthenes_sieve.html)
+
+---
+
 
 ### [Worksheet 1](syst10199/worksheets/worksheet_01.md)
 
