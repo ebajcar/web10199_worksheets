@@ -45,7 +45,9 @@
 - [5. Refactor to connect to the document](syst10199/set1/cm07.html)
   - [document.write can overwrite your DOM!](syst10199/set1/cm08.html)
   - [add vs. concatenate!](syst10199/set1/cm09.html)
-- [8. Finish: dot the i's and cross the t's](syst10199/set1/cm10.html)
+- [6. Finish: dot the i's and cross the t's](syst10199/set1/cm10.html)
+
+---
 
 # Notes
 
