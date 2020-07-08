@@ -1,5 +1,11 @@
 # Worksheets
 
+
+### [Worksheet 7](syst10199/worksheets/worksheet_07.md)
+
+
+---
+
 ### [Worksheet 5](syst10199/worksheets/worksheet_05.md)
 
 - [Convert internal JS and CSS to external](syst10199/noteworthy/convert_int_to_ext.md)
