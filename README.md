@@ -2,7 +2,7 @@
 
 
 ### [Worksheet 7](syst10199/worksheets/worksheet_07.md)
-- [hybrid PHP](syst10199/set7/test.php)
+- [explore print and printf functions](syst10199/set7/print_printf.html)
 
 ---
 
