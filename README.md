@@ -5,7 +5,6 @@
 - [explore print and printf functions](syst10199/set7/print_printf.html)
  
 **For your information only (this is not part of the course content and will not be covered in the classroom)**
-
 If you wish to install a web server on your local machine, explore [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html).
 
 ---
