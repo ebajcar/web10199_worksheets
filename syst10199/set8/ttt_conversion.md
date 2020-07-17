@@ -84,10 +84,17 @@ and changed, as the game progresses, to
     <td class="played">X</td>
   </tr>
 ```
-When the player clicks on a particular cell, the HTTP request is constructed by the browser. For example, when player clicked on the first cell, the URL sent was:
+When the player clicks on a particular cell, the HTTP request is constructed by the browser. For example, when player clicked on the first cell, the key=value pair collected from the form is `curCell=0` and the URL, using the GET method, is send as:
 ```
 http://domain.name/path/ttt_2020_1.php?curCell=0
 ```
 
+## Processing PHP code
+
+1. Note that the first PHP statement on the page must be `session_start();`, regardless of using pure or hybrid PHP. To see the effect of not using sessions, just comment the statement out, test, and uncomment!
+2. If the request is to reset the game, unset the session variables and initialize all game variables to initial values, otherwise, retrieve saved values from the session variables.
+    - Use the `$_GET` variable to retrieve the key=value pairs.
+    - Use the `$_SESSION` variable to retrieve any saved values.
+3. x
 
 
