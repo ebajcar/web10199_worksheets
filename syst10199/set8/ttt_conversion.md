@@ -6,19 +6,6 @@ The php version of tic tac toe [ttt_2020_2.php](ttt_2020_2.php) is a functional 
 - need to use SESSIONS to keep the state of the variables from HTTP request to HTTP request (web pages are stateless)
 - need to choose a different representation of the board (no access to the DOM, therefore no HTML collection of td's)
 
-## functions
-
-**function play()**
-is the main function that calls functions
-- updateBoard()
-- displayBoard()
-- updateSEssion()
-
-**function displayBoard()**
-calls functions
-- checkWinner()
-- displayResults()
-
 ## Variables
 
 In Javascript, we used
@@ -97,6 +84,19 @@ http://domain.name/path/ttt_2020_1.php?curCell=0
     - Use the `$_SESSION` variable to retrieve any saved values.
 3. Call the `play()` function.
 
+
+### functions
+
+**function play()**
+is the main function that calls functions
+- updateBoard()
+- displayBoard()
+- updateSEssion()
+
+**function displayBoard()**
+calls functions
+- checkWinner()
+- displayResults()
 
 
 
