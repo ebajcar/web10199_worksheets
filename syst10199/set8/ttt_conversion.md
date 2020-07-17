@@ -10,3 +10,8 @@ is the main function that calls functions
 - displayBoard()
 - updateSEssion()
 
+**function displayBoard()**
+calls functions
+- checkWinner()
+- displayResults()
+
