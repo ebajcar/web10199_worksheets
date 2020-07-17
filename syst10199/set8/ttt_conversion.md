@@ -95,6 +95,8 @@ http://domain.name/path/ttt_2020_1.php?curCell=0
 2. If the request is to reset the game, unset the session variables and initialize all game variables to initial values, otherwise, retrieve saved values from the session variables.
     - Use the `$_GET` variable to retrieve the key=value pairs.
     - Use the `$_SESSION` variable to retrieve any saved values.
-3. x
+3. Call the `play()` function.
+
+
 
 
