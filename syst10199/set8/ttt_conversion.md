@@ -23,21 +23,45 @@ calls functions
 
 In Javascript, we used
 ```js
-    var player = "X"; // current player
-    var board = document.getElementsByTagName("td"); //array (collection) of 9 objects  
-    var winSets = [ [0,1,2],[3,4,5],[6,7,8], [0,3,6],[1,4,7],[2,5,8], [0,4,8],[2,4,6]	]; //all winning combinations, 3 rows, 3 columns, 2 diagonals
-    var empty = 9; // number of available (empty) cells
-    var gameover = false; // game not in session (false if in process)
+// current player
+var player = "X"; 
+//array (HTML collection) of 9 objects  
+var board = document.getElementsByTagName("td"); 
+//all winning combinations, 3 rows, 3 columns, 2 diagonals
+var winSets = [ [0,1,2],[3,4,5],[6,7,8], [0,3,6],[1,4,7],[2,5,8], [0,4,8],[2,4,6] ]; 
+// number of available (empty) cells
+var empty = 9; 
+// game not in session (false if in process)
+var gameover = false; 
 ```
 
 In PHP, we need to keep track of the same data, using PHP, in this version, we use an associative array:
 ```php
-	$game = array(
-		"who" => 0,
-		"board" => "222222222",
-		"win" => -1,
-		"playToken" => "XOT",
-		"endGame" => -1,
-		"clicked" => 9
-	);
+$game = array(
+  // current player
+  "who" => 0,
+  // representation of the board
+  "board" => "222222222",
+  // do we have a winner and who is it?
+  "win" => -1,
+  // character representation, symbol, of the players
+  "playToken" => "XOT",
+  // game over or in session
+  "endGame" => -1,
+  // which cell was selected (clicked) by the current player
+  "clicked" => 9
+);
+// possible winning combinations, using the same index values as the HTML collection in JS version
+$winCombo = array("012","345","678","036","147","258","840","246");
+
+// string to construct an updated version of the board with HTML
+$output = "";
+
+// string to display whose turn it is
+$outwho = "";
+
+// string to display who won or a draw
+$message = "";
 ```
+
+
