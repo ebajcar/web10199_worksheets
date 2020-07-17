@@ -67,5 +67,27 @@ $message = "";
 ### board
 Since we do not have access to the DOM, we need to represent the structure in some other manner as we pass this value from page to page through SESSION variable.  Here we are representing the nine (9) cells by a single character for each cell, position corresponds to the index of the cell; i.e., board[0] represents the first cell (upper left corner), board[1] the second cell (first row, middle) and so on. We use three (3) values for each character: "2" represents an available cell, "1" represents a cell played by player "O", and "0" represents a cell player by player "X". **We use the representation of 0 for "X" and 1 for "O" consistently throughout the program.**
 
+Each cell is marked up initially as:
+```html
+  <tr>
+    <td><input class="available" type="submit" name="curCell" placeholder="-" value="0" /></td>
+    <td><input class="available" type="submit" name="curCell" placeholder="-" value="1" /></td>
+    <td><input class="available" type="submit" name="curCell" placeholder="-" value="2" /></td>
+  </tr>
+```
+
+and changed, as the game progresses, to 
+```html
+  <tr>
+    <td class="played">X</td>
+    <td class="played">O</td>
+    <td class="played">X</td>
+  </tr>
+```
+When the player clicks on a particular cell, the HTTP request is constructed by the browser. For example, when player clicked on the first cell, the URL sent was:
+```
+http://domain.name/path/ttt_2020_1.php?curCell=0
+```
+
 
 
