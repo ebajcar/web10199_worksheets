@@ -75,5 +75,16 @@ Create a table named “member” in your “username_exercises” database, usi
 
 
 #### Exercise 5
-Create a table named “product” in your “username_exercises” database, using phpMyAdmin on dev.fast.sheridanc.on.ca.  The table has 4 fields
+Create a table named “product” in your “username_exercises” database, using phpMyAdmin on dev.fast.sheridanc.on.ca.  The table has 5 fields.
+
+1. product_no (primary key, integer, user-generated)
+2. description (variable length 200)
+3. type (variable length 20)
+4. suggested_price (decimal)
+5. onhand (integer)
+
+---
+
+> Web Programming @ Sheridan College
+
 
