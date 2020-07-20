@@ -1,5 +1,8 @@
 # Worksheets
 
+### [Worksheet 9](syst10199/worksheets/worksheet_09.md)
+
+### [Worksheet 8](syst10199/worksheets/worksheet_08.md)
 
 ### [Worksheet 7](syst10199/worksheets/worksheet_07.md)
 - [explore print and printf functions](syst10199/set7/print_printf.html)
