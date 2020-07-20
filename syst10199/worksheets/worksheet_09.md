@@ -32,6 +32,27 @@ function ($a,$b,$c) { return $a.$b.$c; }
 function ($a,$b,$c) { return $a+$b+$c; }
 ```
 
+10. What will be the output of the following:
+```php
+$favcolor = "red";
+switch ($favcolor) {
+    case "red":
+        echo "Your favorite color is red!";
+    case "blue":
+        echo "Your favorite color is blue!";
+    case "green":
+        echo "Your favorite color is green!"; break;
+    default:
+        echo "Your favorite color is neither red, blue, nor green!";
+}
+```
+
+11. What will be the output of the following:
+
+```php
+echo str_word_count("Hello world!"); 
+```
+
 
 ## Exercises
 Create the following tables on dev.fast.sheridanc.on.ca using phpmyadmin tool:
