@@ -13,7 +13,7 @@ SQL provides the keyword DISTINCT in the SELECT clause.
 
 The use of DISTINCT ensures that no duplicate rows appear in the result set. Changing our query to:
 
-```
+```sql
 SELECT DISTINCT City
     FROM Customer;
 ```
