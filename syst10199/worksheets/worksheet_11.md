@@ -44,11 +44,13 @@ CREATE TABLE student (
 ```
 
 1.  Using the SQL tab in phpmyadmin, insert the following rows:
+```
       NULL, Cathy, Smith, 123123123, female, 2.7, 2020-01-08
       NULL, Doug, Jones, 222333444, male, 3.6, 2020-01-08
       NULL, Michelle, Yeoh, 999777666, female, 2.7, 2020-02-10
       NULL, Tig, Notaro, 987654321, female, 3.9, 2020-02-10
       NULL, Shazad, Latif, 987123456, male, 3.8, 2020-03-20
+```
 
 2. Write out the SQL statement to list all fields for all students.
 
