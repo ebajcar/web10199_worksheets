@@ -9,28 +9,27 @@ Share and discuss on Piazza Q&A.
 
 
 ## Exercises
-In the previous 
 
 #### Exercise 1
-Create a table named “customer” in your “username_exercises” database, using phpMyAdmin on dev.fast.sheridanc.on.ca.  The table has 5 fields
+In previous worksheet (worksheet 9, exercise 1), you were asked to create a table named “customer” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
 
-1. a primary key, id, which is system-generated
-2. User’s first name, allow up to length of 30 characters
-3. User’s last name, allow up to length of 30 characters
-4. User’s social insurance number, sin, a fixed length of 9 characters
-5. User’s gender, an enumeration  enum('male', 'female', 'other', '') 
+```
+CREATE TABLE `customer` (
+  id int(11) NOT NULL,
+  firstname varchar(30),
+  lastname varchar(30),
+  sin char(9),
+  gender enum('male','female','other')
+);
 
 
 #### Exercise 2
-Create a table named “scores” in your “username_exercises” database, using phpMyAdmin on dev.fast.sheridanc.on.ca.  The table has 4 fields
+In previous worksheet (worksheet 9, exercise 2), you were asked to create a table named “student” using phpMyAdmin on dev.fast.sheridanc.on.ca. 
 
-1. a primary key, id, which is system-generated
-2. User’s player name, allow up to length of 30 characters
-3. User’s date played.
-4. User’s score, an integer
+Implement the class code, connect to your table, and test it at least 25 times, for 5 to 10 different players.
 
 #### Exercise 3
-In previous worksheet, you were asked to create a table named “student” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
+In previous worksheet (worksheet 9, exercise 3), you were asked to create a table named “student” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
 ```
 CREATE TABLE student (
   id int(11) NOT NULL,
