@@ -109,7 +109,7 @@ Create a table named “product” in your “username_exercises” database, us
 CUSTOMER
 
 ```
-CREATE TABLE `customer` (
+CREATE TABLE customer (
   id int(11) NOT NULL,
   firstname varchar(30),
   lastname varchar(30),
