@@ -104,6 +104,32 @@ Create a table named “product” in your “username_exercises” database, us
 4. suggested_price (decimal)
 5. onhand (integer)
 
+#### Example Answers
+
+CUSTOMER
+
+```
+CREATE TABLE `customer` (
+  id int(11) NOT NULL,
+  firstname varchar(30),
+  lastname varchar(30),
+  sin char(9),
+  gender enum('male','female','other')
+);
+```
+
+PRODUCT
+
+```
+CREATE TABLE product (
+  product_n int(11) NOT NULL,
+  description varchar(200),
+  type varchar(20),
+  suggested_price decimal(10,2),
+  onhand int(11)
+);
+```
+ 
 ---
 
 > Web Programming @ Sheridan College
