@@ -74,7 +74,7 @@ CREATE TABLE member (
 
 
 #### Exercise 5
-In previous worksheet (worksheet 9, exercise 5), you were asked to create a table named “student” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
+In previous worksheet (worksheet 9, exercise 5), you were asked to create a table named “product” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
 
 ```
 CREATE TABLE product (
