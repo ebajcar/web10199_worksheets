@@ -12,13 +12,13 @@ Share and discuss on Piazza Q&A.
 
 
 
-#### Exercise 10-1
+#### Exercise 11-1
 In previous worksheet (worksheet 9, exercise 2), you were asked to create a table named “scores” using phpMyAdmin on dev.fast.sheridanc.on.ca. 
 
 Implement the class code, connect to your table, and test it at least 25 times, for 5 to 10 different players.
 
 
-#### Exercise 10-2
+#### Exercise 11-2
 In previous worksheet (worksheet 9, exercise 3), you were asked to create a table named “student” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
 ```
 CREATE TABLE student (
@@ -50,7 +50,7 @@ CREATE TABLE student (
 5. Write out the SQL statement to retrieve all student records and display the student ID and GPA only.
 
 
-#### Exercise 10-3
+#### Exercise 11-3
 In previous worksheet (worksheet 9, exercise 4), you were asked to create a table named “member” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
 
 ```
