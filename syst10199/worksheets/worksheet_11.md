@@ -61,22 +61,31 @@ CREATE TABLE student (
 
 
 #### Exercise 4
-Create a table named “member” in your “username_exercises” database, using phpMyAdmin on dev.fast.sheridanc.on.ca.  The table has 4 fields
+In previous worksheet (worksheet 9, exercise 4), you were asked to create a table named “student” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
 
-1. a primary key, id, which is system-generated
-2. User’s player name, allow up to length of 30 characters
-3. User’s date, last login.
-4. User’s password, allow up to length of 30 characters
+```
+CREATE TABLE member (
+  id int(11) NOT NULL,
+  player varchar(30),
+  password varchar(30),
+  date date
+);
+```
 
 
 #### Exercise 5
-Create a table named “product” in your “username_exercises” database, using phpMyAdmin on dev.fast.sheridanc.on.ca.  The table has 5 fields.
+In previous worksheet (worksheet 9, exercise 5), you were asked to create a table named “student” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
 
-1. product_no (primary key, integer, user-generated)
-2. description (variable length 200)
-3. type (variable length 20)
-4. suggested_price (decimal)
-5. onhand (integer)
+```
+CREATE TABLE product (
+  product_n int(11) NOT NULL,
+  description varchar(200),
+  type varchar(20),
+  suggested_price decimal(10,2),
+  onhand int(11)
+);
+```
+
 
 ---
 
