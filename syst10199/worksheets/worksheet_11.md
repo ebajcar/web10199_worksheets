@@ -13,7 +13,7 @@ Share and discuss on Piazza Q&A.
 
 
 #### Exercise 10-1
-In previous worksheet (worksheet 9, exercise 2), you were asked to create a table named “student” using phpMyAdmin on dev.fast.sheridanc.on.ca. 
+In previous worksheet (worksheet 9, exercise 2), you were asked to create a table named “scores” using phpMyAdmin on dev.fast.sheridanc.on.ca. 
 
 Implement the class code, connect to your table, and test it at least 25 times, for 5 to 10 different players.
 
@@ -50,8 +50,8 @@ CREATE TABLE student (
 5. Write out the SQL statement to retrieve all student records and display the student ID and GPA only.
 
 
-#### Exercise 4
-In previous worksheet (worksheet 9, exercise 4), you were asked to create a table named “student” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
+#### Exercise 10-3
+In previous worksheet (worksheet 9, exercise 4), you were asked to create a table named “member” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
 
 ```
 CREATE TABLE member (
@@ -62,7 +62,19 @@ CREATE TABLE member (
 );
 ```
 
-#### Exercise 1
+**Create login page.**
+
+- Add PHP to retrieve data from the member table. 
+- Start with retrieving everything, then filter on the username entered.
+
+**Create registration page.**
+
+- Add PHP to insert a new record with the provided credentials and current date.  
+- Include Javascript to check that the two password fields are the same. 
+- Include Javascript to guide the user to choose a strong password.
+
+
+#### Exercise 10-4
 In previous worksheet (worksheet 9, exercise 1), you were asked to create a table named “customer” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
 
 ```
@@ -75,7 +87,6 @@ CREATE TABLE `customer` (
 );
 ```
 
-#### Exercise 5
 In previous worksheet (worksheet 9, exercise 5), you were asked to create a table named “product” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
 
 ```
