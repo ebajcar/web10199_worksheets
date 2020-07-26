@@ -74,32 +74,7 @@ CREATE TABLE member (
 - Include Javascript to guide the user to choose a strong password.
 
 
-#### Exercise 10-4
-In previous worksheet (worksheet 9, exercise 1), you were asked to create a table named “customer” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
 
-```
-CREATE TABLE `customer` (
-  id int(11) NOT NULL,
-  firstname varchar(30),
-  lastname varchar(30),
-  sin char(9),
-  gender enum('male','female','other')
-);
-```
-
-In previous worksheet (worksheet 9, exercise 5), you were asked to create a table named “product” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
-
-```
-CREATE TABLE product (
-  product_n int(11) NOT NULL,
-  description varchar(200),
-  type varchar(20),
-  suggested_price decimal(10,2),
-  onhand int(11)
-);
-```
-
-Use the information in [Worksheet 10](worksheet_10.md) to create and populate the tables and implement answers to the questions.
 
 ---
 
