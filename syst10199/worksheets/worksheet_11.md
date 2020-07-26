@@ -21,7 +21,7 @@ CREATE TABLE `customer` (
   sin char(9),
   gender enum('male','female','other')
 );
-
+```
 
 #### Exercise 2
 In previous worksheet (worksheet 9, exercise 2), you were asked to create a table named “student” using phpMyAdmin on dev.fast.sheridanc.on.ca. 
