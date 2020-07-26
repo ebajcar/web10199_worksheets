@@ -1,4 +1,4 @@
-# Worksheet 9
+# Worksheet 11
 
 #### SYST10199 Web Programming
 
@@ -10,25 +10,15 @@ Share and discuss on Piazza Q&A.
 
 ## Exercises
 
-#### Exercise 1
-In previous worksheet (worksheet 9, exercise 1), you were asked to create a table named “customer” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
 
-```
-CREATE TABLE `customer` (
-  id int(11) NOT NULL,
-  firstname varchar(30),
-  lastname varchar(30),
-  sin char(9),
-  gender enum('male','female','other')
-);
-```
 
-#### Exercise 2
+#### Exercise 10-1
 In previous worksheet (worksheet 9, exercise 2), you were asked to create a table named “student” using phpMyAdmin on dev.fast.sheridanc.on.ca. 
 
 Implement the class code, connect to your table, and test it at least 25 times, for 5 to 10 different players.
 
-#### Exercise 3
+
+#### Exercise 10-2
 In previous worksheet (worksheet 9, exercise 3), you were asked to create a table named “student” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
 ```
 CREATE TABLE student (
@@ -72,6 +62,18 @@ CREATE TABLE member (
 );
 ```
 
+#### Exercise 1
+In previous worksheet (worksheet 9, exercise 1), you were asked to create a table named “customer” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
+
+```
+CREATE TABLE `customer` (
+  id int(11) NOT NULL,
+  firstname varchar(30),
+  lastname varchar(30),
+  sin char(9),
+  gender enum('male','female','other')
+);
+```
 
 #### Exercise 5
 In previous worksheet (worksheet 9, exercise 5), you were asked to create a table named “product” using phpMyAdmin on dev.fast.sheridanc.on.ca. Assuming you followed the instructions, you created it as follows:
@@ -86,6 +88,7 @@ CREATE TABLE product (
 );
 ```
 
+Use the information in [Worksheet 10](worksheet_10.md) to create and populate the tables and implement answers to the questions.
 
 ---
 
