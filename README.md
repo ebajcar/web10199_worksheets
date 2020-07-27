@@ -1,5 +1,9 @@
 # Worksheets
 
+### [Worksheet 11](syst10199/worksheets/worksheet_11.md)
+
+### [Worksheet 10](syst10199/worksheets/worksheet_10.md)
+
 ### [Worksheet 9](syst10199/worksheets/worksheet_09.md)
 
 ### [Worksheet 8](syst10199/worksheets/worksheet_08.md)
