@@ -9,6 +9,14 @@
 
 
 ## Read and analyze (analytical reading) the following tutorials:
+
+Read and make notes:
+
+- [Web Programming](https://ebajcar.github.io/web10199/material/material_programming.html)
+
+Class examples
+
+
 Observe and describe. Try all examples. Make notes. Document what you have learned.
 
 1. Read and regularly review [Key elements of programming style](../noteworthy/key_elements_of_programming.md)
