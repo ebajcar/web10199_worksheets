@@ -76,7 +76,9 @@
 
 # Notes
 
-
+[Discussions](discussions)
+[Discussions](https://github.com/ebajcar/web10199/discussions)
+[Discussions](https://github.com/ebajcar/web10199_worksheets/discussions)
 
 ---
 
