@@ -11,6 +11,7 @@
 ### Read and analyze (analytical reading); make notes. explore the links provided in the material.
 
 1. [Web Programming](https://ebajcar.github.io/web10199/material/material_programming.html)
+2. [Javascript language, variables, programs, operators](https://ebajcar.github.io/web10199/material/material_js.html)
 
 
 ### Observe and describe. Try all examples. Make notes. Document what you have learned.
