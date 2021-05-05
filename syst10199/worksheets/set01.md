@@ -51,7 +51,7 @@ Explore, implement, and comment well. *“Curiosity Is the engine of achievement
 - [6. Finish: dot the i's and cross the t's](../set1/cm10.html)
 
 
-### Formulate answers to the following questions
+### Formulate answers to the following questions. Discuss.
 1. What is an algorithm?
 
 
