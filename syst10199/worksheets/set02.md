@@ -12,7 +12,7 @@
 
 ## Read and analyze (analytical reading); make notes. explore the links provided in the material.
 
-- [Javascript language, Data Structures, Objects](https://ebajcar.github.io/web10199/material/material_js.html)
+- [Javascript language, Programs, Data Structures](https://ebajcar.github.io/web10199/material/material_js.html)
 
 ## Observe and describe. Try all examples. Make notes. Document what you have learned.
 
