@@ -1,19 +1,16 @@
 [previous]() : **Worksheet Set 1** : [next](set02.md)
 
 
-## Key terms and concepts to understand
+# Key terms and concepts to understand
 > &bull; Javascript  &bull; imperative programming  &bull; variable  &bull; value  &bull; literal  &bull; IPO operator &bull; expression  &bull; keyword  &bull; identifier  &bull;  data type &bull; strict mode  &bull; console  &bull;  algorithm  &bull; object-oriented programming  &bull; computer application  &bull;  text editor  &bull; client/server  &bull;  type conversion  &bull; function &bull; method &bull; refactoring code &bull;
 > 
 ---
 
+# Course material
 
-
-## Read and analyze (analytical reading) the following tutorials:
-
-### Read and make notes:
+### Read and analyze (analytical reading); make notes
 
 - [Web Programming](https://ebajcar.github.io/web10199/material/material_programming.html)
-
 
 
 ### Observe and describe. Try all examples. Make notes. Document what you have learned.
@@ -32,7 +29,7 @@
     - You can use strict mode in all your programs. It helps you to write cleaner code, like preventing you from using undeclared variables.
 
 
-### Watch videos
+### Watch suggested videos
 
 - Algorithm on [Algorithms](https://youtu.be/6hfOvs8pY1k). 
 
@@ -50,7 +47,6 @@
 - [6. Finish: dot the i's and cross the t's](../set1/cm10.html)
 
 
-
 ### Formulate answers to the following questions
 1. What is an algorithm?
 
@@ -58,7 +54,7 @@
 ---
 
 
-## Exercises
+# Exercises
 Set up a project for each problem. Keep all versions of your solution for each project.  For each problem, write out the
 algorithm that you plan to use (and modify if your implementation deviates from your original
 plan).
