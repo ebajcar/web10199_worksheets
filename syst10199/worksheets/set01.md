@@ -16,16 +16,16 @@
 
 ### Class examples
 
-- [introduction: Javascript in the browser](syst10199/set1/cm01.html)
-- [1. Start with valid HTML5 and CSS3](syst10199/set1/cm02.html)
-- [2. Add Javascript to HTML document](syst10199/set1/cm03.html)
+- [introduction: Javascript in the browser](../set1/cm01.html)
+- [1. Start with valid HTML5 and CSS3](../set1/cm02.html)
+- [2. Add Javascript to HTML document](../set1/cm03.html)
 - [3. Use comments to write algorithm, identify variables, data structures, statements, control statements, functions](syst10199/set1/cm04.html)
-  - [Example: Problem statement - add two numbers](syst10199/set1/cm05.html)
-- [4. Convert each step to JS code and test in console](syst10199/set1/cm06.html)
-- [5. Refactor to connect to the document](syst10199/set1/cm07.html)
-  - [document.write can overwrite your DOM!](syst10199/set1/cm08.html)
-  - [add vs. concatenate!](syst10199/set1/cm09.html)
-- [6. Finish: dot the i's and cross the t's](syst10199/set1/cm10.html)
+  - [Example: Problem statement - add two numbers](../set1/cm05.html)
+- [4. Convert each step to JS code and test in console](../set1/cm06.html)
+- [5. Refactor to connect to the document](../set1/cm07.html)
+  - [document.write can overwrite your DOM!](../set1/cm08.html)
+  - [add vs. concatenate!](../set1/cm09.html)
+- [6. Finish: dot the i's and cross the t's](../set1/cm10.html)
 
 ### Observe and describe. Try all examples. Make notes. Document what you have learned.
 
