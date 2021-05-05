@@ -1,4 +1,6 @@
-[Discussions](https://github.com/ebajcar/web10199_worksheets/discussions)
+## [Discussions](https://github.com/ebajcar/web10199_worksheets/discussions)
+
+---
 
 # JavaScript (client-side, front-end)
 
@@ -12,11 +14,9 @@
 
 ### [Worksheet 5](syst10199/worksheets/set05.md)
 
-
+---
 
 # PHP and MySQL (server-side, back-end))
-
-
 
 ### [Worksheet 6](syst10199/worksheets/set06.md)
 
@@ -27,9 +27,6 @@
 ### [Worksheet 9](syst10199/worksheets/set09.md)
 
 ### [Worksheet 10](syst10199/worksheets/set10.md)
-
-
-
 
    
 ---
