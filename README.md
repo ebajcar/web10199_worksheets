@@ -10,16 +10,9 @@
 
 ### [Worksheet 4](syst10199/worksheets/set04.md)
 
+### [Worksheet 5](syst10199/worksheets/set05.md)
 
 
----
-
-### [Worksheet 5](syst10199/worksheetsset05.md)
-
-- [Convert internal JS and CSS to external](syst10199/noteworthy/convert_int_to_ext.md)
-- [Forms - clean data](syst10199/set5/clean_data.html)
-
----
 
 # PHP and MySQL (server-side, back-end))
 
