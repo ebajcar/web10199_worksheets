@@ -6,25 +6,11 @@
 
 ### [Worksheet 2](syst10199/worksheets/set02.md)
 
-
-
 ### [Worksheet 3](syst10199/worksheets/set03.md)
-
-- [Primitive types](syst10199/set3/primitives.html)
-- [Built-in types](syst10199/set3/built_in_types.html)
-- [More about arrays](syst10199/set3/more_about_arrays.md)
-- [Example: array](syst10199/set3/family_array.html)
-- [Example: forEach method](syst10199/set3/forEach2.html)
-- [Example: for...in, for...of](syst10199/set3/more_iteration.html)
-- [select vs. getelement](syst10199/set3/select_vs_getelement.html)
-- [Example: createElement, appendChild](syst10199/set3/select_vs_getelement.html)
-
----
-
 
 ### [Worksheet 4](syst10199/worksheets/set04.md)
 
-- [Functions](syst10199/set4/functions_mix.html)
+
 
 ---
 
