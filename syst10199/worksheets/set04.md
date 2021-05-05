@@ -12,7 +12,7 @@
 ## Formulate answers to the following questions
 1. What is an algorithm?
 
-
+- [Functions](syst10199/set4/functions_mix.html)
 ---
 
 
