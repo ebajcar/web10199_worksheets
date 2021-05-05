@@ -1,6 +1,5 @@
 ## [Discussions](https://github.com/ebajcar/web10199_worksheets/discussions)
 
----
 
 # JavaScript (client-side, front-end)
 
