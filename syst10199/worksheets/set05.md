@@ -11,11 +11,6 @@
 # Class material
 
 
-- [Convert internal JS and CSS to external](syst10199/noteworthy/convert_int_to_ext.md)
-- [Forms - clean data](syst10199/set5/clean_data.html)
-
-
-
 ## Read and analyze (analytical reading) the following tutorials:
 
 - [Javascript forms]()
@@ -63,9 +58,18 @@ Regular expressions are patterns used to match character combinations in strings
 also objects. These patterns are used with the exec and test methods of RegExp, and with the match, replace, search, and 
 split methods of String&hellip;
 
+## Class examples
+
+
+
+- [Convert internal JS and CSS to external](syst10199/noteworthy/convert_int_to_ext.md)
+- [Forms - clean data](syst10199/set5/clean_data.html)
+
+
 
 ---
 
+# Exercises
 
 ## Regular Expressions
 
