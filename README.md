@@ -1,44 +1,17 @@
-# Worksheets
+# Worksheets (Summer 2021)
 
-### [Worksheet 11](syst10199/worksheets/worksheet_11.md)
+### [Worksheet 1](syst10199/worksheets/worksheet_01.md)
 
-### [Worksheet 10](syst10199/worksheets/worksheet_10.md)
-
-### [Worksheet 9](syst10199/worksheets/worksheet_09.md)
-
-### [Worksheet 8](syst10199/worksheets/worksheet_08.md)
-
-### [Worksheet 7](syst10199/worksheets/worksheet_07.md)
-- [explore print and printf functions](syst10199/set7/print_printf.html)
- 
-**For your information only (this is not part of the course content and will not be covered in the classroom)**
-If you wish to install a web server on your local machine, explore [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html).
-
----
-
-### [Worksheet 5](syst10199/worksheets/worksheet_05.md)
-
-- [Convert internal JS and CSS to external](syst10199/noteworthy/convert_int_to_ext.md)
-- [Forms - clean data](syst10199/set5/clean_data.html)
-
----
-
-### [Worksheet 4](syst10199/worksheets/worksheet_04.md)
-
-- [Functions](syst10199/set4/functions_mix.html)
-
----
-
-### [Worksheet 3](syst10199/worksheets/worksheet_03.md)
-
-- [Primitive types](syst10199/set3/primitives.html)
-- [Built-in types](syst10199/set3/built_in_types.html)
-- [More about arrays](syst10199/set3/more_about_arrays.md)
-- [Example: array](syst10199/set3/family_array.html)
-- [Example: forEach method](syst10199/set3/forEach2.html)
-- [Example: for...in, for...of](syst10199/set3/more_iteration.html)
-- [select vs. getelement](syst10199/set3/select_vs_getelement.html)
-- [Example: createElement, appendChild](syst10199/set3/select_vs_getelement.html)
+- [introduction: Javascript in the browser](syst10199/set1/cm01.html)
+- [1. Start with valid HTML5 and CSS3](syst10199/set1/cm02.html)
+- [2. Add Javascript to HTML document](syst10199/set1/cm03.html)
+- [3. Use comments to write algorithm, identify variables, data structures, statements, control statements, functions](syst10199/set1/cm04.html)
+  - [Example: Problem statement - add two numbers](syst10199/set1/cm05.html)
+- [4. Convert each step to JS code and test in console](syst10199/set1/cm06.html)
+- [5. Refactor to connect to the document](syst10199/set1/cm07.html)
+  - [document.write can overwrite your DOM!](syst10199/set1/cm08.html)
+  - [add vs. concatenate!](syst10199/set1/cm09.html)
+- [6. Finish: dot the i's and cross the t's](syst10199/set1/cm10.html)
 
 ---
 
@@ -56,21 +29,50 @@ If you wish to install a web server on your local machine, explore [https://www.
 
 ---
 
+### [Worksheet 3](syst10199/worksheets/worksheet_03.md)
 
-### [Worksheet 1](syst10199/worksheets/worksheet_01.md)
-
-- [introduction: Javascript in the browser](syst10199/set1/cm01.html)
-- [1. Start with valid HTML5 and CSS3](syst10199/set1/cm02.html)
-- [2. Add Javascript to HTML document](syst10199/set1/cm03.html)
-- [3. Use comments to write algorithm, identify variables, data structures, statements, control statements, functions](syst10199/set1/cm04.html)
-  - [Example: Problem statement - add two numbers](syst10199/set1/cm05.html)
-- [4. Convert each step to JS code and test in console](syst10199/set1/cm06.html)
-- [5. Refactor to connect to the document](syst10199/set1/cm07.html)
-  - [document.write can overwrite your DOM!](syst10199/set1/cm08.html)
-  - [add vs. concatenate!](syst10199/set1/cm09.html)
-- [6. Finish: dot the i's and cross the t's](syst10199/set1/cm10.html)
+- [Primitive types](syst10199/set3/primitives.html)
+- [Built-in types](syst10199/set3/built_in_types.html)
+- [More about arrays](syst10199/set3/more_about_arrays.md)
+- [Example: array](syst10199/set3/family_array.html)
+- [Example: forEach method](syst10199/set3/forEach2.html)
+- [Example: for...in, for...of](syst10199/set3/more_iteration.html)
+- [select vs. getelement](syst10199/set3/select_vs_getelement.html)
+- [Example: createElement, appendChild](syst10199/set3/select_vs_getelement.html)
 
 ---
+
+
+### [Worksheet 4](syst10199/worksheets/worksheet_04.md)
+
+- [Functions](syst10199/set4/functions_mix.html)
+
+---
+
+### [Worksheet 5](syst10199/worksheets/worksheet_05.md)
+
+- [Convert internal JS and CSS to external](syst10199/noteworthy/convert_int_to_ext.md)
+- [Forms - clean data](syst10199/set5/clean_data.html)
+
+---
+
+# PHP and MySQL
+
+
+
+
+
+### [Worksheet 6](syst10199/worksheets/worksheet_06.md)
+
+### [Worksheet 7](syst10199/worksheets/worksheet_07.md)
+
+### [Worksheet 8](syst10199/worksheets/worksheet_08.md)
+
+### [Worksheet 9](syst10199/worksheets/worksheet_09.md)
+
+### [Worksheet 10](syst10199/worksheets/worksheet_10.md)
+
+
 
 # Notes
 
