@@ -10,21 +10,21 @@
 
 ### Read and analyze (analytical reading); make notes. explore the links provided in the material.
 
-- [Web Programming](https://ebajcar.github.io/web10199/material/material_programming.html)
+1. [Web Programming](https://ebajcar.github.io/web10199/material/material_programming.html)
 
 
 ### Observe and describe. Try all examples. Make notes. Document what you have learned.
 
-1. Read and regularly review [Key elements of programming style](../noteworthy/key_elements_of_programming.md)
+2. Read and regularly review [Key elements of programming style](../noteworthy/key_elements_of_programming.md)
 
-1. Javascript Syntax: https://www.w3schools.com/js/js_syntax.asp
+3. Javascript Syntax: https://www.w3schools.com/js/js_syntax.asp
     - Values, Literals, Variables, Operators, Expressions, Keywords, Comments, Identifiers, Case Sensitive, Camel Case, Character Set
 
-2. Javascript Variables: https://www.w3schools.com/js/js_variables.asp
+4. Javascript Variables: https://www.w3schools.com/js/js_variables.asp
 
-3. Javascript Type convernsion: https://www.w3schools.com/js/js_type_conversion.asp
+5. Javascript Type convernsion: https://www.w3schools.com/js/js_type_conversion.asp
 
-4. Javascript Strict Mode: https://www.w3schools.com/js/js_strict.asp
+6. Javascript Strict Mode: https://www.w3schools.com/js/js_strict.asp
 
     - You can use strict mode in all your programs. It helps you to write cleaner code, like preventing you from using undeclared variables.
 
