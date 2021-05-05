@@ -13,7 +13,8 @@
 
 ## Read and analyze (analytical reading) the following tutorials:
 
-- [Javascript forms]()
+- [Javascript forms](https://ebajcar.github.io/web10199/material/material_js.html)
+- [Regular expressions (regex)](https://ebajcar.github.io/web10199/material/material_regex.html)
 - W3 Consortium (specifications)
 
 - [W3C - HTML 5.3 - Section 4.10. Forms](http://w3c.github.io/html/sec-forms.html)  &mdash;
