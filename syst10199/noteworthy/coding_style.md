@@ -20,7 +20,10 @@ This is a set of rules used in this class.
 10. A space after for/if/while.
 11. Indentation 2 spaces.
 
----
 
-> SYST10199 Web Programming @ Sheridan College
+  
+---
+> *The materials provided in class and in SLATE are protected by copyright. They are intended for the personal, educational uses of students in this course and should not be shared externally or on websites such as Course Hero or OneClass. Unauthorized distribution may result in copyright infringement and violation of Sheridan policies.*
+> 
+> **SYST10199 Web Programming @ Sheridan College**
 
