@@ -8,7 +8,7 @@
 
 # Course material
 
-### Read and analyze (analytical reading); make notes
+### Read and analyze (analytical reading); make notes. explore the links provided in the material.
 
 - [Web Programming](https://ebajcar.github.io/web10199/material/material_programming.html)
 
@@ -31,9 +31,11 @@
 
 ### Watch suggested videos
 
-- Algorithm on [Algorithms](https://youtu.be/6hfOvs8pY1k). 
+- What exactly is an algorithm? Algorithms explained | BBC Ideas | 7:53  [link](https://youtu.be/ZnBF2GeAKbo)
+- What's an algorithm? - David J. Malan | 4:57  [link](https://youtu.be/6hfOvs8pY1k)
+- How algorithms shape our world - Kevin Slavin | 15:23  [link]()
 
-### Class examples - explore, implement, and comment well. [how to study]()
+### Class examples - explore, implement, and comment well. “Curiosity Is the engine of achievement.” &mdash;Sir Ken Robinson
 
 - [introduction: Javascript in the browser](../set1/cm01.html)
 - [1. Start with valid HTML5 and CSS3](../set1/cm02.html)
