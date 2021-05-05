@@ -8,26 +8,27 @@
 > 
 ---
 
+# Class material
+
+
 - [Convert internal JS and CSS to external](syst10199/noteworthy/convert_int_to_ext.md)
 - [Forms - clean data](syst10199/set5/clean_data.html)
 
----
+
 
 ## Read and analyze (analytical reading) the following tutorials:
-Observe and describe. Try all examples. Make notes. Document what you have learned.
 
+- [Javascript forms]()
+- W3 Consortium (specifications)
 
-
-### W3 Consortium (specifications)
-
-[W3C - HTML 5.3 - Section 4.10. Forms](http://w3c.github.io/html/sec-forms.html)  &mdash;
+- [W3C - HTML 5.3 - Section 4.10. Forms](http://w3c.github.io/html/sec-forms.html)  &mdash;
 A form is a component of a Web page that has form controls, such as text fields, buttons, checkboxes, range controls, 
 or color pickers. A user can interact with such a form, providing data that can then be sent to the server for further 
 processing (e.g., returning the results of a search or calculation). No client-side scripting is needed in many cases, 
 though an API is available so that scripts can augment the user experience or use forms for purposes other than submitting 
-data to a server.&hellip;</dd>	
+data to a server.&hellip;
 
-### w3schools tutorials
+## Observe and describe. Try all examples. Make notes. Document what you have learned.
 
 <a target="_blank" href="https://www.w3schools.com/js/js_validation.asp">JS Forms</a>  &mdash;
 Learn about JavaScript Form Validation; JavaScript Can Validate Numeric Input; Automatic HTML Form Validation;
@@ -49,9 +50,7 @@ JS RegExp on w3schools.com
 <a href="http://regexone.com/" target="_blank">Regular Expressions</a>  &mdash;
 interactive tutorial on regexone.com</dd>
 
----
 
-### MDN tutorials
 
 [Form data validation (MDN)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Data_form_validation)
 
