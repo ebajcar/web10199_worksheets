@@ -15,7 +15,7 @@
 
 ### Observe and describe. Try all examples. Make notes. Document what you have learned.
 
-2. Read and regularly review [Key elements of programming style](../noteworthy/key_elements_of_programming.md)
+2. Read and regularly review [Key elements of programming style](../noteworthy/key_elements_of_programming.md) and [Coding Style](../noteworthy/coding_style.md)
 
 3. Javascript Syntax: https://www.w3schools.com/js/js_syntax.asp
     - Values, Literals, Variables, Operators, Expressions, Keywords, Comments, Identifiers, Case Sensitive, Camel Case, Character Set
