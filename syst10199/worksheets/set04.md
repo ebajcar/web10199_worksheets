@@ -8,15 +8,31 @@
 > 
 ---
 
+# Class Material
+
+## Read and analyze (analytical reading); make notes. explore the links provided in the material.
+
+- ...
+
+## Observe and describe. Try all examples. Make notes. Document what you have learned.
+
+
+## Watch suggested videos
+
+- ...
+
+## Class examples
+
+- [Functions](syst10199/set4/functions_mix.html)
 
 ## Formulate answers to the following questions
 1. What is an algorithm?
 
-- [Functions](syst10199/set4/functions_mix.html)
+
 ---
 
 
-## Exercises
+# Exercises
 Set up a project for each problem. Keep all versions of your solution for each project.  For each problem, write out the
 algorithm that you plan to use (and modify if your implementation deviates from your original
 plan).
