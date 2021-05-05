@@ -1,6 +1,6 @@
 # Worksheets (Summer 2021)
 
-### [Worksheet 1](syst10199/worksheets/worksheet_01.md)
+### [Worksheet 1](syst10199/worksheets/set01.md)
 
 - [introduction: Javascript in the browser](syst10199/set1/cm01.html)
 - [1. Start with valid HTML5 and CSS3](syst10199/set1/cm02.html)
@@ -15,7 +15,7 @@
 
 ---
 
-### [Worksheet 2](syst10199/worksheets/worksheet_02.md)
+### [Worksheet 2](syst10199/worksheets/set02.md)
 
 - [var vs. let](syst10199/set2/var_vs_let.html)
 - [if control structure and conditionals](syst10199/set2/if_structure.html)
@@ -29,7 +29,7 @@
 
 ---
 
-### [Worksheet 3](syst10199/worksheets/worksheet_03.md)
+### [Worksheet 3](syst10199/worksheets/set03.md)
 
 - [Primitive types](syst10199/set3/primitives.html)
 - [Built-in types](syst10199/set3/built_in_types.html)
@@ -43,13 +43,13 @@
 ---
 
 
-### [Worksheet 4](syst10199/worksheets/worksheet_04.md)
+### [Worksheet 4](syst10199/worksheets/set04.md)
 
 - [Functions](syst10199/set4/functions_mix.html)
 
 ---
 
-### [Worksheet 5](syst10199/worksheets/worksheet_05.md)
+### [Worksheet 5](syst10199/worksheetsset05.md)
 
 - [Convert internal JS and CSS to external](syst10199/noteworthy/convert_int_to_ext.md)
 - [Forms - clean data](syst10199/set5/clean_data.html)
@@ -62,15 +62,15 @@
 
 
 
-### [Worksheet 6](syst10199/worksheets/worksheet_06.md)
+### [Worksheet 6](syst10199/worksheets/set06.md)
 
-### [Worksheet 7](syst10199/worksheets/worksheet_07.md)
+### [Worksheet 7](syst10199/worksheets/set07.md)
 
-### [Worksheet 8](syst10199/worksheets/worksheet_08.md)
+### [Worksheet 8](syst10199/worksheets/set08.md)
 
-### [Worksheet 9](syst10199/worksheets/worksheet_09.md)
+### [Worksheet 9](syst10199/worksheets/set09.md)
 
-### [Worksheet 10](syst10199/worksheets/worksheet_10.md)
+### [Worksheet 10](syst10199/worksheets/set10.md)
 
 
 
