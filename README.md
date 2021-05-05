@@ -76,8 +76,7 @@
 
 # Notes
 
-### More on Piazza Q&A
-[Summer 2020](https://piazza.com/sheridan/spring2020/syst10199/home)
+
 
 ---
 
