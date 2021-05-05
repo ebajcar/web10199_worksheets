@@ -1,6 +1,6 @@
-# Worksheets (Summer 2021)
+[Discussions](https://github.com/ebajcar/web10199_worksheets/discussions)
 
-## JavaScript (client-side, front-end)
+# JavaScript (client-side, front-end)
 
 ### [Worksheet 1](syst10199/worksheets/set01.md)
 
@@ -58,7 +58,7 @@
 
 ---
 
-## PHP and MySQL (server-side, back-end))
+# PHP and MySQL (server-side, back-end))
 
 
 
@@ -76,10 +76,13 @@
 
 # Notes
 
-[Discussions](discussions)
-[Discussions](https://github.com/ebajcar/web10199/discussions)
-[Discussions](https://github.com/ebajcar/web10199_worksheets/discussions)
 
+
+
+   
 ---
+> *The materials provided in class and in SLATE are protected by copyright. They are intended for the personal, educational uses of students in this course and should not be shared externally or on websites such as Course Hero or OneClass. Unauthorized distribution may result in copyright infringement and violation of Sheridan policies.*
+> 
+> **SYST10199 Web Programming @ Sheridan College**
 
-> Web Programming @ Sheridan College
+
