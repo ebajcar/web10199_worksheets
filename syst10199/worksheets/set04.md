@@ -1,6 +1,4 @@
-[previous](set03.md) 
-: **Worksheet Set 4**
-: [next](set05.md)
+[previous](set03.md) : **Worksheet Set 4** : [next](set05.md)
 
 
 ## Key terms and concepts to understand
@@ -8,24 +6,22 @@
 > 
 ---
 
-# Class Material
+# Course material
 
-## Read and analyze (analytical reading); make notes. explore the links provided in the material.
+### Read and analyze (analytical reading)
+Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
 
-- [Javascript Objects, Functions, Event handling](https://ebajcar.github.io/web10199/material/material_js.html)
+1. [Javascript Objects, Functions, Event handling](https://ebajcar.github.io/web10199/material/material_js.html)
 
-## Observe and describe. Try all examples. Make notes. Document what you have learned.
-
-
-## Watch suggested videos
+### Watch Suggested videos
 
 - ...
 
-## Class examples
+### Class examples
 
 - [Functions](syst10199/set4/functions_mix.html)
 
-## Formulate answers to the following questions
+#E# Formulate answers to the following questions
 1. What is an algorithm?
 
 
