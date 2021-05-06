@@ -9,7 +9,7 @@
 
 # Course material
 
-## Read and analyze (analytical reading)
+### Read and analyze (analytical reading)
 
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
 
@@ -17,9 +17,11 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 2. [Learn more about arrays](../set3/more_about_arrays.md)
 
 
-## Watch suggested videos
+### Watch suggested videos
 
-## Class examples
+- ...
+
+### Class examples
 
 Explore, implement, and comment well.
 
@@ -35,7 +37,7 @@ For each class example, create your own copy of the solution, modify and expand 
 
 
 
-## Formulate answers to the following questions
+### Formulate answers to the following questions
 1. What is ...?
 
 
