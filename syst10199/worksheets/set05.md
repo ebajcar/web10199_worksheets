@@ -1,6 +1,4 @@
-[previous](set04.md) 
-: **Worksheet Set 5**
-: [next](set06.md)
+[previous](set04.md) : **Worksheet Set 5** : [next](set06.md)
 
 
 ## Key terms and concepts to understand
@@ -38,7 +36,7 @@ Explore, implement, and comment well.
 - [Forms - clean data](syst10199/set5/clean_data.html)
 
 
-#E# Formulate answers to the following questions
+### Formulate answers to the following questions
 1. What is ...?
 
 ---
