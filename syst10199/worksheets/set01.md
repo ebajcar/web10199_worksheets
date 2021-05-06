@@ -8,27 +8,18 @@
 
 # Course material
 
-### Read and analyze (analytical reading); make notes. explore the links provided in the material.
+### Read and analyze (analytical reading)
+Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. *“Curiosity Is the engine of achievement.”* &mdash;Sir Ken Robinson
 
 1. [Web Programming](https://ebajcar.github.io/web10199/material/material_programming.html)
 2. [Javascript language, variables, programs, operators](https://ebajcar.github.io/web10199/material/material_js.html)
-
-
-### Observe and describe. Try all examples. Make notes. Document what you have learned.
-
 2. Read and regularly review [Key elements of programming style](../noteworthy/key_elements_of_programming.md) and [Coding Style](../noteworthy/coding_style.md)
-
 3. Javascript Syntax: https://www.w3schools.com/js/js_syntax.asp
     - Values, Literals, Variables, Operators, Expressions, Keywords, Comments, Identifiers, Case Sensitive, Camel Case, Character Set
-
 4. Javascript Variables: https://www.w3schools.com/js/js_variables.asp
-
 5. Javascript Type convernsion: https://www.w3schools.com/js/js_type_conversion.asp
-
 6. Javascript Strict Mode: https://www.w3schools.com/js/js_strict.asp
-
     - You can use strict mode in all your programs. It helps you to write cleaner code, like preventing you from using undeclared variables.
-
 
 ### Watch suggested videos
 
@@ -37,8 +28,7 @@
 9. How algorithms shape our world - Kevin Slavin | 15:23  [link]()
 
 ### Class examples
-
-Explore, implement, and comment well. *“Curiosity Is the engine of achievement.”* &mdash;Sir Ken Robinson
+Explore, implement, and comment well. 
 
 10. [introduction: Javascript in the browser](../set1/cm01.html)
 11. [1. Start with valid HTML5 and CSS3](../set1/cm02.html)
