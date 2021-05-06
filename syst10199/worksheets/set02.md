@@ -1,6 +1,4 @@
-[previous](set01.md) 
-: **Worksheet Set 2**
-: [next](set03.md)
+[previous](set01.md) : **Worksheet Set 2** : [next](set03.md)
 
 
 ## Key terms and concepts to understand
