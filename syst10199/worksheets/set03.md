@@ -24,8 +24,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 ### Class examples
 
 Explore, implement, and comment well.
-
-For each class example, create your own copy of the solution, modify and expand on the examples. Document observations. Post on Piazza Q&A for discussion and feedback.
+ 
 - explore primitives Boolean, BigInt, Number, null, undefined ([*primitives.html*](../set3/primitives.html))
 - explore primitives Strings ([*primities_strings.html*](../set3/primities_strings.html))
 - explore the Date object ([*built_in_types.html*](../set3/built_in_types.html))
