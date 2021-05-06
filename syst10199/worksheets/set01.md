@@ -28,21 +28,21 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 ### Class examples
 Explore, implement, and comment well. 
 
-10. [introduction: Javascript in the browser](../set1/cm01.html)
-11. [1. Start with valid HTML5 and CSS3](../set1/cm02.html)
-12. [2. Add Javascript to HTML document](../set1/cm03.html)
-13. [3. Use comments to write algorithm, identify variables, data structures, statements, control statements, functions](syst10199/set1/cm04.html)
+- [introduction: Javascript in the browser](../set1/cm01.html)
+- [1. Start with valid HTML5 and CSS3](../set1/cm02.html)
+- [2. Add Javascript to HTML document](../set1/cm03.html)
+- [3. Use comments to write algorithm, identify variables, data structures, statements, control statements, functions](syst10199/set1/cm04.html)
   	- [Example: Problem statement - add two numbers](../set1/cm05.html)
-14. [4. Convert each step to JS code and test in console](../set1/cm06.html)
-15. [5. Refactor to connect to the document](../set1/cm07.html)
+- [4. Convert each step to JS code and test in console](../set1/cm06.html)
+- [5. Refactor to connect to the document](../set1/cm07.html)
   	- [document.write can overwrite your DOM!](../set1/cm08.html)
   	- [add vs. concatenate!](../set1/cm09.html)
-16. [6. Finish: dot the i's and cross the t's](../set1/cm10.html)
+- [6. Finish: dot the i's and cross the t's](../set1/cm10.html)
 
 
 ### Formulate answers to the following questions. Discuss.
-17. What is an algorithm?
-18. What are the preferred programming paradigms? 
+1. What is an algorithm?
+2. What are the preferred programming paradigms? 
 
 
 ---
