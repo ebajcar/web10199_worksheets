@@ -1,6 +1,4 @@
-[previous](set02.md) 
-: **Worksheet Set 3**
-: [next](set04.md)
+[previous](set02.md) : **Worksheet Set 3** : [next](set04.md)
 
 
 ## Key terms and concepts to understand
@@ -11,18 +9,19 @@
 
 # Course material
 
-## Read and analyze (analytical reading); make notes. explore the links provided in the material.
+## Read and analyze (analytical reading)
 
-- [Javascript language, Objects, Functions](https://ebajcar.github.io/web10199/material/material_js.html)
+Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
 
-## Observe and describe. Try all examples. Make notes. Document what you have learned.
-
-1. [Learn more about arrays](../set3/more_about_arrays.md)
+1. [Javascript language, Objects, Functions](https://ebajcar.github.io/web10199/material/material_js.html)
+2. [Learn more about arrays](../set3/more_about_arrays.md)
 
 
 ## Watch suggested videos
 
 ## Class examples
+
+Explore, implement, and comment well.
 
 For each class example, create your own copy of the solution, modify and expand on the examples. Document observations. Post on Piazza Q&A for discussion and feedback.
 - explore primitives Boolean, BigInt, Number, null, undefined ([*primitives.html*](../set3/primitives.html))
@@ -37,7 +36,7 @@ For each class example, create your own copy of the solution, modify and expand 
 
 
 ## Formulate answers to the following questions
-1. What is an algorithm?
+1. What is ...?
 
 
 ---
