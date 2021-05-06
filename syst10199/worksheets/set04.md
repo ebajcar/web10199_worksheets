@@ -21,7 +21,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 
 - [Functions](syst10199/set4/functions_mix.html)
 
-#E# Formulate answers to the following questions
+### Formulate answers to the following questions
 1. What is an algorithm?
 
 
