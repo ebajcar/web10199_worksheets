@@ -9,26 +9,22 @@
 ---
 
 
+# Course material
 
-## Read and analyze (analytical reading) the following tutorials:
-Observe and describe. Try all examples. Make notes. Document what you have learned.
+## Read and analyze (analytical reading); make notes. explore the links provided in the material.
+
+- [Javascript language, Objects, Functions](https://ebajcar.github.io/web10199/material/material_js.html)
+
+## Observe and describe. Try all examples. Make notes. Document what you have learned.
+
+1. [Learn more about arrays](../set3/more_about_arrays.md)
 
 
-### w3schools Tutorials
+## Watch suggested videos
 
-Go through the material on SLATE for Week 3 and follow through all suggested links.
-
-### MDN Tutorials
-
-Go through the material on SLATE for Week 3 and follow through all suggested links.
-
-[Learn more about arrays](../set3/more_about_arrays.md)
-
----
+## Class examples
 
 For each class example, create your own copy of the solution, modify and expand on the examples. Document observations. Post on Piazza Q&A for discussion and feedback.
-
-Class examples
 - explore primitives Boolean, BigInt, Number, null, undefined ([*primitives.html*](../set3/primitives.html))
 - explore primitives Strings ([*primities_strings.html*](../set3/primities_strings.html))
 - explore the Date object ([*built_in_types.html*](../set3/built_in_types.html))
@@ -47,7 +43,7 @@ Class examples
 ---
 
 
-## Exercises
+# Exercises
 Set up a project for each problem. Keep all versions of your solution for each project.  For each problem, write out the
 algorithm that you plan to use (and modify if your implementation deviates from your original
 plan).

@@ -8,12 +8,13 @@
 > 
 ---
 
+# Course material
 
+## Read and analyze (analytical reading); make notes. explore the links provided in the material.
 
-## Read and analyze (analytical reading) the following tutorials:
-Observe and describe. Try all examples. Make notes. Document what you have learned.
+- [Javascript language, Programs, Data Structures](https://ebajcar.github.io/web10199/material/material_js.html)
 
-### w3schools Tutorials
+## Observe and describe. Try all examples. Make notes. Document what you have learned.
 
 1. <a href="https://www.w3schools.com/js/js_assignment.asp" target="_blank">JS Assignment</a>
 2. <a target="_blank" href="https://www.w3schools.com/js/js_if_else.asp">JS Conditions</a>
@@ -24,14 +25,32 @@ Observe and describe. Try all examples. Make notes. Document what you have learn
 7. [JavaScript building blocks](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks) In this module, we continue our coverage of all JavaScript's key fundamental features, turning our attention to commonly-encountered types of code block such as conditional statements, loops, functions, and events. You've seen this stuff already in the course, but only in passing — here we'll discuss it all explicitly.
 8. [Making decisions in your code — conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) In any programming language, code needs to make decisions and carry out actions accordingly depending on different inputs. For example, in a game, if the player's number of lives is 0, then it's game over. In a weather app, if it is being looked at in the morning, show a sunrise graphic; show stars and a moon if it is nighttime. In this article we'll explore how so-called conditional statements work in JavaScript.
 
----
+## Watch suggested videos
+
+- none suggested at the moment.
+
+## Class examples
+
+- [var vs. let](syst10199/set2/var_vs_let.html)
+- [if control structure and conditionals](syst10199/set2/if_structure.html)
+- [`for` loop diagram](syst10199/set2/diagram_for_loop.html)
+- [`for` loop used to loop through options in a `select` element](syst10199/set2/for_loop_options.html)
+- [Fibonacci -console](syst10199/set2/fib_v1_console.html)
+- [Fibonacci -console, array](syst10199/set2/fib_v1_arr_console.html)
+- [Fibonacci -ES6](syst10199/set2/fib_es6_oo.html)
+- [Fibonacci -ES6,iterator](syst10199/set2/fib_es6_iterator.html)
+- [Eratosthenes Sieve (prime numbers)](syst10199/set2/eratosthenes_sieve.html)
+
 
 ## Formulate answers to the following questions
 1. What is ...?
+
+
+
 ---
 
 
-## Exercises
+# Exercises
 
 1. **Fibonacci numbers** *from previous worksheet* 
     - (v.4) &mdash; Modify your console version to display the sequence on the page. Use `document.write()` method.
@@ -55,6 +74,7 @@ Observe and describe. Try all examples. Make notes. Document what you have learn
 	- (v.1) Write out an algorithm for the game of Rock Paper Scissors.  Assume one human players plays against the computer.
 8. **Game of Tic Tac Toe**
 	- (v.1) Write out an algorithm for the game of tic tac toe.  Assume two human players sit together with a sheet of paper (or single monitor/keyboard) and take turns.
+  
   
 ---
 > *The materials provided in class and in SLATE are protected by copyright. They are intended for the personal, educational uses of students in this course and should not be shared externally or on websites such as Course Hero or OneClass. Unauthorized distribution may result in copyright infringement and violation of Sheridan policies.*

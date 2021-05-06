@@ -1,47 +1,66 @@
-[previous]() 
-: **Worksheet Set 1**
-: [next](set02.md)
+[previous]() : **Worksheet Set 1** : [next](set02.md)
 
 
-## Key terms and concepts to understand
+# Key terms and concepts to understand
 > &bull; Javascript  &bull; imperative programming  &bull; variable  &bull; value  &bull; literal  &bull; IPO operator &bull; expression  &bull; keyword  &bull; identifier  &bull;  data type &bull; strict mode  &bull; console  &bull;  algorithm  &bull; object-oriented programming  &bull; computer application  &bull;  text editor  &bull; client/server  &bull;  type conversion  &bull; function &bull; method &bull; refactoring code &bull;
 > 
 ---
 
+# Course material
+
+### Read and analyze (analytical reading); make notes. explore the links provided in the material.
+
+1. [Web Programming](https://ebajcar.github.io/web10199/material/material_programming.html)
+2. [Javascript language, variables, programs, operators](https://ebajcar.github.io/web10199/material/material_js.html)
 
 
-## Read and analyze (analytical reading) the following tutorials:
-Observe and describe. Try all examples. Make notes. Document what you have learned.
+### Observe and describe. Try all examples. Make notes. Document what you have learned.
 
-1. Read and regularly review [Key elements of programming style](../noteworthy/key_elements_of_programming.md)
+2. Read and regularly review [Key elements of programming style](../noteworthy/key_elements_of_programming.md) and [Coding Style](../noteworthy/coding_style.md)
 
-1. Javascript Syntax: https://www.w3schools.com/js/js_syntax.asp
+3. Javascript Syntax: https://www.w3schools.com/js/js_syntax.asp
     - Values, Literals, Variables, Operators, Expressions, Keywords, Comments, Identifiers, Case Sensitive, Camel Case, Character Set
 
-2. Javascript Variables: https://www.w3schools.com/js/js_variables.asp
+4. Javascript Variables: https://www.w3schools.com/js/js_variables.asp
 
-3. Javascript Type convernsion: https://www.w3schools.com/js/js_type_conversion.asp
+5. Javascript Type convernsion: https://www.w3schools.com/js/js_type_conversion.asp
 
-4. Javascript Strict Mode: https://www.w3schools.com/js/js_strict.asp
+6. Javascript Strict Mode: https://www.w3schools.com/js/js_strict.asp
 
     - You can use strict mode in all your programs. It helps you to write cleaner code, like preventing you from using undeclared variables.
 
 
+### Watch suggested videos
 
-## Watch videos
+7. What exactly is an algorithm? Algorithms explained | BBC Ideas | 7:53  [link](https://youtu.be/ZnBF2GeAKbo)
+8. What's an algorithm? - David J. Malan | 4:57  [link](https://youtu.be/6hfOvs8pY1k)
+9. How algorithms shape our world - Kevin Slavin | 15:23  [link]()
 
-- Algorithm on [Algorithms](https://youtu.be/6hfOvs8pY1k). 
+### Class examples
+
+Explore, implement, and comment well. *“Curiosity Is the engine of achievement.”* &mdash;Sir Ken Robinson
+
+10. [introduction: Javascript in the browser](../set1/cm01.html)
+11. [1. Start with valid HTML5 and CSS3](../set1/cm02.html)
+12. [2. Add Javascript to HTML document](../set1/cm03.html)
+13. [3. Use comments to write algorithm, identify variables, data structures, statements, control statements, functions](syst10199/set1/cm04.html)
+  	- [Example: Problem statement - add two numbers](../set1/cm05.html)
+14. [4. Convert each step to JS code and test in console](../set1/cm06.html)
+15. [5. Refactor to connect to the document](../set1/cm07.html)
+  	- [document.write can overwrite your DOM!](../set1/cm08.html)
+  	- [add vs. concatenate!](../set1/cm09.html)
+16. [6. Finish: dot the i's and cross the t's](../set1/cm10.html)
 
 
-
-## Formulate answers to the following questions
-1. What is an algorithm?
+### Formulate answers to the following questions. Discuss.
+17. What is an algorithm?
+18. What are the preferred programming paradigms? 
 
 
 ---
 
 
-## Exercises
+# Exercises
 Set up a project for each problem. Keep all versions of your solution for each project.  For each problem, write out the
 algorithm that you plan to use (and modify if your implementation deviates from your original
 plan).
