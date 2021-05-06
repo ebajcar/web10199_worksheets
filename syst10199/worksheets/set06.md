@@ -8,10 +8,26 @@
 > 
 ---
 
-
-
 # 🚧 Under construction. 
 
+
+
+
+
+# Course material
+
+### Read and analyze (analytical reading)
+Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
+1. ...
+
+### Watch Suggested videos
+1. ...
+
+### Class examples
+1. ...
+
+### Formulate answers to the following questions
+1. ???  
   
 ---
 > *The materials provided in class and in SLATE are protected by copyright. They are intended for the personal, educational uses of students in this course and should not be shared externally or on websites such as Course Hero or OneClass. Unauthorized distribution may result in copyright infringement and violation of Sheridan policies.*
