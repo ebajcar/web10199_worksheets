@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment Guide</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">	
+	
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="http://dimsemenov-static.s3.amazonaws.com/dist/magnific-popup.css">	
+	
+<style>
+output {float:right;font-size:1.2em;font-weight:bold }
+th:last-child {text-align:right;}
+td {max-width: 200px;}
+.popover-medium { max-width: 550px;}
+.epopup {cursor:help}
+object {width:100%;height:auto;}
+</style>	
+</head>
+<body>
+
+<div class="container">
+	<h2>A Guideline for Implementing Good Solutions</h2>
+	<p>The development process is the same for any programming language! Before you start designing a solution, make sure you understand the problem - a process called <strong>analysing</strong>.</p>	
+	<p>The purpose of programming exercises and assignments, regardless of the language, is to learn:</p>
+	<ul>
+		<li>how to correctly formulate algorithms to solve specific problems - a process called <strong>designing</strong></li>
+		<li>how to write those algorithms as programs in the given programming language - a process called <strong>coding</strong> (or sometimes <strong>constructing</strong>)</li>
+		<li>how to test a program to provide convincing evidence that it solves the right problem correctly - a process called <strong>testing</strong></li>
+		<li>how to provide a clear, concise explanation of the problem that the program is intended to solve, and how it workds - a process called <strong>documenting</strong></li>
+	</ul>
+
+	<h3>Self-evaluation Rubric</h3>
+	<p>A program can compile (be interpreted) correctly, produce the correct output, and still have major problems. Here are some guidelines for the categories:</p> 
+		<ol class="list-inline">
+		  <li>1) algorithm design,</li>
+		  <li>2) program style, and</li>
+		  <li>3) program correctness.</li>
+		</ol>
+
+	<div id="form2">
+		<table class="table table-condensed">
+            <tr>
+                <td>
+					<a class="btn btn-warning btn-md" href="
+				https://www.evernote.com/shard/s687/sh/65915e69-6a11-4486-8b16-e53b2f48befa/542e9dec3380230cc8a5fbd80ee0824d" 
+				target="_blank"><h4>Evaluation Factors</h4>
+					</a>
+				</td>
+				<th>Quality Level</th>
+				<th>Evaluation</th>
+				<th>Weight Factor</th>
+			</tr>		
+			<tr><td colspan="4">
+					<h4 class="btn btn-md btn-primary epopup" 
+						title="<h3><strong>Algorithm</strong> <em>design</em></h3>"	
+						data-content='
+						 <p><strong>Algorithm design</strong> is a measure of 
+						 how well the algorithm has been designed.</p>
+						 <p>For example, if the solution calls for a recursive 
+						 algorithm to be implemented. It is considered to be 
+						 poorly designed if iterative structures are used.</p>
+						 <p>Another example: if the algorithm contains a 
+						 divide-by-zero instruction, has it been safeguarded 
+						 against divide-by-zero errors?</p> 
+						'> 
+						<i class="fa fa-book" aria-hidden="true"></i>&nbsp;Algorithm Design
+					</h4>
+				</td>
+			</tr>
+            <tr>
+                <td>
+					<span class="epopup"
+						title="<h3><strong>Programming</strong> <em>structures</em></h3>"
+						data-content=' 
+						<p>Has the program been designed using the 
+						appropriate programming structures?</p>
+						'>  	
+						<i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Programming structures 
+					</span>
+				</td>
+				<td>
+					<select class="form-control" id="factor1">
+						<option value="0">-</option>
+						<option value="5">outstanding performance</option>
+						<option value="4">very good with few errors</option>
+						<option value="3">good work, with notable errors</option>
+						<option value="2">significant shortcomings</option>
+					</select>
+				</td>
+				<td><output id="out1">0</output></td>
+				<td><output>5 [1/10]</output></td>
+			</tr>
+			<tr>
+                <td>					
+					<span class="epopup" 
+						title="<h3><strong>Program</strong> <em>testing</em></h3>"
+						data-content='
+						<p>Is the program designed to work correctly 
+						for all input cases? What about error cases?</p>
+						'> <i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Test all cases 
+					</span>
+					
+				</td>
+				<td>
+					<select class="form-control" id="factor2">
+						<option value="0">-</option>
+						<option value="5">outstanding performance</option>
+						<option value="4">very good with few errors</option>
+						<option value="3">good work, with notable errors</option>
+						<option value="2">significant shortcomings</option>
+					</select>
+				</td>
+				<td><output id="out2">0</output></td>
+				<td><output>5 [1/10]</output></td>
+			</tr>
+			<tr>				
+                <td>
+					<span class="epopup"
+						title="<h3><strong>Error</strong> <em>handling</em></h3>"
+						data-content='	
+						<p>Is the program designed to give appropriate 
+						error messages for bad input data?</p>
+						'> <i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Error Handling	
+					</span>
+									
+				</td>
+				<td>
+					<select class="form-control" id="factor3">
+						<option value="0">-</option>
+						<option value="5">outstanding performance</option>
+						<option value="4">very good with few errors</option>
+						<option value="3">good work, with notable errors</option>
+						<option value="2">significant shortcomings</option>
+					</select>
+				</td>
+				<td><output id="out3">0</output></td>
+				<td><output>5 [1/10]</output></td>
+            </tr>
+			<tr><td colspan="4">
+					<h4 class="btn btn-md btn-primary" id="testing">
+						<i class="fa fa-book" aria-hidden="true"></i>&nbsp;Program Style
+					</h4>
+				</td>
+			</tr>
+            <tr>
+                <td>
+					<span class="epopup"
+						title="<h3><strong>Comments</strong> <em>(documentation)</em></h3>" 
+						data-container="body"
+						data-content='
+						<p>Use the appropriate comments for the language used.</p>
+						<p>There should be a prologue (or <q>header</q>) 
+						specifying at minimum the program name, author(s), 
+						date created, date updated, and a short description.</p> 
+						<p>Optionally, it may contain algorithm analysis 
+						(input, output), algorithm design (pseudocode) 
+						outlining the approach used by the program to solve 
+						the problem, and known bugs (if the program does 
+						not function correctly in some situations, describe 
+						the situations and problems).</p>
+						'> <i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Comments
+					</span>
+					
+				</td>
+				<td>
+					<select class="form-control" id="factor4">
+						<option value="0">-</option>
+						<option value="5">outstanding performance</option>
+						<option value="4">very good with few errors</option>
+						<option value="3">good work, with notable errors</option>
+						<option value="2">significant shortcomings</option>
+					</select>
+				</td>
+				<td><output id="out4">0</output></td>
+				<td><output>5 [1/10]</output></td>
+			</tr>
+			<tr>				
+                <td>
+					<span class="epopup"
+						title="<h3><strong>Naming</strong> <em>variables, files,&hellip;</em></h3>" 
+						data-content='
+						<p>Each variable name should indicate its meaning. 
+						Counters can be named i,j,k and a character can be 
+						named simply c, but constructs that are specific to 
+						the particular program should have specific, 
+						mnemonic names. Good examples: relativeError, 
+						speed, sum, temperature, windChill.</p>
+						'> <i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Naming variables, files,...
+					</span>
+					
+				</td>
+				<td>
+					<select class="form-control" id="factor5">
+						<option value="0">-</option>
+						<option value="5">outstanding performance</option>
+						<option value="4">very good with few errors</option>
+						<option value="3">good work, with notable errors</option>
+						<option value="2">significant shortcomings</option>
+					</select>
+				</td>
+				<td><output id="out5">0</output></td>
+				<td><output>5 [1/10]</output></td>
+			</tr>
+			<tr>				
+                <td>
+					<span class="epopup"
+						title="<h3><strong>Readability</strong> <em>and Indentation</em></h3>" 
+						data-content='
+						<p>Indentation should indicate the flow of control.</p> 
+						<p>Statements that are nested within a control 
+						statement, if, for, while, etc., should be indented 
+						a constant distance of at least four (4) spaces.</p>   
+						<p>More deeply nested statements should be more deeply 
+						indented.</p>  <p>The opening brace delimiting a compound 
+						statement should be on a line by itself following 
+						the control statement, and closing brace shold be 
+						on a line by itself.</p>  <p>The indentation of the braces 
+						should match the contolling statement, such as in 
+						the case of the for statement or the if statement. </p> 
+						<p>For alternative acceptable styles, consult the 
+						conventions used for your current environment.</p>  
+						<p>In case of shell scripts, observe the same rules 
+						as the braces.</p> 
+						'> <i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Readability and Indentation
+					</span>
+									
+				</td>
+				<td>
+					<select class="form-control" id="factor6">
+						<option value="0">-</option>
+						<option value="5">outstanding performance</option>
+						<option value="4">very good with few errors</option>
+						<option value="3">good work, with notable errors</option>
+						<option value="2">significant shortcomings</option>
+					</select>
+				</td>
+				<td><output id="out6">0</output></td>
+				<td><output>10 [2/10]</output></td>
+            </tr>     
+			<tr><td colspan="4">
+					<h4  class="btn btn-md btn-primary epopup"
+						title="<h3><strong>Program</strong> <em>correctness</em></h3>" 	
+						data-content='
+						<p>consists of ability to compile (or interpret) and 
+						correct result. Consider the following:	</p>
+						<ul class="bg-danger">
+							<li>Does the program compile without any syntax 
+							errors or warnings?</li>
+							<li>Does the program work correctly for all 
+							input (both correct and erroneous)?</li>
+							<li>Does the program contain logic errors?</li>
+						</ul>
+						'>
+						<i class="fa fa-book" aria-hidden="true"></i>&nbsp;Program Correctness
+					</h4>				
+				</td></tr>
+            <tr>
+                <td>
+					<span class="epopup"
+						title="<h3><strong>Ability to Compile</strong> <em>or Interpret</em></h3>" 
+						data-content='
+						<p>The program should compile, or be interpretted, without any 
+						warnings or errors. Make sure you use the 
+						appropriate syntax when compiling/interpreting 
+						your program. The permissions on the script file 
+						should be set properly.</p>
+						'> <i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Compile or Interpret without Errors
+					</span>
+					
+				</td>
+				<td>
+					<select class="form-control" id="factor7">
+						<option value="0">-</option>
+						<option value="5">outstanding performance</option>
+						<option value="4">very good with few errors</option>
+						<option value="3">good work, with notable errors</option>
+						<option value="2">significant shortcomings</option>
+					</select>
+				</td>
+				<td><output id="out7">0</output></td>
+				<td><output>5 [1/10]</output></td>
+			</tr>
+			<tr>				
+                <td>
+					<span class="epopup"
+					title="<h3><strong>Correct</strong> <em>Results</em></h3>" 
+						data-content='
+						The program should be evaluated on whether it does 
+						exactly what the problem stipulates, not on 
+						efficiency or appropriateness of the code. 
+						Note that <q>exactly</q> implies that, if the 
+						desired output format has been specified explicitly, 
+						no deviation from that format is allowed. 
+						For example, if two numbers are to be printed on 
+						the same line, it would be an error if they are 
+						printed on two lines, no matter how certain you are 
+						that it would be better that way. Also consider:	
+						<ul>
+							<li>Does the program contain any logic errors? 
+								(infinite loops, mathematical errors,...)</li>
+							<li>Is the output self-explanatory and well 
+								formatted?</li>
+						</ul>	
+						'> <i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Correct Results
+					</span>
+					
+				</td>
+				<td>
+					<select class="form-control" id="factor8">
+						<option value="0">-</option>
+						<option value="5">outstanding performance</option>
+						<option value="4">very good with few errors</option>
+						<option value="3">good work, with notable errors</option>
+						<option value="2">significant shortcomings</option>
+					</select>
+				</td>
+				<td><output id="out8">0</output></td>
+				<td><output>10 [2/10]</output></td>
+            </tr> 
+			<tr>
+				<td></td>
+				<td><button id="calc">Calculate</button></td>
+				<td><output id="result">0</output></td>
+				<td><output> / 50</output></td>
+			</tr>
+			<tr>
+				<td><h4>Citations</h4></td>
+				<td><input name="ttt" id="nocite" type="checkbox"> Lack of Source Citations <br>
+					In comments, reference all sources used (classroom, <br>
+					course material, references, videos, websites,...) <br>
+					and describe what changes you've made.</td>
+				<td><output id="penalty">0</output></td>
+				<td><output>&nbsp; [-40 /100]</output></td>
+			</tr>	
+			<tr class="active">
+				<td><h4>Calculated Grade</h4></td>
+				<td>&nbsp;</td>
+				<th><output id="grade50">0</output></th>
+				<td><h3><output class="text-danger"><span id="grade"></span> / 100</output></h3></td>
+			</tr>			
+		</table>
+		<h4>Comments</h4>
+		<p class="lead">&hellip;</p>	
+	</div>
+ </div>	
+
+	
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('#testing').popover({title: "<h3><strong>Program</strong> <em>style</em></h3>", content: 
+	+'<p><strong>Program Style.</strong> Style consists of comments, mnemonic variable names, '
+	+'and indentation. Thee purpose of good style is to make the meaning of your program clear '
+	+'to someone who has never seen it before, cannot run it, and cannot talk to you. Consider '
+	+'the following questions:</strong></p>'
+	+'<ul>\<li>Are variable names well chosen?</li>'
+	+'<li>Are functions used to partition the program appropriately?</li>'
+	+'<li>Is there a clear distinction between variables and constants?</li>'
+	+'<li>Is the program flow of control organized rather than just one big lump?</li>'
+	+'<li>Are comments relevant rather than simple repetitions of the code?</li>'
+	+'<li>Do comments point out key sections of code, indicate special cases, or do they make assertions?</li></ul>',
+	html: true, placement: "right", trigger: "hover", container: '.container',
+	template: '<div class="popover popover-medium"><div class="arrow"></div><div class="popover-inner"><h3 class="popover-title"></h3><div class="popover-content"><p></p></div></div></div>'
+     });
+});
+$(document).ready(function(){
+    $('.epopup').popover({html: true, placement: "right", trigger: "hover", container: 'body',
+	template: '<div class="popover popover-medium"><div class="arrow"></div><div class="popover-inner"><h3 class="popover-title"></h3><div class="popover-content"><p></p></div></div></div>'});
+});
+</script>
+	
+<script>
+var sum = 0, finalGrade = 0;
+var numbers = [0, 0, 0, 0, 0, 0, 0, 0];
+var weight =  [1, 1, 1, 1, 1, 2, 1, 2];
+function recalc(item) { sum += item; }
+
+document.getElementById("nocite").addEventListener("change", function() {
+	console.log(this.checked);
+});
+document.getElementById("calc").addEventListener( "click", function() {
+	sum=0;
+	numbers.forEach(recalc);
+	document.getElementById("result").innerHTML = sum;
+	if (document.getElementById("nocite").checked) {
+		finalGrade = sum - 20;
+		document.getElementById("penalty").innerHTML = "-20";
+	} else {
+		finalGrade = sum;
+		document.getElementById("penalty").innerHTML = "";
+	}		
+	document.getElementById("grade50").innerHTML = finalGrade;
+	document.getElementById("grade").innerHTML = finalGrade * 2;
+}, false ) ;
+	
+document.getElementById("factor1").addEventListener( "click", function() {
+	numbers[0] = parseInt(document.getElementById("factor1").value);
+	document.getElementById("out1").innerHTML = numbers[0];
+}, false ) ;
+document.getElementById("factor2").addEventListener( "click", function() {
+	numbers[1] = parseInt(document.getElementById("factor2").value);
+	document.getElementById("out2").innerHTML = numbers[1];
+}, false ) ;	
+document.getElementById("factor3").addEventListener( "click", function() {
+	numbers[2] = parseInt(document.getElementById("factor3").value);
+	document.getElementById("out3").innerHTML = numbers[2];
+}, false ) ;
+document.getElementById("factor4").addEventListener( "click", function() {
+	numbers[3] = parseInt(document.getElementById("factor4").value);
+	document.getElementById("out4").innerHTML = numbers[3];
+}, false ) ;
+document.getElementById("factor5").addEventListener( "click", function() {
+	numbers[4] = parseInt(document.getElementById("factor5").value);
+	document.getElementById("out5").innerHTML = numbers[4];
+}, false ) ;
+document.getElementById("factor6").addEventListener( "click", function() {
+	numbers[5] = parseInt(document.getElementById("factor6").value) * weight[5];
+	document.getElementById("out6").innerHTML = numbers[5];
+}, false ) ;	
+document.getElementById("factor7").addEventListener( "click", function() {
+	numbers[6] = parseInt(document.getElementById("factor7").value);
+	document.getElementById("out7").innerHTML = numbers[6];
+}, false ) ;
+document.getElementById("factor8").addEventListener( "click", function() {
+	numbers[7] = parseInt(document.getElementById("factor8").value) * weight[7];
+	document.getElementById("out8").innerHTML = numbers[7];
+}, false ) ;
+	
+</script>   
+
+</body>
+</html>
