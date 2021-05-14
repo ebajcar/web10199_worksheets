@@ -1,0 +1,186 @@
+/* summer 2021 */
+
+/* 
+ *	dialog (help)
+ *
+ */
+dialog {
+	position: fixed;
+	top: 50%;
+	transform: translate(0, -50%);
+	background: #e0e0e0;
+	padding: 3px;
+	border: 1px solid gray;
+	box-sizing: border-box;
+	width: 50%;
+}
+dialog h2 {
+	font-size: 40px;
+}
+
+dialog section {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	text-align: left;
+	padding: 3px;
+	box-sizing: border-box;
+	height: 300px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+dialog p, dialog ul {
+	font-family: var(--fontbody);
+}
+
+
+
+/* 
+ *	tooltips 
+ *
+ */
+
+.tooltip {
+  border-bottom: 1px dotted black;
+  display: inline-block;
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  background-color: var(--sherblue);
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1.1em;
+  left: 50%;
+  margin-left: -60px;
+  padding: 5px 0;
+  position: absolute;
+  text-align: center;
+  top: 110%;
+  visibility: hidden;
+  width: 120px;  
+  z-index: 1;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+/* 
+ *	colors and background images 
+ *
+ */
+
+.tomato {
+  background: tomato;
+}
+.sblue {
+  background: #093D6D;
+}
+.steal {
+  background: #47d1d1;
+}
+.galaxy-blue {
+  background: #2A4B7C;
+}
+.dark-cheddar {
+  background: #E08119;
+}
+.bluestone {
+  background: #577284;
+}
+.soybean {
+  background: #D2C29D;
+}
+.sailor-blue {
+  background: #2E4A62;
+}
+.warm-sand {
+  background: #C0AB8E;
+}
+.red-pear {
+  background: #7F4145;
+}
+.guacamole {
+  background: #797B3A;
+}
+.evening-blue {
+  background: #2A293E;
+}
+.spruce {
+  background: #005960;
+}
+.chili-pepper {
+  background: #9B1B30;
+}
+
+.tic-tac-toe, .rock-paper, .casino-craps, 
+.blackjack, .sliding-puzzle, .bingo,
+.hangman, .yahtzee, .num-scrabble,
+.pick-a-pair, .crypto-puzzle, .ultimate,
+.chess, .pig, .abacus, .wyvern {
+  background-size:  var(--cell-size) var(--cell-size);  
+  background-repeat: no-repeat;
+}
+.tic-tac-toe {
+  background-image: url("../images/tic-tac-toe.png");
+}
+.rock-paper {
+  background-image: url("../images/scissors.png");
+}
+.casino-craps {
+  background-image: url("../images/rolling-dices.png");
+}
+.blackjack {
+  background-image: url("../images/card-queen-clubs.png");
+}
+.sliding-puzzle {
+  background-image: url("../images/puzzle.png");
+}
+.bingo {
+  background-image: url("../images/conway-life-glider.png");
+}
+.hangman {
+  background-image: url("../images/gibbet.png");
+}
+.yahtzee {
+  background-image: url("../images/perspective-dice-six-faces-four.png");
+}
+.num-scrabble {
+  background-image: url("../images/perspective-dice-five.png");
+}
+.pick-a-pair {
+  background-image: url("../images/hieroglyph-y.png");
+}
+.crypto-puzzle {
+  background-image: url("../images/maze.png");
+}
+.chess {
+  background-image: url("../images/empty-chessboard.png");
+}
+.ultimate {
+  background-image: url("../images/hexes.png");
+}
+.pig {
+  background-image: url("../images/pig.png");
+}
+.abacus {
+  background-image: url("../images/abacus.png");
+}
+.wyvern {
+  background-image: url("../images/wyvern.png");
+}
