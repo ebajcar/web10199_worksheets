@@ -1,4 +1,20 @@
-/* 2021 summer */
+/* 
+	Author: Ellen Bajcar
+	Program: style.css
+	Date: Summer 2016 
+	Date Updated: Summer 2021
+	Version: 21.5
+	Purpose: learning Javascript programming (SYST10199)
+	Copyright: This work is the intellectual property of Sheridan College. 
+		Any further copying and distribution outside of class must be within 
+		the copyright law. Posting to commercial sites for profit is prohibited.
+	Description:
+		styling components used in assignments during Summer 2021 course
+    main (core) set of CSS rules used across the site to give it the same look-and-feel
+		includes basic, structural components and layout
+
+
+*/
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Akronim|Asap+Condensed|Barrio|Frijole|Luckiest+Guy|Princess+Sofia');
 :root {
@@ -98,7 +114,24 @@ nav a.active, nav a:hover, nav span:hover {
   color: var(--darkgray);
   cursor: pointer;
 }
-
+nav .dropdown {
+  position: relative;
+  display: inline-block;
+}
+nav .dropdown-content {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  width: 160px;
+  z-index: 1;
+}
+nav .dropdown-content > a {
+  display: block;
+  
+}
+nav .dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* 
  *	main grid 
