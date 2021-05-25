@@ -8,26 +8,26 @@
 // from https://www.w3schools.com/js/tryit.asp?filename=tryjs_es6_var
 // Redeclaring a variable using the var keyword can impose problems.
 // Redeclaring a variable inside a block will also redeclare the variable outside the block
-var  x;
+var  x = 10;
 // Here x is 10
 {  
-  var x = "abc";
+  var x = 2;
   // Here x is 2
 }
 // Here x is 2
-document.getElementById("demo1").innerHTML = '<span style="font-size:2em">' + x + "</span>";
+document.getElementById("demo1").innerHTML = x;
 </script>
 
 
 
-<p id="demo3"></p>
+
 <h2>Declaring a Variable Using let</h2>
 <p id="demo2"></p>
 <script>
 // from https://www.w3schools.com/js/tryit.asp?filename=tryjs_es6_let
 // Variables declared with the let keyword can have Block Scope.
 // Variables declared inside a block {} can not be accessed from outside the block:
-var  y;
+var  y = 10;
 // Here y is 10
 {  
   let y = 2;
@@ -35,9 +35,13 @@ var  y;
 }
 // Here y is 10
 document.getElementById("demo2").innerHTML = y;
+</script>
 
-var hour = "5";
-if (hour === 5) {
+<h2>Comparing</h2>
+<p id="demo3"></p>
+<script>
+var hour = "18";
+if (hour === 18) {
   document.getElementById("demo3").innerHTML = "true";
 } else {
   document.getElementById("demo3").innerHTML = "false";
