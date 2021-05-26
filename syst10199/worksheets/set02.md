@@ -30,15 +30,15 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 
 Explore, implement, and comment well.
 
-- [var vs. let](syst10199/set2/var_vs_let.html)
-- [if control structure and conditionals](syst10199/set2/if_structure.html)
-- [`for` loop diagram](syst10199/set2/diagram_for_loop.html)
-- [`for` loop used to loop through options in a `select` element](syst10199/set2/for_loop_options.html)
-- [Fibonacci -console](syst10199/set2/fib_v1_console.html)
-- [Fibonacci -console, array](syst10199/set2/fib_v1_arr_console.html)
-- [Fibonacci -ES6](syst10199/set2/fib_es6_oo.html)
-- [Fibonacci -ES6,iterator](syst10199/set2/fib_es6_iterator.html)
-- [Eratosthenes Sieve (prime numbers)](syst10199/set2/eratosthenes_sieve.html)
+- [var vs. let](../../syst10199/set2/var_vs_let.html)
+- [if control structure and conditionals](../../syst10199/set2/if_structure.html)
+- [`for` loop diagram](../../syst10199/set2/diagram_for_loop.html)
+- [`for` loop used to loop through options in a `select` element](../../syst10199/set2/for_loop_options.html)
+- [Fibonacci -console](../../syst10199/set2/fib_v1_console.html)
+- [Fibonacci -console, array](../../syst10199/set2/fib_v1_arr_console.html)
+- [Fibonacci -ES6](../../syst10199/set2/fib_es6_oo.html)
+- [Fibonacci -ES6,iterator](../../syst10199/set2/fib_es6_iterator.html)
+- [Eratosthenes Sieve (prime numbers)](../../syst10199/set2/eratosthenes_sieve.html)
 
 
 ## Formulate answers to the following questions
