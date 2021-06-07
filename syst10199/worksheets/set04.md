@@ -2,7 +2,7 @@
 
 
 ## Key terms and concepts to understand
-> &bull; Javascript  &bull; imperative programming  &bull; variable  &bull; value  &bull; literal  &bull; IPO operator &bull; expression  &bull; keyword  &bull; identifier  &bull;  data type &bull; strict mode  &bull; console  &bull;  algorithm  &bull; object-oriented programming  &bull; computer application  &bull;  text editor  &bull; client/server  &bull;  type conversion  &bull; function &bull; method &bull; event &bull;  event handling &bull;
+> &bull; Javascript  &bull; imperative programming  &bull; variable  &bull; value  &bull; literal  &bull; IPO operator &bull; expression  &bull; keyword  &bull; identifier  &bull;  data type &bull; strict mode  &bull; console  &bull;  algorithm  &bull; object-oriented programming  &bull; computer application  &bull;  text editor  &bull; client/server  &bull;  type conversion  &bull; function &bull; method &bull; event &bull;  event handling &bull;  DOM &bull; DOM node &bull; node list &bull; first class object
 > 
 ---
 
@@ -28,6 +28,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 - [Functions - mix](syst10199/set4/functions_mix.html)
 - [DOM methods - query* vs. getelement*](syst10199/set4/query_vs_getelement.html)
 - [Collection of class examples (some repeats, some new)](https://ebajcar.github.io/class_examples/)
+- there are also examples in the Course material and Weekly slides
 
 ### Formulate answers to the following questions
 1. What is the idea behind encapsulation in Javascript?
