@@ -11,7 +11,9 @@
 ### Read and analyze (analytical reading)
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
 
-1. [Javascript Objects, Functions, Event handling](https://ebajcar.github.io/web10199/material/material_js.html)
+1. [Javascript Objects](https://ebajcar.github.io/web10199/material/material_js.html#page70) &dash; 
+3. [Javascript Functions](https://ebajcar.github.io/web10199/material/material_js.html#page80) &dash; 
+4. [Event handling](https://ebajcar.github.io/web10199/material/material_js.html#page90)
 
 ### Watch Suggested videos
 
@@ -22,7 +24,15 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 - [Functions](syst10199/set4/functions_mix.html)
 
 ### Formulate answers to the following questions
-1. What is an algorithm?
+1. What is the idea behind encapsulation in Javascript?
+2. What are the categories of objects? Give examples of each.
+3. Describe a Javascript object. How do they differ from Java objects?
+4. Describe arrays in Javascript. How do they differ from Java arrays?
+5. Can arrays and object hold other arrays and objects?
+6. What is DOM? What do nodes in the DOM represent?
+7. How do you access CSS properties?
+8. What are the three parts of the browser environment? what is at the top of the hierarchy?
+9.  
 
 
 ---
