@@ -21,7 +21,12 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 
 ### Class examples
 
-- [Functions](syst10199/set4/functions_mix.html)
+- [no encapsulation](syst10199/set4/encapsulation_no.html)
+- [with encapsulation](syst10199/set4/encapsulation_yes.html)
+- [Fibonacci numbers with arrays and DOM](syst10199/set4/fib_func_dom.html.html)
+- [Functions - random item](syst10199/set4/function_random_name.html)
+- [Functions - mix](syst10199/set4/functions_mix.html)
+- [DOM methods - query* vs. getelement*](syst10199/set4/query_vs_getelement.html)
 
 ### Formulate answers to the following questions
 1. What is the idea behind encapsulation in Javascript?
