@@ -27,6 +27,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 - [Functions - random item](syst10199/set4/function_random_name.html)
 - [Functions - mix](syst10199/set4/functions_mix.html)
 - [DOM methods - query* vs. getelement*](syst10199/set4/query_vs_getelement.html)
+- [Collection of class examples (some repeats, some new))[https://ebajcar.github.io/class_examples/]
 
 ### Formulate answers to the following questions
 1. What is the idea behind encapsulation in Javascript?
