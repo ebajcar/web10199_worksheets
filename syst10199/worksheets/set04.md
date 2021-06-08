@@ -12,9 +12,9 @@
 ### Read and analyze (analytical reading)
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
 
-1. [Javascript Objects](https://ebajcar.github.io/web10199/material/material_js.html#page70) &dash; 
-3. [Javascript Functions](https://ebajcar.github.io/web10199/material/material_js.html#page80) &dash; 
-4. [Event handling](https://ebajcar.github.io/web10199/material/material_js.html#page90)
+1. [Javascript Objects](https://ebajcar.github.io/web10199/material/material_js.html#page70) - built-in, custom, DOM, BOM (window object) 
+3. [Javascript Functions](https://ebajcar.github.io/web10199/material/material_js.html#page80) - function definition, calling a function, callback, annonymous, first-class, error handling 
+4. [Event handling](https://ebajcar.github.io/web10199/material/material_js.html#page90) - event attributes, event methods, event listeners, event capture and bubbling
 
 ### Watch Suggested videos
 
