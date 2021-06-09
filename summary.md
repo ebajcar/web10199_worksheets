@@ -81,7 +81,7 @@
 | method or property | description |
 |--------------------|-------------|
 | document.addEventListener()	| Attaches an event handler to the document |
-| document.anchors	| Returns a collection of all <a> elements in the document that have a name attribute |
+| document.anchors	| Returns a collection of all &lt;a> elements in the document that have a name attribute |
 | document.body	| Sets or returns the document's body (the <body> element) |
 | document.close()	| Closes the output stream previously opened with document.open() |
 | document.createElement() |	Creates an Element node |
@@ -92,7 +92,7 @@
 | document.getElementsByName()	| Returns a NodeList containing all elements with a specified name |
 | document.getElementsByTagName()	| Returns a NodeList containing all elements with the specified tag name |
 | document.images	| Returns a collection of all <img> elements in the document |
-| document.links	| Returns a collection of all <a> and <area> elements in the document that have a href attribute |
+| document.links	| Returns a collection of all <a> and &lt;area> elements in the document that have a href attribute |
 | document.open()	| Opens an HTML output stream to collect output from document.write() |
 | document.querySelector() |	Returns the first element that matches a specified CSS selector(s) in the document |
 | document.querySelectorAll()	| Returns a static NodeList containing all elements that matches a specified CSS selector(s) in the document | 
