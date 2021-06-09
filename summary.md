@@ -1,4 +1,13 @@
-# Review
+# Learning objectives
+
+> (1) Apply dynamically-typed variables with implicit type conversion… using JS.
+> (2) Apply JS functions and control structures…
+> (3) Design small client-side web apps that employ JS functions to respond to HTML DOM events… making changes to the HTML DOM.
+> (4) Apply JavaScript's support for first class functions…
+> (8) Apply best practices in internal documentation, file naming and web site structure…
+
+
+# Review material to answer the following questions
 
 1. What is full stack development? what technologies you need to know and understand?
 2. Describe the data flow in a web client/server environment.
