@@ -95,8 +95,10 @@
 | document.links	| Returns a collection of all <a> and <area> elements in the document that have a href attribute |
 | document.open()	| Opens an HTML output stream to collect output from document.write() |
 | document.querySelector() |	Returns the first element that matches a specified CSS selector(s) in the document |
-| document.querySelectorAll()	| Returns a static NodeList containing all elements that matches a specified CSS selector(s) in the document | document.readyState	| Returns the (loading) status of the document |
-| document.removeEventListener()	| Removes an event handler from the document (that has been attached with the addEventListener() method) | document.title	| Sets or returns the title of the document |
+| document.querySelectorAll()	| Returns a static NodeList containing all elements that matches a specified CSS selector(s) in the document | 
+| document.readyState	| Returns the (loading) status of the document |
+| document.removeEventListener()	| Removes an event handler from the document (that has been attached with the addEventListener() method) |
+| document.title	| Sets or returns the title of the document |
 | document.write()	| Writes HTML expressions or JavaScript code to a document |
   
   
