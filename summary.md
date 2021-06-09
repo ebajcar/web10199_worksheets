@@ -70,6 +70,7 @@
 52. How do you elicit user feedback?
 53. Explain what is meant by events cascading through the entire DOM hierarchy? what happens when elements are nested or overlapping?
 54. What are the three ways of assigning Javascript to an event? event attributes? event methods? event listeners? Give example with explanation how it works for each.
+55. What is BOM? what properties and methods are accessible? give examples when you would use them?
 
 
 
@@ -80,10 +81,10 @@
 
 | method or property | description |
 |--------------------|-------------|
-| document.addEventListener()	| Attaches an event handler to the document |
-| document.anchors	| Returns a collection of all &lt;a> elements in the document that have a name attribute |
-| document.body	| Sets or returns the document's body (the &lt;body> element) |
-| document.close()	| Closes the output stream previously opened with document.open() |
+| `document.addEventListener()`	| Attaches an event handler to the document |
+| `document.anchors`	| Returns a collection of all &lt;a> elements in the document that have a name attribute |
+| `document.body`	| Sets or returns the document's body (the &lt;body> element) |
+| `document.close()`	| Closes the output stream previously opened with document.open() |
 | document.createElement() |	Creates an Element node |
 | document.createTextNode()	| Creates a Text node |
 | document.forms |	Returns a collection of all &lt;form> elements in the document |
