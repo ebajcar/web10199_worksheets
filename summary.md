@@ -10,6 +10,11 @@
 
 > (8) Apply best practices in internal documentation, file naming and web site structure…
 
+# Review
+- [How evaluation works](syst10199/noteworthy/how_evaluation_works.md)
+- [Coding style](syst10199/noteworthy/coding_style.md)
+- [Key elements of programming style](syst10199/noteworthy/key_elements_of_programming.md)
+
 
 # Review material to answer the following questions
 
