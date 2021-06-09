@@ -14,7 +14,7 @@
 - [How evaluation works](syst10199/noteworthy/how_evaluation_works.md)
 - [Coding style](syst10199/noteworthy/coding_style.md)
 - [Key elements of programming style](syst10199/noteworthy/key_elements_of_programming.md)
-
+- [Self-evaluation](syst10199/noteworthy/gradeCalc.html)
 
 # Review material to answer the following questions
 
