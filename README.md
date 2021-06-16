@@ -1,5 +1,7 @@
 [🗨️ Discussions](https://github.com/ebajcar/web10199_worksheets/discussions)
 
+[🗨️ Preparing for Midterm](summary.md)
+
 ---
 
 # JavaScript (client-side, front-end)
