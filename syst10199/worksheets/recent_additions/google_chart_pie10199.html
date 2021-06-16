@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Graphic: syst10199 evaluation</title>
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Almendra SC' rel='stylesheet'>
+<!--
+Author: Ellen Bajcar
+Date created: Spring 2017
+Date updated: Summer 2021
+Version: 3.0
+Copyright: 
+	This work is the intellectual property of Sheridan College. 
+	Any further copying and distribution outside of class must be within 
+	the copyright law. Posting to commercial sites for profit is prohibited.
+Purpose: 
+	Practice Javascript, HTML5, CSS3, and progressive enhancement	
+Description:	
+  Use Google charts library to create a pie chart graphic
+-->  
+<style>
+body {
+  font-family: 'Almendra SC';
+  font-size: 22px;
+  text-align: center;
+  width: 90%;
+  margin: 0;
+}
+div {
+  margin: auto;
+}
+</style>
+</head>  
+<body>
+  <div id="piechart"></div>
+  <footer><a href="https://www.w3schools.com/howto/howto_google_charts.asp" target="_blank">Preapred using Google charts</a></footer>
+
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script>
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Evaluation', 'Weight'],
+    ['Midterm (25%) written in week 6 (before reading week)', 25],
+    ['Final (25%) written in week 14 (last week of semester)', 25],
+    ['Assignment 1 Quiz (6.25)', 6.25],
+    ['Assignment 2      (6.25)', 6.25],  
+    ['Assignment 3 Quiz (6.25)', 6.25],
+    ['Assignment 4      (6.25)', 6.25],
+    ['Assignment 5 Quiz (6.25)', 6.25],
+    ['Assignment 6      (6.25)', 6.25],
+    ['Assignment 7 Quiz (6.25)', 6.25],
+    ['Assignment 8      (6.25)', 6.25]
+  ]);
+  var options = {
+    title: 'Evaluation Breakdown for SYST10199',
+    width:850, 
+    height:500,
+    pieStartAngle: 20, 
+    slices: {  0: {offset: 0.07},
+               1: {offset: 0.05},
+               3: {offset: 0.05},
+               5: {offset: 0.05},
+    },
+  };
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+</script>
+
+</body>
+</html>
+
+
