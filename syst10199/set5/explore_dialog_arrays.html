@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Dialog elements" />
+<meta charset=utf-8 />
+<title>Dialog Element</title>
+<style>
+
+
+</style>
+</head>
+<body>
+<!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog -->
+
+<!-- Simple pop-up dialog box, containing a form -->
+<dialog id="favDialog">
+  <form method="dialog">
+    <section>
+      <p><label for="favAnimal">Favorite animal:</label>
+      <select id="favAnimal">
+        <option></option>
+        <option>Brine shrimp</option>
+        <option>Red panda</option>
+        <option>Spider monkey</option>
+      </select></p>
+    </section>
+    <div>
+      <button id="cancel" type="reset">Cancel</button>
+      <button id="submit" type="submit">Confirm</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- element that triggers the opening of the dialogue box -->
+<div>
+  <button id="updateDetails">Update details</button>
+</div>
+ 
+<!-- element used to display the result of processing and closing the dialogue box -->
+<p id="demo1"></p>
+
+<script>
+//(function() {
+  var updateButton = document.getElementById('updateDetails');
+  var cancelButton = document.getElementById('cancel');
+  var submitButton = document.getElementById('submit');
+  var favDialog = document.getElementById('favDialog');
+  submitButton.onclick = function() {
+    demo1.innerText += favAnimal.selectedOptions[0].value + "\n";
+  }
+  // Update button opens a modal dialog
+  updateButton.addEventListener('click', function() {
+    favDialog.showModal();
+  });
+
+  // Form cancel button closes the dialog box
+  cancelButton.addEventListener('click', function() {
+    favDialog.close();
+  });
+//})();
+</script>
+</body>
+</html>
