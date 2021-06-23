@@ -44,7 +44,9 @@ Explore, implement, and comment well.
 - [forms (CSS)](../set5/forms_css.html)
 - [password strength](../set5/password_strength.html)
 - [range field data](../set5/range_field.html) 
-- [???](../set5/range_field.html) 
+- [feedback character count](../set5/feedback_form.html) 
+- [detailed custom validation](../set5/detailed_custom_validation.html)
+- [custom_error_message](../set5/custom_error_message.html)
 
 
 ### Formulate answers to the following questions
