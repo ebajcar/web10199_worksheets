@@ -37,6 +37,14 @@ Explore, implement, and comment well.
 
 - [Convert internal JS and CSS to external](syst10199/noteworthy/convert_int_to_ext.md)
 - [Forms - clean data](syst10199/set5/clean_data.html)
+- [compare passwords](syst10199/set5/compare_passwords.html)
+- [constraint validation](syst10199/set5/constraint_validation.html)
+- [email_regex](syst10199/set5/email_regex.html)
+- [email validation](syst10199/set5/email_validation.html)
+- [forms (CSS)](syst10199/set5/forms_css.html)
+- [password strength](syst10199/set5/password_strength.html)
+- [range field data](syst10199/set5/range_field.html) 
+- [???](syst10199/set5/range_field.html) 
 
 
 ### Formulate answers to the following questions
