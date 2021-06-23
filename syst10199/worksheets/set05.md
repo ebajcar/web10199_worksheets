@@ -11,7 +11,7 @@
 ### Read and analyze (analytical reading)
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
 
-1. [Javascript forms](https://ebajcar.github.io/web10199/material/material_js.html)
+1. [Javascript forms](https://ebajcar.github.io/web10199/material/material_js.html#page100) 
   - How forms are processed
   - HTML5 and CSS3 form components
   - Data validation
@@ -36,7 +36,15 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 Explore, implement, and comment well.
 
 - [Convert internal JS and CSS to external](syst10199/noteworthy/convert_int_to_ext.md)
-- [Forms - clean data](syst10199/set5/clean_data.html)
+- [Forms - clean data](../set5/clean_data.html)
+- [compare passwords](../set5/compare_passwords.html)
+- [constraint validation](../set5/constraint_validation.html)
+- [email_regex](../set5/email_regex.html)
+- [email validation](../set5/email_validation.html)
+- [forms (CSS)](../set5/forms_css.html)
+- [password strength](../set5/password_strength.html)
+- [range field data](../set5/range_field.html) 
+- [???](../set5/range_field.html) 
 
 
 ### Formulate answers to the following questions
