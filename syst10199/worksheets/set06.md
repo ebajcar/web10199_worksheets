@@ -24,7 +24,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 1. ...
 
 ### Class examples
-1. ...
+1. [PHP tryit editor (w3schools](https://www.w3schools.com/php/phptryit.asp?filename=tryphp_intro)
 
 ### Formulate answers to the following questions
 1. ???  
