@@ -28,7 +28,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 
 
 ### Class examples
-[PHP tryit editor (w3schools)](https://www.w3schools.com/php/phptryit.asp?filename=tryphp_intro) Copy the php code and press run to examine the output.
+<a href="https://www.w3schools.com/php/phptryit.asp?filename=tryphp_intro" target="_blank">PHP tryit editor (w3schools)</a> Copy the php code and press run to examine the output.
 1. [hello world example](../set6/hello_world.php)
 
 
