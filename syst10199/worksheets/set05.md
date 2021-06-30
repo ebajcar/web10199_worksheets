@@ -21,9 +21,9 @@
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
 
 1. [Javascript forms](https://ebajcar.github.io/web10199/material/material_js.html#page100) 
-  - How forms are processed
-  - HTML5 and CSS3 form components
-  - Data validation
+    - How forms are processed
+    - HTML5 and CSS3 form components
+    - Data validation
 5. [Regular expressions (regex)](https://ebajcar.github.io/web10199/material/material_regex.html)
 6. [W3C - HTML 5.3 - Section 4.10. Forms](http://w3c.github.io/html/sec-forms.html)  &mdash; A form is a component of a Web page that has form controls, such as text fields, buttons, checkboxes, range controls, or color pickers. A user can interact with such a form, providing data that can then be sent to the server for further processing (e.g., returning the results of a search or calculation). No client-side scripting is needed in many cases, though an API is available so that scripts can augment the user experience or use forms for purposes other than submitting data to a server.&hellip;
 7. <a target="_blank" href="https://www.w3schools.com/js/js_validation.asp">JS Forms</a>  &mdash; Learn about JavaScript Form Validation; JavaScript Can Validate Numeric Input; Automatic HTML Form Validation; Data Validation; HTML Constraint Validation; Constraint Validation HTML Input Attributes; Constraint Validation CSS Pseudo Selectors; &hellip;on w3schools.com
