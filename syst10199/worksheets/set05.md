@@ -27,10 +27,6 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 14. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions" target="_blank">Javascript Guide: Regular Expressions</a> &mdash; Regular expressions are patterns used to match character combinations in strings. In JavaScript, regular expressions are also objects. These patterns are used with the exec and test methods of RegExp, and with the match, replace, search, and split methods of String&hellip;
 
 
-### Watch Suggested videos
-
-- ...
-
 ### Class examples
 
 Explore, implement, and comment well.
