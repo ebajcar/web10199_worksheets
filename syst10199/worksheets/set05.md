@@ -49,8 +49,11 @@ Explore, implement, and comment well.
 - [custom_error_message](../set5/custom_error_message.html)
 
 
-### Formulate answers to the following questions
-1. What is ...?
+### Review (or catch up) with HTML forms and styling forms (syst10049)
+- [https://ebajcar.github.io/modules_syst10049/pages/ch_5_3_1.html](https://ebajcar.github.io/modules_syst10049/pages/ch_5_3_1.html) **An HTML form** is a section of a document containing normal content, markup, special elements called controls (checkboxes, radio buttons, menus, etc.), and labels on those controls. Users generally "complete" a form by modifying its controls (entering text, selecting menu items, etc.), before submitting the form to an agent for processing (e.g., to a Web server, to a mail server, etc.)
+- [https://ebajcar.github.io/modules_syst10049/tutorials/Set05.html](https://ebajcar.github.io/modules_syst10049/tutorials/Set05.html) HTML5 form • INPUT element • grouping controls • POST method • GET method
+- [https://ebajcar.github.io/modules_syst10049/pages/ch_9_000_forms.html](https://ebajcar.github.io/modules_syst10049/pages/ch_9_000_forms.html) **Styling forms** Data validation is the process of ensuring that computer input is clean, correct, and useful. Most often, the purpose of data validation is to ensure correct input to a computer application.
+- [https://github.com/ebajcar/modules_syst10049/blob/main/tutorials/Set10.md](https://github.com/ebajcar/modules_syst10049/blob/main/tutorials/Set10.md)
 
 ---
 
