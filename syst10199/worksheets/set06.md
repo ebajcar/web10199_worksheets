@@ -29,7 +29,11 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 
 ### Class examples
 <a href="https://www.w3schools.com/php/phptryit.asp?filename=tryphp_intro" target="_blank">PHP tryit editor (w3schools)</a> Copy the php code and press run to examine the output.
-1. [hello world example](../set6/hello_world.php)
+1. [hello world example](../set6/hello_world.php) copy to PHP tryit editor (inside &lt;body> element)
+2. [variables examples](../set6/variables.php)
+3. [print, printf, echo examples](../set6/print_printf.html) copy to PHP tryit editor
+4. [try...catch example](../set6/try_catch.php)
+5. [Say hello example using GET method](../set6/say_hello.php) Examine to code and copy the given URL into your browser address. Try changing the value.
 
 
 
