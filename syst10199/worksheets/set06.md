@@ -23,6 +23,12 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 3. [PHP Operators](https://ebajcar.github.io/web10199/material/material_php.html#page30)
 4. [PHP Variables](https://ebajcar.github.io/web10199/material/material_php.html#page40)
 5. [PHP Data types](https://ebajcar.github.io/web10199/material/material_php.html#page50)
+6. [A simple tutorial (PHP Manual)](https://www.php.net/manual/en/tutorial.php)
+7. [PHP Introduction (w3schools)](https://www.w3schools.com/php/php_intro.asp)
+8. [PHP Syntax (w3schools)](https://www.w3schools.com/php/php_syntax.asp)
+9. [PHP Variables (w3schools)]
+10. [PHP echo and print (w3schools)](https://www.w3schools.com/php/php_echo_print.asp)
+
 
 
 
@@ -32,8 +38,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 1. [hello world example](../set6/hello_world.php) copy to PHP tryit editor (inside &lt;body> element)
 2. [variables examples](../set6/variables.php)
 3. [print, printf, echo examples](../set6/print_printf.html) copy to PHP tryit editor
-4. [try...catch example](../set6/try_catch.php)
-5. [Say hello example using GET method](../set6/say_hello.php) Examine to code and copy the given URL into your browser address. Try changing the value.
+4. [Say hello example using GET method](../set6/say_hello.php) Examine to code and copy the given URL into your browser address. Try changing the value.
 
 
 
