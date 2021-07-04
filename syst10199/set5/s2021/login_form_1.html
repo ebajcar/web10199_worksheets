@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login Form</title>
+	<meta charset="UTF-8">
+  <style>
+  html, body { width: 800px; margin: auto; padding: 0; }
+  h2 { color: red;font-weight: bold; }
+  label { display: block; padding: 5px; margin: 5px; }
+  </style>
+</head>
+<body>
+	<article>
+    <h1>Login Form</h1>
+		<h2>WARNING: DO NOT USE ACTUAL DATA (MAKE UP STUFF)</h2>
+		<!--note the URL value after submit -->
+		<form method="get" action="https://bajcar.dev.fast.sheridanc.on.ca/php10199/set06/say_hello.php"> 
+		<fieldset>
+			<legend>Enter your credentials, then press Submit button: </legend>
+			<label>User ID: <input type="text" name="name" size="50" maxlength="255" value="" /></label  			 
+			<label>Password: <input type="password" name="password" size="50" 
+				pattern="[A-Za-z0-9]{6,8}" placeholder="password must be 6 to 8 alphanumeric characters." value="" /></label>
+			<input type="submit" value="Submit" />
+		</fieldset>	
+		</form>
+	</article>
+		
+</body>
+</html>
