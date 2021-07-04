@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Modifying Forms with JS</title>
+<meta charset="utf-8">
+<style> 
+input {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+.mail { 
+  display:block; 
+}
+.email, .phone { 
+  display:none; 
+}
+</style> 	
+</head>
+<body>
+	<p>The form below changes depending on the radio button selected.</p>
+	<hr>
+	<form name="form1">
+		<p>How would you like us to contact you?</p>
+		<label><input type="radio" name="type" id="rmail" value="mail" checked>By mail</label>
+		<label><input type="radio" name="type" id="remail" value="email">By email</label>
+		<label><input type="radio" name="type" id="rphone" value="phone">By phone</label>
+    <hr>
+		<p id="mail" class="mail">
+			<label>Address 1:</label> <input type="text" name="address1" size="25">	<br>
+			<label>Address 2:</label> <input type="text" name="address2" size="25"> <br>
+			<label>City:</label> <input type="text" name="city" size="14">
+			<label>Province:</label> <input type="text" name="prov" size="5">
+			<label>Postal Code:</label> <input type="text" name="pcode" size="9">
+		</p>
+		<p id="email" class="email">
+			<label>Email address:</label> <input type="text" name="email" size="25">
+		</p>
+		<p id="phone" class="phone">
+			<label>Phone:</label> <input type="text" name="phone" size="15">
+		</p>
+    <hr>
+	</form>
+
+<script type="text/javascript">
+function display(which) {
+  let mail = document.getElementById("mail");
+  let email = document.getElementById("email");
+  let phone = document.getElementById("phone");
+  ( which == "mail" ) ? mail.style.display = "block" : mail.style.display = "none";
+  ( which == "email" ) ? email.style.display = "block" : email.style.display = "none";
+  ( which == "phone" ) ? phone.style.display = "block" : phone.style.display = "none";
+}
+rmail.addEventListener("click", function() {display("mail");}, false);	
+remail.addEventListener("click", function() {display("email");}, false);
+rphone.addEventListener("click", function() {display("phone");}, false);
+</script>	
+</body>
+</html>

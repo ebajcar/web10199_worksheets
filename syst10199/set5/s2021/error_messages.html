@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Example 1</title>
+<!-- 
+    Constraint Validation DOM Methods
+    adopted from http://www.w3schools.com/js/js_validation_api.asp 
+-->        
+</head>
+
+<body>
+  <p>Enter a number and click OK:</p>
+  <input id="id1" type="number" min="100" max="300">
+  <button id="btn">OK</button>
+  <p>If the number is less than 100 or greater than 300, an error message will be displayed.</p>
+  <p id="demo"></p>
+
+
+<script>
+function myFunction() {
+  var inpObj = document.getElementById("id1");
+  if (inpObj.checkValidity() == false) {
+    document.getElementById("demo").innerText = inpObj.validationMessage;
+  } else {
+    document.getElementById("demo").innerText = "Input OK (this is a custom message)";
+  } 
+} 
+document.getElementById("btn").onclick = myFunction ;
+</script>
+</body>
+</html>

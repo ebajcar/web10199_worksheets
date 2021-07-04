@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Modifying Forms with JS - add item</title>
+<meta charset="utf-8">
+<style> 
+input {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+label { 
+  display: inline-block;
+  width: 75px;
+}
+</style> 	
+</head>
+<body>
+	<p>The form below allows you to add elements dynamically.</p>
+	<hr />
+	<form name="form1">
+    <input type="button" value="Add an Item" id="additem">
+		<div id="items">
+			<label>Item 1: </label><input type="text" name="itemx" size="45">		
+		</div>
+	</form>
+	
+<script>
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#constants
+const BUTTON = document.getElementById("additem");
+const PARENT = document.getElementById("items");
+const INPUTS = document.getElementsByName("itemx");
+var items = INPUTS.length;
+function addItem() {
+		items++;
+		document.getElementById("items").innerHTML += "<br>";
+		//create the elements 
+		var newItem = document.createElement("label");
+		//to add content
+		var itemText = document.createTextNode("Item " + items + ": ");
+		//and add them as child nodes to the new elements
+		newItem.appendChild(itemText);
+		//and we still need to attach them to the document!
+		document.getElementById("items").appendChild(newItem);
+		
+		var newInput = document.createElement("input");
+		newInput.setAttribute("type", "text");
+		newInput.setAttribute("name", "item"+"x");
+		newInput.setAttribute("size", 45);
+		PARENT.appendChild(newInput);
+}
+BUTTON.addEventListener("click", addItem);
+</script>	
+</body>
+</html>

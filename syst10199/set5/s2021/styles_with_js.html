@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Example 1</title>
+</head>
+<body>
+	<h3>Using <code>.getElementsByTagName</code> and <code>.style</code></h3>
+	<form id="pizza">   
+      <label><input type="checkbox" name="Topping" value="red"> Red  </label>
+      <label><input type="checkbox" name="Topping" value="blue"> Blue </label>
+      <label><input type="checkbox" name="Topping" value="green"> Green </label>
+      <label><input type="checkbox" name="Topping" value="orange"> Orange </label>
+      <label><input type="checkbox" name="Topping" value="yellow"> Yellow </label>
+      <label><input type="checkbox" name="Topping" value="purple"> Purple </label>
+    </form>
+
+<script type="text/javascript">   
+function init() {  
+  var sheet = document.createElement('style')
+  sheet.innerHTML = "label { margin: 5px; padding: 15px; } \n";       
+  sheet.innerHTML += "input[value=yellow] { -ms-transform: scale(3); -moz-transform: scale(3); -webkit-transform: scale(3); -o-transform: scale(3); vertical-align:middle; }";
+  document.getElementsByTagName("head")[0].appendChild(sheet);
+
+
+  var form1 = document.getElementsByTagName("form");
+  console.log("form1 " + form1);
+  var form = document.getElementsByTagName("form")[0];
+  console.log("form " + form);
+  for (var i = 0; i < form.Topping.length; i++)
+    form.Topping[i].checked = true; 
+         
+  var myColors = document.getElementsByTagName("label");
+
+  // http://www.w3schools.com/jsref/dom_obj_style.asp
+  var curInput = myColors[0].firstChild.value;
+  console.log("myColors[0] " + curInput);
+  myColors[0].style.color = myColors[0].firstChild.value;
+  myColors[1].style.color = "blue";
+  myColors[2].style.color = "green";
+  myColors[3].style.color = myColors[3].getElementsByTagName("input")[0].value;
+  myColors[4].style.color = myColors[4].getElementsByTagName("input")[0].value;
+  myColors[4].style.backgroundColor = "black";
+  myColors[4].style.fontSize = "2.2em";
+  myColors[5].style.color = myColors[5].getElementsByTagName("input")[0].value;
+} document.addEventListener("DOMContentLoaded", init, false ) ;
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Modifying Forms with JS</title>
+<meta charset="utf-8">
+<style> 
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+</style> 	
+</head>
+<body>
+  <p>If shipping address is different than billing address, select the checkbox: <input type="checkbox"></p>
+  
+	<div id="shipto" class="hide">include all form information here for the ship-to address.</div>
+	<hr>
+
+
+<script>
+var obj = document.getElementById("shipto");
+var checkbox = document.getElementsByTagName("input")[0]
+checkbox.onclick = function () {
+  (checkbox.checked) 
+    ? obj.setAttribute("class", "show")
+    : obj.setAttribute("class", "hide");
+} 
+</script>	
+</body>
+</html>
