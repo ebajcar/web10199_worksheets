@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forum | Birdwatching</title>
+	<meta charset="utf-8">	
+	<link href="https://www.sheridancollege.ca/-/media/project/sheridan/shared/images/favicon-bold/favicon-32x32.png" rel="shortcut icon" />
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300%7CCinzel+Decorative:700" rel="stylesheet">
+<style>
+@import url(http://fonts.googleapis.com/css?family=Allan:700);
+/*
+  Web Development (SYST10049)
+  Sheridan College, Winter 2021
+*/  
+body {
+  width: 60%;
+  margin: auto;
+}
+
+/* blog form */
+.blog {
+  height : auto;
+  padding : 0;
+}
+.blog form {
+  border-radius: 5px;
+  background : #DDD; 
+  padding : 10px;
+}
+.blog fieldset {
+  background : white;
+  padding: 5px 10px;
+  border: none;
+}
+.blog input,
+.blog fieldset {
+  margin-bottom: 10px;
+}
+.blog label {
+  color : #666;
+  font-size : 1em;
+  font-weight : bold;
+  margin-left: 2px;
+}
+.blog textarea {
+  height : 150px;
+}
+     
+.blog input[type=text], 
+.blog textarea {
+  border-radius: 4px;
+  border : 1px solid #CCC;
+  font-size : 1.1em;
+  padding : 4px 5px;
+  width : 98%;
+}       
+.blog .bttn {
+  background: #999;
+  border : 1px solid #888;
+  color: #FFF;
+  cursor : pointer;
+  font-weight : bold;
+  margin : 10px 0 0 0;
+  text-shadow : 0 -1px 1px rgba(0,0,0,0.25);
+  width : 100%;
+  height: 2em;
+}
+.feeback-length {
+  text-align: right;
+  color: red;
+  margin-top: 0;
+  padding-right: 1em;
+}
+</style>
+</head>
+<body>
+	  <section class="blog">
+				<h3>Submit your comments...</h3>
+				<form id="blogform">
+					<label>Name</label>
+					<input name="username" id="username" type="text" placeholder="Your Name">
+					<label>Email</label>
+					<input name="email" type="text" placeholder="Your Email">
+          <label>Select Tags</label>
+          <fieldset>
+              <input name="btags" type="checkbox" value="Food">  Food
+              <input name="btags" type="checkbox" value="Passion"> Passion
+              <input name="btags" type="checkbox" value="School"> School
+              <input name="btags" type="checkbox" value="Holidays"> Holidays
+              <input name="btags" type="checkbox" value="Technology"> Technology
+          </fieldset>
+					<label>Blog Heading</label>
+					<input name="bloghead" type="text" placeholder="Your Blog Heading">                    
+					<label for="blogbody">Your Comments</label>
+					<textarea name="blogbody" id="blogbody" class="maxLength" placeholder="Your comments here..."></textarea>
+          <p class="feeback-length">Characters remaining: <var id="feedback">200</var></p>
+					<input class="bttn" id="bttn" type="button" value="submit">
+          <input class="bttn" id="bttn2" type="reset" value="reset">
+				</form> 
+			</section>
+
+		<aside>
+        <h2>Recent Posts</h2> 
+        <section id="post1">
+            <h2>An Example Forum Post</h2>
+            <h5>Post by Your Professor, April 9, 2021.</h5>
+            <p><span>Tags </span> &mdash;&nbsp;&nbsp; School &bull; Technology &bull;</p>
+            <p>This blog is part of your assignment.  Your mission is to incorporate and style the form in the Birdwatching web site. </p>        
+        </section>                 
+		</aside> 
+<script>
+function posting() { 
+  let i, isOk,  summary = "&mdash;&nbsp;&nbsp; "; 
+  let d = new Date();
+  let form = document.getElementById("blogform"); 
+  for ( i=0; i < form.btags.length; i++ ) { 
+      if ( form.btags[i].checked ) 
+          summary +=  " * " + form.btags[i].value; 
+  }      
+  let panel = document.getElementById("post1"); 
+  let aside = document.getElementsByTagName("aside")[0];
+  let newSection = document.createElement("section");
+  newSection.appendChild(document.createElement("h2")).innerText = form.bloghead.value;
+  newSection.appendChild(document.createElement("h5")).innerText = form.username.value + ", " + d.toDateString();
+  newSection.appendChild(document.createElement("p")).innerText = "Tags-- "  + summary;
+  newSection.appendChild(document.createElement("p")).innerText = form.blogbody.value;
+  aside.insertBefore(newSection, panel);
+} 
+const MAX = 200;
+var field;
+var leftover;
+function bindToMaxLength() {
+	var maxLength, feedback;
+	field = document.getElementsByClassName('maxLength')[0];
+	var fieldTxt = field.value;
+	field.addEventListener("keyup", function() {updateFeedback(this);} );
+	leftover = document.getElementById("feedback");
+	console.log("leftover is " + leftover);  
+}
+function updateFeedback(field) {
+	var curr = field.value;
+	console.log("current is " + curr + " type " + typeof(curr));
+	var clen = curr.length;
+	(clen < MAX) ? delta = MAX - clen : delta = 0;
+	console.log("delta is " + delta);
+	leftover.innerHTML = delta;
+	if (curr > MAX) 
+		leftover.innerHTML = ""; 
+} 
+document.addEventListener('DOMContentLoaded', bindToMaxLength);        
+function init() {  
+  document.getElementById("bttn").onclick = posting;            
+} document.addEventListener("DOMContentLoaded", init, false ) ;
+</script>	
+  
+</body>
+</html>
