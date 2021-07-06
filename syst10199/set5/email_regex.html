@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<title>verify password strength</title>
+<title>validate email using HTML5 specification</title>
 <!--
 Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation
 -->
@@ -14,27 +14,21 @@ body {
 }
 input.mail {
   -webkit-appearance: none;
-
   width: 100%;
   border: 1px solid #333;
   margin: 0;
-
   font-family: inherit;
   font-size: 90%;
-
   box-sizing: border-box;
 }
-
 /* This is our style for the invalid fields */
 input.invalid{
   border-color: #900;
   background-color: #FDD;
 }
-
 input:focus.invalid {
   outline: none;
 }
-
 /* This is the style of our error messages */
 .error {
   width  : 100%;
@@ -46,39 +40,37 @@ input:focus.invalid {
   border-radius: 0 0 5px 5px;
   box-sizing: border-box;
 }
-
 .error.active {
   padding: 0.3em;
 }
 </style>
 </head>
 <body>
-			<h1>Validating email: setCustomValidity</h1> 
-
+  <h1>Validating email using HTML5 specification</h1> 
   <form>
     <label for="mail">I would like you to provide me an e-mail</label>
     <input type="email" id="mail" name="mail"><span id="error"></span><br>
     <button id="submit">Submit</button>
   </form>
 
+
 <script>
 // As per the HTML5 Specification
+// examples of invalid input: 34((&8@kdfsd (openbracket), s8\@kdf (backslash) s8//@k+df (plus)
 const emailRegExp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-
-var email = document.getElementById("mail");
+const email = document.getElementById("mail");
 
 email.addEventListener("input", function () {
   // Here, we test if the field is empty (remember, the field is not required)
   // If it is not, we check if its content is a well-formed e-mail address.
-  const test = email.value.length === 0 || emailRegExp.test(email.value);
-  
+  const test = email.value.length === 0 || emailRegExp.test(email.value);  
   if (test) {
     email.className = "valid";
-    error.innerHTML = "valid";
+    error.innerText = "valid";
     error.className = "error";
   } else {
     email.className = "invalid";
-    error.innerHTML = "invalid";
+    error.innerText = "invalid";
   }  
 });
 </script> 
