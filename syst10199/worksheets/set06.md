@@ -8,12 +8,6 @@
 > 
 ---
 
-# 🚧 Under construction. 
-
-
-
-
-
 # Course material
 
 ### Read and analyze (analytical reading)
