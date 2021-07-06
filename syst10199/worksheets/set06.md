@@ -20,7 +20,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 6. [A simple tutorial (PHP Manual)](https://www.php.net/manual/en/tutorial.php)
 7. [PHP Introduction (w3schools)](https://www.w3schools.com/php/php_intro.asp)
 8. [PHP Syntax (w3schools)](https://www.w3schools.com/php/php_syntax.asp)
-9. [PHP Variables (w3schools)]
+9. [PHP Variables (w3schools)](https://www.w3schools.com/php/php_variables.asp)
 10. [PHP echo and print (w3schools)](https://www.w3schools.com/php/php_echo_print.asp)
 
 
