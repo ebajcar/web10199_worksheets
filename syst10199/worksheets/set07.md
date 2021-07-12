@@ -25,10 +25,16 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 
 ### Class examples
 <a href="https://www.w3schools.com/php/phptryit.asp?filename=tryphp_intro" target="_blank">PHP tryit editor (w3schools)</a> Copy the php code and press run to examine the output.
-1. [array_rand function](../set7/arrayRandom.php) 
-2. [](../set7/.php)
-3. [](../set7/.php)
-4. [](../set7/.php)
+1. [array_random.php](../set7/array_random.php) 
+2. [](../set7/array_associative.php)
+3. [](../set7/array_count.php)
+4. [](../set7/array_indexed.php)
+5. [array_ksort.php](../set7/array_ksort.php)
+6. [array_multi_dim.php](../set7/array_multi_dim.php)
+7. [circle_area.php](../set7/circle_area.php)
+8. [ibonacci_expressions.php](../set7/ibonacci_expressions.php)
+9. [function_global.php](../set7/function_global.php)
+10. [here_doc.php](../set7/here_doc.php)
 
 
 
