@@ -26,9 +26,9 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 ### Class examples
 <a href="https://www.w3schools.com/php/phptryit.asp?filename=tryphp_intro" target="_blank">PHP tryit editor (w3schools)</a> Copy the php code and press run to examine the output.
 1. [array_random.php](../set7/array_random.php) 
-2. [](../set7/array_associative.php)
-3. [](../set7/array_count.php)
-4. [](../set7/array_indexed.php)
+2. [array_associative.php](../set7/array_associative.php)
+3. [array_count.php](../set7/array_count.php)
+4. [array_indexed.php](../set7/array_indexed.php)
 5. [array_ksort.php](../set7/array_ksort.php)
 6. [array_multi_dim.php](../set7/array_multi_dim.php)
 7. [circle_area.php](../set7/circle_area.php)
