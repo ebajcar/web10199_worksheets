@@ -8,10 +8,35 @@
 > 
 ---
 
+# Course material
+
+### Read and analyze (analytical reading)
+Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
+1. [PHP Strings](https://www.w3schools.com/php/php_string.asp)
+2. [PHP Numbers](https://www.w3schools.com/php/php_numbers.asp)
+3. [PHP Math](https://www.w3schools.com/php/php_math.asp)
+4. [PHP Constants](https://www.w3schools.com/php/php_constants.asp)
+5. [PHP if...else...elseif](https://www.w3schools.com/php/php_if_else.asp)
+6. [PHP switch Statement](https://www.w3schools.com/php/php_switch.asp)
+7. [PHP Loops](https://www.w3schools.com/php/php_looping.asp)
+8. [PHP Arrays](https://www.w3schools.com/php/php_arrays.asp)
+9. [PHP Superglobals](https://www.w3schools.com/php/php_superglobals.asp)
+
+
+### Class examples
+<a href="https://www.w3schools.com/php/phptryit.asp?filename=tryphp_intro" target="_blank">PHP tryit editor (w3schools)</a> Copy the php code and press run to examine the output.
+1. [array_rand function](../set7/arrayRandom.php) 
+2. [](../set7/.php)
+3. [](../set7/.php)
+4. [](../set7/.php)
 
 
 
-# 🚧 Under construction. 
+### Formulate answers to the following questions
+1. Continue rewriting the Casino craps game in PHP. Explore alternative solution. Expand functionality.
+2. Continue rewriting the Rock Paper game in PHP.  Explore alternative solution. Expand functionality.
+3. Continue rewriting the Tic Tac Toe game in PHP.  Explore alternative solution. Expand functionality.
+
 
   
   
