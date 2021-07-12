@@ -32,9 +32,10 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 5. [array_ksort.php](../set7/array_ksort.php)
 6. [array_multi_dim.php](../set7/array_multi_dim.php)
 7. [circle_area.php](../set7/circle_area.php)
-8. [ibonacci_expressions.php](../set7/ibonacci_expressions.php)
-9. [function_global.php](../set7/function_global.php)
-10. [here_doc.php](../set7/here_doc.php) &bull; [run on server](https://bajcar.dev.fast.sheridanc.on.ca/php10199/justdemoing/here_doc.php)
+8. [ibonacci_expressions.php](../set7/ibonacci_expressions.php) &bull; expressions; fragmented code
+9. [fibonacci.php](../set7/ibonacci.php) &bull; cleaner version
+10. [function_global.php](../set7/function_global.php)
+11. [here_doc.php](../set7/here_doc.php) &bull; [run on server](https://bajcar.dev.fast.sheridanc.on.ca/php10199/justdemoing/here_doc.php)
 
 
 
