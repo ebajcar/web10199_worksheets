@@ -27,7 +27,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 <a href="https://www.w3schools.com/php/phptryit.asp?filename=tryphp_intro" target="_blank">PHP tryit editor (w3schools)</a> Copy the php code and press run to examine the output.
 1. [array_random.php](../set7/array_random.php) 
 2. [array_associative.php](../set7/array_associative.php)
-3. [array_count.php](../set7/array_count.php)
+3. [array_count.php](../set7/array_count.php) &bull; [function count (PHP Manual)](https://www.php.net/manual/en/function.count.php)
 4. [array_indexed.php](../set7/array_indexed.php)
 5. [array_ksort.php](../set7/array_ksort.php)
 6. [array_multi_dim.php](../set7/array_multi_dim.php)
