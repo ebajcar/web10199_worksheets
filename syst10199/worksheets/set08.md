@@ -12,10 +12,10 @@
 
 ### Read and analyze (analytical reading)
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
-1. [PHP Functions]()
-2. [PHP Sessions]()
+1. [PHP Functions]() What is a PHP Session?
+2. [PHP Sessions (w3schools tutorial)](https://www.w3schools.com/php/php_sessions.asp) What is a PHP Session? Start a PHP Session. Get PHP Session Variable Values. Modify a PHP Session Variable. Destroy a PHP Session.
 3. [PHP Classes and Objects (PHP Manual)](https://www.php.net/manual/en/language.oop5.php) The basics, Properties, Class Constants, Constructors and Destructors, Visibility
-4. [PHP Functions]()
+4. [PHP - What is OOP? (w3schools tutorial)](https://www.w3schools.com/php/php_oop_what_is.asp)
 
 
 
