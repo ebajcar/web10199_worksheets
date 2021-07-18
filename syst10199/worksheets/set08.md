@@ -12,10 +12,12 @@
 
 ### Read and analyze (analytical reading)
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
-1. [PHP Functions]() What is a PHP Session?
-2. [PHP Sessions (w3schools tutorial)](https://www.w3schools.com/php/php_sessions.asp) What is a PHP Session? Start a PHP Session. Get PHP Session Variable Values. Modify a PHP Session Variable. Destroy a PHP Session.
-3. [PHP Classes and Objects (PHP Manual)](https://www.php.net/manual/en/language.oop5.php) The basics, Properties, Class Constants, Constructors and Destructors, Visibility
-4. [PHP - What is OOP? (w3schools tutorial)](https://www.w3schools.com/php/php_oop_what_is.asp)
+1. [PHP Functions](https://www.w3schools.com/php/php_functions.asp) What is a PHP Session?
+2. [PHP Functions]() PHP Built-in Functions. PHP User Defined Functions. 
+3. [PHP Functions](https://www.w3schools.com/php/php_ref_overview.asp) complete PHP reference - [array functions](https://www.w3schools.com/php/php_ref_array.asp) - [math](https://www.w3schools.com/php/php_ref_math.asp) - [Variable Handling Functions](https://www.w3schools.com/php/php_ref_variable_handling.asp) -  [Regular Expression Functions](https://www.w3schools.com/php/php_ref_regex.asp) -  [String Functions](https://www.w3schools.com/php/php_ref_string.asp) -  []() -  []() -
+4. [PHP Sessions (w3schools tutorial)](https://www.w3schools.com/php/php_sessions.asp) What is a PHP Session? Start a PHP Session. Get PHP Session Variable Values. Modify a PHP Session Variable. Destroy a PHP Session.
+5. [PHP Classes and Objects (PHP Manual)](https://www.php.net/manual/en/language.oop5.php) The basics, Properties, Class Constants, Constructors and Destructors, Visibility
+6. [PHP - What is OOP? (w3schools tutorial)](https://www.w3schools.com/php/php_oop_what_is.asp)
 
 
 
