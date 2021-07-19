@@ -23,11 +23,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 
 ### Class examples
 <a href="https://www.w3schools.com/php/phptryit.asp?filename=tryphp_intro" target="_blank">PHP tryit editor (w3schools)</a> Copy the php code and press run to examine the output.
-// [](../set8/sessions.php) 
-
-
-
-
+Examine all examples used in previous worksheets and in classroom.  What functions did you come across and how were they used?
 
 
 ### Formulate answers to the following questions
