@@ -22,9 +22,11 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 
 
 ### Class examples
-<a href="https://www.w3schools.com/php/phptryit.asp?filename=tryphp_intro" target="_blank">PHP tryit editor (w3schools)</a> Copy the php code and press run to examine the output.
-Examine all examples used in previous worksheets and in classroom.  What functions did you come across and how were they used?
 
+See code and information in [Course material PHP Sessions](https://ebajcar.github.io/web10199/material/material_php.html#page80)
+[Example 1: sessionTest.php](https://bajcar.dev.fast.sheridanc.on.ca/php10199/sessions/sessionTest.php)
+[Example 2: message.php](https://bajcar.dev.fast.sheridanc.on.ca/php10199/sessions/message.php)
+[Example 3: getStuff.html](https://bajcar.dev.fast.sheridanc.on.ca/php10199/sessions/getStuff.html)
 
 ### Formulate answers to the following questions
 #### Casino craps game in PHP. 
@@ -37,9 +39,20 @@ Continue rewriting the Rock Paper game in PHP. Incorporate into the course websi
 Continue rewriting the Tic Tac Toe game in PHP. Incorporate into the course website.
 
 #### Login form
+Using the w3chools How To - login form ([https://www.w3schools.com/howto/howto_css_login_form.asp](https://www.w3schools.com/howto/howto_css_login_form.asp))
+design a modal login form that will display on the public index page of the course website. 
+when user clicks on Login navigation link [https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form_modal](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form_modal)
+adjust the color scheme to match the rest of the website. (or popup form [https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup_form](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup_form))
 
 #### Registration form
-
+Using the w3schools How To - register form [https://www.w3schools.com/howto/howto_css_register_form.asp](https://www.w3schools.com/howto/howto_css_register_form.asp)
+design a modal login that will display on the public index page when the user clicks on the "become a member" navigation link [https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_register_form](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_register_form)
+adjust the color scheme to match the rest of the website
+add the following input fields: first name, last name, phone, country (add validation constraints)
+add JS functionality to guide the user to pick a strong password (you can reduce the length to 6)
+OR [https://www.w3schools.com/howto/howto_js_password_validation.asp](https://www.w3schools.com/howto/howto_js_password_validation.asp)
+add JS functionality to compare the two password fields
+Toggle between password visibility with JavaScript. [https://www.w3schools.com/howto/howto_js_toggle_password.asp](https://www.w3schools.com/howto/howto_js_toggle_password.asp)
 
 
 
