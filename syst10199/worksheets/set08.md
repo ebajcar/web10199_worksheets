@@ -24,9 +24,10 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 ### Class examples
 
 See code and information in [Course material PHP Sessions](https://ebajcar.github.io/web10199/material/material_php.html#page80)
-[Example 1: sessionTest.php](https://bajcar.dev.fast.sheridanc.on.ca/php10199/sessions/sessionTest.php)
-[Example 2: message.php](https://bajcar.dev.fast.sheridanc.on.ca/php10199/sessions/message.php)
-[Example 3: getStuff.html](https://bajcar.dev.fast.sheridanc.on.ca/php10199/sessions/getStuff.html)
+
+- [Example 1: sessionTest.php](https://bajcar.dev.fast.sheridanc.on.ca/php10199/sessions/sessionTest.php)
+- [Example 2: message.php](https://bajcar.dev.fast.sheridanc.on.ca/php10199/sessions/message.php)
+- [Example 3: getStuff.html](https://bajcar.dev.fast.sheridanc.on.ca/php10199/sessions/getStuff.html)
 
 
 ### Formulate answers to the following (in preparation for next assignment)
