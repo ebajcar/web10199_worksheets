@@ -28,15 +28,16 @@ See code and information in [Course material PHP Sessions](https://ebajcar.githu
 [Example 2: message.php](https://bajcar.dev.fast.sheridanc.on.ca/php10199/sessions/message.php)
 [Example 3: getStuff.html](https://bajcar.dev.fast.sheridanc.on.ca/php10199/sessions/getStuff.html)
 
-### Formulate answers to the following questions
+
+### Formulate answers to the following (in preparation for next assignment)
 #### Casino craps game in PHP. 
-Using the modified JS version, write the equivalent functionality in PHP. Add the ability for the human player to roll the dice by submitting a form. Add the ability to store the point in a session and pass the data from page to page.  Add statistics to keep track of wins and losses.
+Using the modified JS version, write the equivalent functionality in PHP.  See class slides for additional information. Add the ability for the human player to roll the dice by submitting a form. Add the ability to store the point in a session and pass the data from page to page.  Add statistics to keep track of wins and losses.
 
 #### Rock Paper game in PHP.
-Continue rewriting the Rock Paper game in PHP. Incorporate into the course website.
+Continue rewriting the Rock Paper game in PHP. See class slides for additional information. Incorporate into the course website.
 
 #### Tic Tac Toe game in PHP
-Continue rewriting the Tic Tac Toe game in PHP. Incorporate into the course website.
+Continue rewriting the Tic Tac Toe game in PHP. See class slides for additional information. Incorporate into the course website.
 
 #### Login form
 - Using the w3chools How To - login form ([https://www.w3schools.com/howto/howto_css_login_form.asp](https://www.w3schools.com/howto/howto_css_login_form.asp))
