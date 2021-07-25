@@ -19,12 +19,11 @@
 - PHP Data Objects (PDO) and MySQL
 - SQL Database Language
 
+### MySQL Database
+
 - [MySQL Tutorial @ w3schools](https://www.w3schools.com/mysql/default.asp)
 - [Introduction to MySQL](https://www.w3schools.com/mysql/mysql_intro.asp)
 - [MySQL RDBMS](https://www.w3schools.com/mysql/mysql_rdbms.asp)
-
-
-### MySQL Database
 - [MySQL CREATE DATABASE Statement](https://www.w3schools.com/mysql/mysql_create_db.asp)
 - [The MySQL DROP DATABASE Statement](https://www.w3schools.com/mysql/mysql_drop_db.asp)
 - [MySQL CREATE TABLE Statement](https://www.w3schools.com/mysql/mysql_create_table.asp)
