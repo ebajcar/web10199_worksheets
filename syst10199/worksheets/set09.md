@@ -65,9 +65,23 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
  - [Regular expressions (REGEX)](https://docs.google.com/presentation/d/1GcQDqW8Rt65JNguCD3_WBzFpdU6HrGs2Tr1W4OrLNwk/edit?usp=sharing)
 
 
- ### dev
+ ### Exercises
 
-- []()
+using [The Try-MySQL Editor @ w3schools](https://www.w3schools.com/mysql/trymysql.asp?filename=trysql_select_columns) develop SQL statement to
+- select everything in the Customers table
+- select all records that contain "ee" in Categories' Description
+- select 
+
+
+on dev.fast, create database "" note it will be preceded by... limit of 5
+
+create Customers table
+insert
+```sql
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+```
+
 - []()
 - []()
   
