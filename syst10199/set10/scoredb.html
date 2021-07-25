@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Scores</title>
+<meta charset="utf-9">
+<style>
+section, h1 {
+	border: 0px;
+	text-align: center;
+	padding: 5px;
+	margin: auto,
+}
+table, tr, td {
+	width: 500px;
+	border: 1px solid red;
+	background-color: #eeeeee;
+}
+form {
+  text-align: left;
+  width: 400px;
+  margin: auto;
+}
+label {
+	display: block;
+  margin-bottom: 10px;
+}
+</style>
+</head>
+
+<body>
+	<h1>Learning PHP MySQL with PDO</h1>
+	<section>
+		<!-- note the use of the post method 
+			  the action attribute determines which file is to be executed on
+			  submission of the form; the path needs to be included if the file
+			  is not located in the same directory -->
+		<form name="form1" method="post" action="scoredb.php">
+			<label> Player: <input name="player" type="text" id="player"></label>
+			<label>Score:
+				<select name="score" id="score">
+					<option disabled>Score</option>
+					<option value="100">100 points</option>
+					<option>200</option>
+					<option>300</option>
+          <option>400</option>
+          <option>500</option>
+					<option>600</option>
+					<option>700</option>
+				</select>
+			</label>
+			<div>
+				<input type="submit" name="Submit" value="send">
+				<input name="game" type="hidden" value="darts">
+			</div>
+		</form>
+	</section>
+</body>
+</html>
