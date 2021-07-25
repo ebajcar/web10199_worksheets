@@ -16,8 +16,12 @@
  - [Accessing cPanel off-campus](https://share.vidyard.com/watch/3gdnQsTP1L6CBJsyhRGWEU?)
  - [Using phpMyadmin - introduction](https://share.vidyard.com/watch/pnMPft49epWVZUW5wwtsNP?)
  - [Creating a database](https://share.vidyard.com/watch/fm3LLNWqLdE2igybs7XzJW?)
- - []()
- - []()
+ - [Using phpMyAdmin](https://docs.google.com/presentation/d/1urjt2XYhK6lYhbnliHItXcqR1YJsTUlBg-LD_HEOmtM/edit?usp=sharing)
+ - [Using NppFTP plugin for Notepad++](https://docs.google.com/presentation/d/1PKOd280CTncLTCt6lVViehX4VIAenkliytauEMyKGJ8/edit?usp=sharing)
+ - [SQL Database Language](https://docs.google.com/presentation/d/1B-LP4QXjzS5WqR9m9d6M5K6M-NJY7WvVH3iQqVI9_8I/edit?usp=sharing)
+ - [Regular expressions (REGEX)](https://docs.google.com/presentation/d/1GcQDqW8Rt65JNguCD3_WBzFpdU6HrGs2Tr1W4OrLNwk/edit?usp=sharing)
+
+
 
   
 ---
