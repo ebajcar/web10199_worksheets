@@ -12,6 +12,50 @@
 
 # 🚧 Under construction. 
 
+[SQL database language and MySQL](https://ebajcar.github.io/web10199/material/material_databases.html#) 
+- Database primer
+- Using phpMyAdmin Tool
+- MySQL Database management System
+- PHP Data Objects (PDO) and MySQL
+- SQL Database Language
+
+- [MySQL Tutorial @ w3schools](https://www.w3schools.com/mysql/default.asp)
+- [Introduction to MySQL](https://www.w3schools.com/mysql/mysql_intro.asp)
+- [MySQL RDBMS](https://www.w3schools.com/mysql/mysql_rdbms.asp)
+
+
+### MySQL Database
+- [MySQL CREATE DATABASE Statement](https://www.w3schools.com/mysql/mysql_create_db.asp)
+- [The MySQL DROP DATABASE Statement](https://www.w3schools.com/mysql/mysql_drop_db.asp)
+- [MySQL CREATE TABLE Statement](https://www.w3schools.com/mysql/mysql_create_table.asp)
+- [MySQL DROP TABLE Statement](https://www.w3schools.com/mysql/mysql_drop_table.asp)
+- [MySQL Constraints](https://www.w3schools.com/mysql/mysql_constraints.asp)
+- [MySQL NOT NULL Constraint](https://www.w3schools.com/mysql/mysql_notnull.asp)
+- [MySQL UNIQUE Constraint](https://www.w3schools.com/mysql/mysql_unique.asp)
+- [MySQL PRIMARY KEY Constraint](https://www.w3schools.com/mysql/mysql_primarykey.asp)
+- [MySQL FOREIGN KEY Constraint](https://www.w3schools.com/mysql/mysql_foreignkey.asp)
+- [MySQL AUTO INCREMENT Field](https://www.w3schools.com/mysql/mysql_autoincrement.asp)
+
+
+### SQL Language
+- [MySQL SQL](https://www.w3schools.com/mysql/mysql_sql.asp)
+- [MySQL SELECT Statement](https://www.w3schools.com/mysql/mysql_select.asp)
+- [MySQL WHERE Clause](https://www.w3schools.com/mysql/mysql_where.asp)
+- [MySQL ORDER BY Keyword](https://www.w3schools.com/mysql/mysql_orderby.asp)
+- [MySQL INSERT INTO Statement](https://www.w3schools.com/mysql/mysql_insert.asp)
+- [MySQL UPDATE Statement](https://www.w3schools.com/mysql/mysql_update.asp)
+- [MySQL DELETE Statement](https://www.w3schools.com/mysql/mysql_delete.asp)
+- [MySQL COUNT(), AVG() and SUM() Functions](https://www.w3schools.com/mysql/mysql_count_avg_sum.asp)
+- [MySQL LIKE Operator](https://www.w3schools.com/mysql/mysql_like.asp)
+- [MySQL Wildcards](https://www.w3schools.com/mysql/mysql_wildcards.asp)
+- [MySQL Data Types](https://www.w3schools.com/mysql/mysql_datatypes.asp)
+- [MySQL Comments](https://www.w3schools.com/mysql/mysql_comments.asp)
+
+
+
+- []()
+- []()
+- []()
   
  - [Accessing cPanel off-campus](https://share.vidyard.com/watch/3gdnQsTP1L6CBJsyhRGWEU?)
  - [Using phpMyadmin - introduction](https://share.vidyard.com/watch/pnMPft49epWVZUW5wwtsNP?)
