@@ -65,23 +65,36 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
  - [Regular expressions (REGEX)](https://docs.google.com/presentation/d/1GcQDqW8Rt65JNguCD3_WBzFpdU6HrGs2Tr1W4OrLNwk/edit?usp=sharing)
 
 
- ### Exercises
+ ## Exercises
 
-using [The Try-MySQL Editor @ w3schools](https://www.w3schools.com/mysql/trymysql.asp?filename=trysql_select_columns) develop SQL statement to
+### using [The Try-MySQL Editor @ w3schools](https://www.w3schools.com/mysql/trymysql.asp?filename=trysql_select_columns) develop SQL statement to
 - select everything in the Customers table
 - select all records that contain "ee" in Categories' Description
 - select 
 
 
-on dev.fast, create database "" note it will be preceded by... limit of 5
-
-create Customers table
-insert
+### on dev.fast, using phpMyAdmin tool,
+1. create database `exercises` (**note**: it will be preceded by "yourusername_"; you have a limit of 5 databases)
+2. create `Customers` table with the same field names as Try-MySQL Editor
+3. insert 
 ```sql
 INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
 VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
 ```
-
+4. choose at least 4 more records and insert 
+5. update one of the 5 records, for example
+```sql
+UPDATE Customers
+SET ContactName = 'Alfred Schmidt', City = 'Frankfurt'
+WHERE CustomerID = 1;
+```
+6. update any two records to change the city to Toronto
+7. delete all records where city is Toronto
+```sql
+DELETE FROM Customers WHERE City='Toronto';
+```
+8.
+9. 
 - []()
 - []()
   
