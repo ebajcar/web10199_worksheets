@@ -12,6 +12,9 @@
 
 # 🚧 Under construction. 
 
+## Read and analyze (analytical reading)
+Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
+
 ### [SQL database language and MySQL](https://ebajcar.github.io/web10199/material/material_databases.html#) 
 - Database primer
 - Using phpMyAdmin Tool
