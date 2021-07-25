@@ -4,13 +4,10 @@
 
 
 ## Key terms and concepts to understand
-> &bull; Javascript  &bull; imperative programming  &bull; variable  &bull; value  &bull; literal  &bull; IPO operator &bull; expression  &bull; keyword  &bull; identifier  &bull;  data type &bull; strict mode  &bull; console  &bull;  algorithm  &bull; object-oriented programming  &bull; computer application  &bull;  text editor  &bull; client/server  &bull;  type conversion  &bull; function &bull method &bull;
+> &bull; Javascript  &bull; imperative programming  &bull; variable  &bull; value  &bull; literal  &bull; IPO  &bull; operator &bull; expression  &bull; keyword  &bull; identifier  &bull;  data type &bull; objects  &bull; classes  &bull;  algorithm  &bull; object-oriented programming  &bull; computer application interface (API)  &bull;  text editor  &bull; client/server  &bull;  type conversion  &bull; function &bull method &bull; PHP &bull; MySQL  &bull; SQL statement &bull; myphpadmin  &bull; SQL clauses  &bull; RDBMS  &bull; DBMS  &bull; 
 > 
 ---
 
-
-
-# 🚧 Under construction. 
 
 ## Read and analyze (analytical reading)
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
@@ -73,7 +70,8 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 - select 
 
 
-### on dev.fast, using phpMyAdmin tool,
+### on dev.fast, using phpMyAdmin tool
+**Customer table** from w3schools used above
 1. create database `exercises` (**note**: it will be preceded by "yourusername_"; you have a limit of 5 databases)
 2. create `Customers` table with the same field names as Try-MySQL Editor
 3. insert 
@@ -93,10 +91,15 @@ WHERE CustomerID = 1;
 ```sql
 DELETE FROM Customers WHERE City='Toronto';
 ```
-8.
-9. 
-- []()
-- []()
+
+**General Store**
+- [Create tables](../set9/genStore.pdf)
+- [Set 1 questions](../set9/part_01.md)
+- [Set 2 questions](../set9/part_02.md)
+- [Set 3 questions](../set9/part_03.md)
+- [Set 4 questions](../set9/part_04.md)
+- [Set 5 questions](../set9/part_05.md)
+- [Set 7 questions](../set9/part_07.md)
   
 ---
 > *The materials provided in class and in SLATE are protected by copyright. They are intended for the personal, educational uses of students in this course and should not be shared externally or on websites such as Course Hero or OneClass. Unauthorized distribution may result in copyright infringement and violation of Sheridan policies.*
