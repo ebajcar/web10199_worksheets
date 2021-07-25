@@ -13,6 +13,11 @@
 # 🚧 Under construction. 
 
   
+ - [Accessing cPanel off-campus](https://share.vidyard.com/watch/3gdnQsTP1L6CBJsyhRGWEU?)
+ - [Using phpMyadmin - introduction](https://share.vidyard.com/watch/pnMPft49epWVZUW5wwtsNP?)
+ - [Creating a database](https://share.vidyard.com/watch/fm3LLNWqLdE2igybs7XzJW?)
+ - []()
+ - []()
 
   
 ---
