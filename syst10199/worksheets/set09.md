@@ -12,7 +12,7 @@
 
 # 🚧 Under construction. 
 
-[SQL database language and MySQL](https://ebajcar.github.io/web10199/material/material_databases.html#) 
+### [SQL database language and MySQL](https://ebajcar.github.io/web10199/material/material_databases.html#) 
 - Database primer
 - Using phpMyAdmin Tool
 - MySQL Database management System
@@ -51,11 +51,8 @@
 - [MySQL Comments](https://www.w3schools.com/mysql/mysql_comments.asp)
 
 
-
-- []()
-- []()
-- []()
-  
+ ### dev.fast.sheridanc.on.ca Server
+ 
  - [Accessing cPanel off-campus](https://share.vidyard.com/watch/3gdnQsTP1L6CBJsyhRGWEU?)
  - [Using phpMyadmin - introduction](https://share.vidyard.com/watch/pnMPft49epWVZUW5wwtsNP?)
  - [Creating a database](https://share.vidyard.com/watch/fm3LLNWqLdE2igybs7XzJW?)
@@ -66,6 +63,10 @@
 
 
 
+
+- []()
+- []()
+- []()
   
 ---
 > *The materials provided in class and in SLATE are protected by copyright. They are intended for the personal, educational uses of students in this course and should not be shared externally or on websites such as Course Hero or OneClass. Unauthorized distribution may result in copyright infringement and violation of Sheridan policies.*
