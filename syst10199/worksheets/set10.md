@@ -16,19 +16,29 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 2. Read about and practice protecting your databases [SQL Injection on wikipedia](https://en.wikipedia.org/wiki/SQL_injection)
 3. Research and summarize in your own words: Use PDO, not SQLi.  Why?
 
-## Practice exercises
+# Practice exercises
 
-### General Process
+## Create a separate file containing your credentials, which you do not share and do not sent to anyone, including assignment submissions.
+```php
+$servername = "localhost";  // "localhost" assumes the php and database are on the same server
+$dbname = ""; // userid_named where "named" is the name you chose to call your database
+$USRID="";  // userid with cPanel
+$PASSWD="";     // used with cPanel
+```
+Include the file at the beginning of your php files that connedt to the database.
 
-1. Design, build and maintain a database.
-2. Connect to data file.
-3. Send an SQL query.
-4. Process retrieved data.
-5. Close connection to data file.
+## General Process
 
-### Exercise 1
+1. Design and construct user interface - HTML form.
+2. Design, build and maintain a database.
+3. Connect to data file.
+4. Send an SQL query.
+5. Process retrieved data.
+6. Close connection to data file.
 
-STEP 1: Create an html document containing a form
+## Exercise 1
+
+### STEP 1: Create an html document containing a form
 
 ```html
 <form name="form1" method="post" action="scoredb.php">
@@ -50,10 +60,10 @@ STEP 1: Create an html document containing a form
 </form>
 ```
 
-STEP 2: Use phpMyAdmin web tool, to set up table
+### STEP 2: Use phpMyAdmin web tool, to set up table
 
 1. To create the database table for this example, log in to phpMyAdmin, select your database, and click on the Import tab.
-2. The file to import is available here [scores.sql](https://pastebin.com/raw/HwHSZRtD); OR create a table called scores with the following structure:
+2. The file to import is available here [scores.sql](https://pastebin.com/raw/HwHSZRtD) OR create a table called scores with the following structure:
 
 ```sql
 CREATE TABLE scores (
@@ -65,10 +75,10 @@ CREATE TABLE scores (
 )
 ```
 
-STEP 3: To process the form with PHP, you need to connect and work with databases
+### STEP 3: To process the form with PHP, you need to connect and work with databases
 
-Create scoredb.php file.
-1. Collect variables from HTML from post or get (line 35-)
+1. Create scoredb.php file.
+2. Collect variables from HTML from post or get superglobal
 
 ```php
 //COLLECT VARIABLES FROM HTML
@@ -82,16 +92,13 @@ if (isset($_POST['score'])) {
 } else {
     echo $error;  return;
 }
-//echo "$player score = $score";
 $date = date("Y-m-d");
 ```
 
-2. Open database connection (lines 50-61)
+2. Open database connection 
 ```php
 //OPEN DATABASE
-//select table, use your username and password
-// "localhost" assuming the php and database are on the same server
-// http://localhost/phpmyadmin/index.php for xampp
+//use your credentials set up in separate file
 try {
     $dbh = new PDO("mysql:host=$servername;dbname=$dbname", $USRID, $PASSWD);
     // set the PDO error mode to exception
@@ -102,12 +109,33 @@ catch(PDOException $e) {
 }
 ```
 
+3. Prepare the SQL string (line 65)
 
-Prepare the SQL string (line 65)
-Use the PDO method "prepare" (line 67)
-Use the PDO method "execute" (line 28)
-Close database connection (line 97 
+```php
+//INSTRUCTION TO MYSQL
+$command = "INSERT INTO scores ( player, score, date ) VALUES ( '$player','$score','$date')";
+```
 
+4. Use the PDO method "prepare"
+
+```php
+// prepare the statement for execution
+$stmt = $dbh -> prepare($command);
+```
+
+Use the PDO method "execute" 
+
+```php
+if ( ! $stmt->execute() ) {
+$error = "Sorry could not record score";  echo $error;  return;
+}
+```
+
+5. Close database connection (do this only once at the end - use the connection for other statements)
+
+```php
+ $dbh = null;
+```
   
 ---
 > *The materials provided in class and in SLATE are protected by copyright. They are intended for the personal, educational uses of students in this course and should not be shared externally or on websites such as Course Hero or OneClass. Unauthorized distribution may result in copyright infringement and violation of Sheridan policies.*
