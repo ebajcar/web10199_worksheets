@@ -20,8 +20,8 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 
 ## Create a separate file containing your credentials, which you do not share and do not sent to anyone, including assignment submissions.
 ```php
-$servername = "localhost";  // "localhost" assumes the php and database are on the same server
-$dbname = ""; // userid_named where "named" is the name you chose to call your database
+$SERVERNAME = "localhost";  // "localhost" assumes the php and database are on the same server
+$DBNAME = ""; // userid_named where "named" is the name you chose to call your database
 $USRID="";  // userid with cPanel
 $PASSWD="";     // used with cPanel
 ```
@@ -100,7 +100,7 @@ $date = date("Y-m-d");
 //OPEN DATABASE
 //use your credentials set up in separate file
 try {
-    $dbh = new PDO("mysql:host=$servername;dbname=$dbname", $USRID, $PASSWD);
+    $dbh = new PDO("mysql:host=$SERVERNAME;dbname=$DBNAME", $USRID, $PASSWD);
     // set the PDO error mode to exception
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
