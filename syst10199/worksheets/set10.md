@@ -12,12 +12,18 @@
 ## Read and analyze (analytical reading)
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
 
-1. Read about and practice protecting your databases [SQL Injection on w3schools](https://www.w3schools.com/sql/sql_injection.asp)
-2. Read about and practice protecting your databases [SQL Injection on wikipedia](https://en.wikipedia.org/wiki/SQL_injection)
-3. Research and summarize in your own words: Use PDO, not SQLi.  Why?
-4. Explore [PHP Exception Handling](https://www.w3schools.com/php/php_exception.asp) 
+1. Dig deeper on [PHP form validation]()
+2. 
+3. Read about and practice protecting your databases [SQL Injection on w3schools](https://www.w3schools.com/sql/sql_injection.asp)
+4. Read about and practice protecting your databases [SQL Injection on wikipedia](https://en.wikipedia.org/wiki/SQL_injection)
+5. Research and summarize in your own words: Use PDO, not SQLi.  Why?
+6. Explore [PHP Exception Handling](https://www.w3schools.com/php/php_exception.asp) 
 
 # Practice exercises
+
+## Implement
+[Using PHP Iterators to create and PDO to populate a table](https://bajcar.dev.fast.sheridanc.on.ca/php10199/pdo/t.php)
+Start with https://tryphp.w3schools.com/showphpfile.php?filename=demo_db_select_pdo
 
 ## Create a separate file containing your credentials, which you do not share and do not sent to anyone, including assignment submissions.
 ```php
