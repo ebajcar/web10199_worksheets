@@ -21,9 +21,9 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 ## Create a separate file containing your credentials, which you do not share and do not sent to anyone, including assignment submissions.
 ```php
 $SERVERNAME = "localhost";  // "localhost" assumes the php and database are on the same server
-$DBNAME = ""; // userid_named where "named" is the name you chose to call your database
-$USRID="";  // userid with cPanel
-$PASSWD="";     // used with cPanel
+$DBNAME = "";   // userid_named where "named" is the name you chose to call your database
+$USRID = "";    // userid with cPanel
+$PASSWD = "";   // used with cPanel
 ```
 Include the file at the beginning of your php files that connedt to the database.
 
