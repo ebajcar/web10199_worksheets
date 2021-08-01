@@ -25,7 +25,7 @@ $DBNAME = "";   // userid_named where "named" is the name you chose to call your
 $USRID = "";    // userid with cPanel
 $PASSWD = "";   // used with cPanel
 ```
-Include the file at the beginning of your php files that connedt to the database.
+Include the file at the beginning of your php files in which you connect to the database.
 
 ## General Process
 
