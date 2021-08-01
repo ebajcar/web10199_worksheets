@@ -15,17 +15,22 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 1. Read about and practice protecting your databases [SQL Injection on w3schools](https://www.w3schools.com/sql/sql_injection.asp)
 2. Read about and practice protecting your databases [SQL Injection on wikipedia](https://en.wikipedia.org/wiki/SQL_injection)
 3. Research and summarize in your own words: Use PDO, not SQLi.  Why?
+4. Explore [PHP Exception Handling](https://www.w3schools.com/php/php_exception.asp) 
 
 # Practice exercises
 
 ## Create a separate file containing your credentials, which you do not share and do not sent to anyone, including assignment submissions.
 ```php
+// file db.php
 $SERVERNAME = "localhost";  // "localhost" assumes the php and database are on the same server
 $DBNAME = "";   // userid_named where "named" is the name you chose to call your database
 $USRID = "";    // userid with cPanel
 $PASSWD = "";   // used with cPanel
 ```
 Include the file at the beginning of your php files in which you connect to the database.
+```php
+require('db.php');
+```
 
 ## General Process
 
