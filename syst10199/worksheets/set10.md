@@ -48,7 +48,7 @@ require('db.php');
 5. Process retrieved data.
 6. Close connection to data file.
 
-## Exercise 1
+# Exercise 1: Keeping track of scores
 
 ### STEP 1: Create an html document containing a form
 
@@ -87,7 +87,7 @@ CREATE TABLE scores (
 )
 ```
 
-### STEP 3: To process the form with PHP, you need to connect and work with databases
+### STEP 3-6: To process the form with PHP, you need to connect and work with databases
 
 1. Create scoredb.php file.
 2. Collect variables from HTML from post or get superglobal
@@ -149,6 +149,63 @@ $error = "Sorry could not record score";  echo $error;  return;
  $dbh = null;
 ```
   
+# Exercise 2: Registration and Login forms
+
+### STEP 1: Create an html document containing a form (from Assignment 6)
+
+### STEP 2: Use phpMyAdmin web tool, to set up table
+
+### STEP 3-6: To process the form with PHP, you need to connect and work with databases
+
+Add a subdirectory "includes" to you project.
+Create a new file and name it "Member.class", store in subdirectory "includes" in your project
+
+```?php
+/* Class name: 	Member
+ * Description: A class that creates a User for members-only web app.
+ * Cite:		PHP, MySQL, Javascript & HTML5 for Dummies, S.Suehring, J.Valade
+ */
+ class Member {
+	private $id;
+	private $firstName;
+	private $password;
+    // TODO: add others fields 
+ 
+ 
+	/* Constructor: 
+	 * starts session and calls_initUser() method to initialize user info
+	 */
+	function __construct() {
+		if (session_id() == "") {
+			session_start();
+		}
+		$this->_initUser();
+	}    
+  
+    // TODO: add other methods
+    
+
+	/* 
+	 *	private function _initUser() called by the constructor
+	 */
+	private function _initUser() {
+		if (session_id() == '') {
+			session_start();
+		}		
+		$this->id = $_SESSION['id'];
+		$this->firstName = $_SESSION['firstName'];
+		$this->password = $_SESSION['password'];
+		$this->startDate = $_SESSION['startDate'];
+		$this->isLoggedIn = $_SESSION['isLoggedIn'];
+		$this->address = $_SESSION['address'];
+	}
+
+ } // end class User
+ ?>
+ ```
+ 
+ 
+
 ---
 > *The materials provided in class and in SLATE are protected by copyright. They are intended for the personal, educational uses of students in this course and should not be shared externally or on websites such as Course Hero or OneClass. Unauthorized distribution may result in copyright infringement and violation of Sheridan policies.*
 > 
