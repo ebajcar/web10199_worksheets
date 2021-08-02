@@ -160,10 +160,27 @@ $error = "Sorry could not record score";  echo $error;  return;
 Add a subdirectory "includes" to you project.
 Create a new file and name it "Member.class", store in subdirectory "includes" in your project
 
-```?php
+```php
+<?php
 /* Class name: 	Member
  * Description: A class that creates a User for members-only web app.
- * Cite:		PHP, MySQL, Javascript & HTML5 for Dummies, S.Suehring, J.Valade
+ * Citation:	PHP, MySQL, Javascript & HTML5 for Dummies, S.Suehring, J.Valade
+ * Member is a data-aware class; data source that connects to a database
+ * 
+ * |----------------------------------------
+ * | $id
+ * | $firstName
+ * | $password
+...
+
+ * | $isLoggedIn
+ * |----------------------------------------
+ * | __construct
+ * | registerMember($safeUser, $newPass)
+ * | authenticate($user, $pass)
+ * | _initUser()
+ * | _setSession()
+ * |----------------------------------------
  */
  class Member {
 	private $id;
@@ -200,7 +217,7 @@ Create a new file and name it "Member.class", store in subdirectory "includes" i
 		$this->address = $_SESSION['address'];
 	}
 
- } // end class User
+ } // end class Member
  ?>
  ```
  
