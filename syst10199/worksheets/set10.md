@@ -65,7 +65,31 @@ require('includes/db.php');
 
 Start with https://tryphp.w3schools.com/showphpfile.php?filename=demo_db_select_pdo
 
+Note the flow of events:
 
+```php
+try {
+    // connect to database
+    $conn = new PDO("mysql:host=$SERVERNAME;dbname=$DATABASENAME", $USERNAME, $PASSWORD);
+
+    // prepare statement
+    $stmt = $conn->prepare("SELECT id, firstname, lastname,favcolor, date FROM MyGuests"); 
+    
+    // execute statement
+    $stmt->execute();
+
+    // retrieve data from result set
+    foreach(new TableRows(new RecursiveArrayIterator($stmt->fetchAll())) as $k=>$v) { 
+        echo $v;
+    }
+}
+catch(PDOException $e) {
+    echo "Error: " . $e->getMessage();
+}
+
+// close connection
+$conn = null;
+```
 
 # Exercise 2: Keeping track of scores
 
