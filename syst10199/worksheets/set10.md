@@ -13,8 +13,7 @@
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
 
 1. Dig deeper on [PHP form validation]()
-2. 
-3. Read about and practice protecting your databases [SQL Injection on w3schools](https://www.w3schools.com/sql/sql_injection.asp)
+2. 3. Read about and practice protecting your databases [SQL Injection on w3schools](https://www.w3schools.com/sql/sql_injection.asp)
 4. Read about and practice protecting your databases [SQL Injection on wikipedia](https://en.wikipedia.org/wiki/SQL_injection)
 5. Research and summarize in your own words: Use PDO, not SQLi.  Why?
 6. Explore [PHP Exception Handling](https://www.w3schools.com/php/php_exception.asp) 
@@ -248,7 +247,10 @@ Create a new file and name it "Member.class", store in subdirectory "includes" i
  
  ### Login form processing
  
- In your login page, add the following
+ > **Note:** remember to include session_start() at the top of the page AND use the .php extension for every file that contains PHP code (even if you do not see it here).
+ 
+ On your login page, add the following
+ 
  ```php
  if ($_SERVER['REQUEST_METHOD'] == 'POST') {	
 	$_SESSION['formAttemp'] = true;
@@ -323,8 +325,124 @@ public function authenticate($user, $pass) {
 }	
 ```
 
-
+### Registration form processing
  
+On your submission of the registration form page, add the following
+
+```php
+<?php
+// Function to clean up a data string (from w3schools.com)
+function clean($data) {
+	$data = trim($data);
+	$data = stripslashes($data);
+	$data = htmlspecialchars($data);
+	return $data;
+}
+
+function initProcess() {
+	$_SESSION['formAttemp'] = true;  // can be implemented to restrict number of attempts
+	$_SESSION['id'] = session_id();
+	$_SESSION['isLoggedIn'] = false;
+	$_SESSION['password'] = $_POST['password'];	
+}
+
+function testUsername() {	
+	global $errMsg, $safeuser;
+	if (isset($_POST['username']))
+		if (!empty($_POST['username'])) {
+			$safeuser = clean($_POST["username"]);
+			$_SESSION['firstName'] = $_POST['username'];
+		} else {
+			$errMsg = "username field is empty. You must choose a username.";
+			return false;
+		}
+	return true;
+}
+
+function testPassword() {	
+	global $password, $errMsg, $safeuser;
+	if (isset($_POST["password"])) {
+		$password = clean($_POST["password"]);
+		// when database field length is set to 40; what would be the minimum?
+		if (strlen($password) < 4 || strlen($password) > 40) {
+			error_log("Password must be between 4 and 40 characters: $password\n", 3, "myErrors.log");
+			$errMsg = "Password parameter must be between 4 and 40 characters" . 
+				  " long. The length of $password is " . strlen($password);
+			return false;
+		}
+	} else {
+		$errMsg = "Second parameter missing."; 
+		error_log("$errMsg -missing.", 3, "myErrors.log");
+		return false;
+	}
+	return true;
+}
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+	$errMsg = '';
+	global $safeuser, $password;
+	initProcess();
+
+	require_once("includes/Member.class");
+	$visitor = new Member;	
+	if (testUsername() && testPassword()) {
+		if ($visitor->registerMember($safeuser, $password)) {
+			// TODO: proceed to member site
+		} else {
+			session_destroy();
+			// TODO: return to registration
+		}			
+	}else {
+		echo "returned false line 102.";
+	}
+/*	
+TODO: if successful, need to decide where to send the user
+	choice 1. log them in authomatically, similar to sucessful authentication
+	choice 2. return them to the login for proper first-time login
+	choice 3. send an email for verification and take them to index.thml
+*/	
+}
+?>
+
+
+
+
+
+Add the registerMember method to your Member.class
+
+```php
+/* 
+ *  public function registerMember($safeUser)
+ */
+public function registerMember($safeUser, $newPass) {
+	//connect to database
+	require('info.php');
+	try {
+		$dbh = new PDO("mysql:host=localhost;dbname=$DATABASENAME", $USERNAME, $PASSWORD);
+	} catch (Exception $e) {
+		error_log("Cannot connect to MySQL: $e\n", 3, "myErrors.log");
+		return false;
+	}
+	// if not using UNIQUE in database, ensure that the user does not exists already		
+	// otherwise, insert new record
+	$secret = $newPass; 
+	$command = "INSERT INTO members ( player, secret ) 
+				 VALUES ( '$safeUser','$secret')";							
+	if (!$result = $dbh->prepare($command)) {
+		error_log("Query does not appear to be correct: $safeUser\n", 3, "myErrors.log");
+		return false;
+	}	
+	if (!$result->execute() ) {
+		error_log("User already exists. $safeUser\n", 3, "myErrors.log");
+		return false;	
+	}	
+	$this->_setSession();
+	$dbh = NULL;
+	return true;		
+}
+```
+
+
 
 ---
 > *The materials provided in class and in SLATE are protected by copyright. They are intended for the personal, educational uses of students in this course and should not be shared externally or on websites such as Course Hero or OneClass. Unauthorized distribution may result in copyright infringement and violation of Sheridan policies.*
