@@ -27,7 +27,7 @@ Start with https://tryphp.w3schools.com/showphpfile.php?filename=demo_db_select_
 
 ## Create a separate file containing your credentials, which you do not share and do not sent to anyone, including assignment submissions.
 ```php
-// file db.php
+// file includes/db.php
 $SERVERNAME = "localhost";  // "localhost" assumes the php and database are on the same server
 $DBNAME = "";   // userid_named where "named" is the name you chose to call your database
 $USRID = "";    // userid with cPanel
@@ -50,7 +50,7 @@ require('db.php');
 
 # Exercise 1: Keeping track of scores
 
-### STEP 1: Create an html document containing a form
+## STEP 1: Create an html document containing a form
 
 ```html
 <form name="form1" method="post" action="scoredb.php">
@@ -72,7 +72,7 @@ require('db.php');
 </form>
 ```
 
-### STEP 2: Use phpMyAdmin web tool, to set up table
+## STEP 2: Use phpMyAdmin web tool, to set up table
 
 1. To create the database table for this example, log in to phpMyAdmin, select your database, and click on the Import tab.
 2. The file to import is available here [scores.sql](https://pastebin.com/raw/HwHSZRtD) OR create a table called scores with the following structure:
@@ -87,7 +87,7 @@ CREATE TABLE scores (
 )
 ```
 
-### STEP 3-6: To process the form with PHP, you need to connect and work with databases
+## STEP 3-6: To process the form with PHP, you need to connect and work with databases
 
 1. Create scoredb.php file.
 2. Collect variables from HTML from post or get superglobal
@@ -151,11 +151,27 @@ $error = "Sorry could not record score";  echo $error;  return;
   
 # Exercise 2: Registration and Login forms
 
-### STEP 1: Create an html document containing a form (from Assignment 6)
+## STEP 1: Create an html document containing a form (from Assignment 6)
 
-### STEP 2: Use phpMyAdmin web tool, to set up table
+**NOTE:** Code includes only the fields needed for BOTH the login and registration form; it is up to you to include and complete the remaining fields from the registration form.
 
-### STEP 3-6: To process the form with PHP, you need to connect and work with databases
+## STEP 2: Use phpMyAdmin web tool, to set up table
+
+Either manually (as demonstrated in class) or using SQL tab in phpMyadmin, create a table to correspond to (**you make up your own values**):
+
+```sql
+CREATE TABLE `members` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `startdate` date NOT NULL,
+  `player` varchar(40) NOT NULL,
+  `password` varchar(20) NOT NULL
+);
+INSERT INTO `members` (`id`, `startdate`, `player`, `password`) VALUES
+(1, '2016-07-14', 'ellen', 'elephant'),
+(2, '2016-07-06', 'charlie', 'cherries');
+```
+
+## STEP 3-6: To process the form with PHP, you need to connect and work with databases
 
 Add a subdirectory "includes" to you project.
 Create a new file and name it "Member.class", store in subdirectory "includes" in your project
@@ -186,7 +202,8 @@ Create a new file and name it "Member.class", store in subdirectory "includes" i
 	private $id;
 	private $firstName;
 	private $password;
-    // TODO: add others fields 
+	
+	// TODO: add others fields from the registration form (don't forget to add them in methods appropriately
  
  
 	/* Constructor: 
@@ -199,11 +216,11 @@ Create a new file and name it "Member.class", store in subdirectory "includes" i
 		$this->_initUser();
 	}    
   
-    // TODO: add other methods
+	// TODO: add other methods
     
 
 	/* 
-	 *	private function _initUser() called by the constructor
+	 *  private function _initUser() called by the constructor
 	 */
 	private function _initUser() {
 		if (session_id() == '') {
@@ -212,15 +229,101 @@ Create a new file and name it "Member.class", store in subdirectory "includes" i
 		$this->id = $_SESSION['id'];
 		$this->firstName = $_SESSION['firstName'];
 		$this->password = $_SESSION['password'];
-		$this->startDate = $_SESSION['startDate'];
 		$this->isLoggedIn = $_SESSION['isLoggedIn'];
-		$this->address = $_SESSION['address'];
 	}
+	
+	/* 
+	 *  public function _setSession() called from authenticate() function
+	 */
+	private function _setSession() {
+		$_SESSION['id'] = $this->id;
+		$_SESSION['firstName'] = $this->firstName;
+		$_SESSION['password'] = $this->password;
+		$_SESSION['isLoggedIn'] = $this->isLoggedIn;
+	}	
 
  } // end class Member
  ?>
  ```
  
+ ### Login form processing
+ 
+ In your login page, add the following
+ ```php
+ if ($_SERVER['REQUEST_METHOD'] == 'POST') {	
+	$_SESSION['formAttemp'] = true;
+	$_SESSION['id'] = session_id();
+	$_SESSION['isLoggedIn'] = false;
+
+	if (isset($_POST['password']))
+		if (!empty($_POST['password'])) 
+			$_SESSION['password'] = $_POST['password'];
+	if (isset($_POST['username']))
+		if (!empty($_POST['username'])) {
+			$safeuser = $_POST['username'];
+			$_SESSION['firstName'] = $_POST['username'];
+		} else {
+		  // handle the bad name!
+		}	
+	require_once("includes/Member.class");
+	$visitor = new Member;
+	if ($visitor->authenticate($_POST['username'], $_POST['password'])) {	
+		// proceed to member site 
+		// TODO: start with a simple message that it worked
+	} else {
+		session_destroy();	
+		// TODO: authentication unsuccessful, return to login
+	}
+}
+```
+
+Add the authenticate method to your Memeber.class
+
+```php
+/* 
+ *  public function authenticate($user, $pass)
+ */
+public function authenticate($user, $pass) {
+	// connect to database
+	require('includes/db.php');
+	try {
+      		$dbh = new PDO("mysql:host=localhost;dbname=$DATABASENAME", $USERNAME, $PASSWORD);
+	} catch (Exception $e) {
+		error_log("Cannot connect to MySQL: $e\n", 3, "myErrors.log");
+		return false;
+	}
+	
+	// retrieve user's record
+	$safeUser = $user;
+	$inPassword = $pass;
+	$query = "SELECT * FROM members WHERE player='$safeUser'";
+	if (!$result = $dbh->prepare($query)) {
+		error_log("Cannot retrieve account for: $safeUser\n", 3, "myErrors.log");
+		return false;
+	}
+	
+	// compare userid and password
+	if ( $result->execute() ) {
+		$row = $result->fetch();		
+		$dbPassword = $row['secret'];			
+		if ($inPassword != $dbPassword) {
+			error_log("Passwords do not match. $safeUser\n", 3, "myErrors.log");
+			return false;				
+		}
+	}
+	
+	$this->firstName = $row['player'];
+	$this->password = $row['secret'];
+	$this->isLoggedIn = true;		
+	//update current session info
+	$this->_setSession();
+	// close connection
+	$dbh = NULL;
+	return true;
+}	
+```
+
+
  
 
 ---
