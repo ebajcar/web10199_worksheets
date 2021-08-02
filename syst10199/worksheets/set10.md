@@ -28,9 +28,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 
 # Practice exercises
 
-## Implement
-[Using PHP Iterators to create and PDO to populate a table](https://bajcar.dev.fast.sheridanc.on.ca/php10199/pdo/t.php)
-Start with https://tryphp.w3schools.com/showphpfile.php?filename=demo_db_select_pdo
+> Some prep work first!
 
 ## Create a separate file containing your credentials, which you do not share and do not sent to anyone, including assignment submissions.
 ```php
@@ -43,8 +41,9 @@ $PASSWD = "";   // used with cPanel
 Include the file prior to attempting to connect to the database.
 ```php
 // add appropriate path as needed
-require('db.php');
+require('includes/db.php');
 ```
+
 
 ## General Process
 
@@ -55,7 +54,20 @@ require('db.php');
 5. Process retrieved data.
 6. Close connection to data file.
 
-# Exercise 1: Keeping track of scores
+
+
+
+# Exercise 1: Using PDO and PHP Iterators
+
+## Implement
+
+[Using PHP Iterators to create and PDO to populate a table](https://bajcar.dev.fast.sheridanc.on.ca/php10199/pdo/t.php)
+
+Start with https://tryphp.w3schools.com/showphpfile.php?filename=demo_db_select_pdo
+
+
+
+# Exercise 2: Keeping track of scores
 
 ## STEP 1: Create an html document containing a form
 
@@ -156,7 +168,8 @@ $error = "Sorry could not record score";  echo $error;  return;
  $dbh = null;
 ```
   
-# Exercise 2: Registration and Login forms
+  
+# Exercise 3: Registration and Login forms
 
 ## STEP 1: Create an html document containing a form (from Assignment 6)
 
