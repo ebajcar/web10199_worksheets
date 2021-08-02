@@ -154,9 +154,11 @@ $error = "Sorry could not record score";  echo $error;  return;
 
 **NOTE:** Code includes only the fields needed for BOTH the login and registration form; it is up to you to include and complete the remaining fields from the registration form.
 
+
 ## STEP 2: Use phpMyAdmin web tool, to set up table
 
-Either manually (as demonstrated in class) or using SQL tab in phpMyadmin, create a table to correspond to (**you make up your own values**):
+---
+###Either manually (as demonstrated in class) or using SQL tab in phpMyadmin, create a table to correspond to (**you make up your own values**):
 
 ```sql
 CREATE TABLE `members` (
@@ -172,8 +174,8 @@ INSERT INTO `members` (`id`, `startdate`, `player`, `password`) VALUES
 
 ## STEP 3-6: To process the form with PHP, you need to connect and work with databases
 
-Add a subdirectory "includes" to you project.
-Create a new file and name it "Member.class", store in subdirectory "includes" in your project
+### Add a subdirectory "includes" to you project.
+### Create a new file and name it "Member.class", store in subdirectory "includes" in your project
 
 ```php
 <?php
@@ -245,6 +247,7 @@ Create a new file and name it "Member.class", store in subdirectory "includes" i
  ?>
  ```
  
+ ---
  ### Login form processing
  
  > **Note:** remember to include session_start() at the top of the page AND use the .php extension for every file that contains PHP code (even if you do not see it here).
@@ -279,7 +282,8 @@ Create a new file and name it "Member.class", store in subdirectory "includes" i
 }
 ```
 
-Add the authenticate method to your Memeber.class
+---
+### Add the authenticate method to your Memeber.class
 
 ```php
 /* 
@@ -325,6 +329,7 @@ public function authenticate($user, $pass) {
 }	
 ```
 
+---
 ### Registration form processing
  
 On your submission of the registration form page, add the following
@@ -403,12 +408,10 @@ TODO: if successful, need to decide where to send the user
 */	
 }
 ?>
+```
 
-
-
-
-
-Add the registerMember method to your Member.class
+---
+### Add the registerMember method to your Member.class
 
 ```php
 /* 
