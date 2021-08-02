@@ -17,12 +17,14 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 4. Read about and practice protecting your databases [SQL Injection on wikipedia](https://en.wikipedia.org/wiki/SQL_injection)
 5. [PHP Manual - PHP Data Objects](https://www.php.net/manual/en/book.pdo.php)
 6. [w3schools tutorials](https://www.w3schools.com/php/php_mysql_connect.asp)
-9. Research and summarize in your own words: Use PDO, not SQLi.  Why?
-10. Explore [PHP Exception Handling (w3schools)](https://www.w3schools.com/php/php_exception.asp) 
-11. [`PDO::prepare` — Prepares a statement for execution and returns a statement object](https://www.php.net/manual/en/pdo.prepare.php)
-12. [PDOStatement](https://www.php.net/manual/en/class.pdostatement.php)
-13. []()
-14. []()
+7. Research and summarize in your own words: Use PDO, not SQLi.  Why?
+8. [`PDO::prepare` — Prepares a statement for execution and returns a statement object](https://www.php.net/manual/en/pdo.prepare.php)
+10. [`PDOStatement` — Represents a prepared statement and, after the statement is executed, an associated result set.](https://www.php.net/manual/en/class.pdostatement.php)
+11. [`PDOStatement::execute` — Executes a prepared statement](https://www.php.net/manual/en/pdostatement.execute.php)
+12. [`PDOStatement::fetch` — Fetches the next row from a result set](https://www.php.net/manual/en/pdostatement.fetch.php)
+13. [`PDOStatement::fetchAll`  — Returns an array containing all of the result set rows](https://www.php.net/manual/en/pdostatement.fetchall.php)
+14. Explore [PHP Exception Handling (w3schools)](https://www.w3schools.com/php/php_exception.asp) 
+15. [`PDOException` — Represents an error raised by PDO. You should not throw a PDOException from your own code. ](https://www.php.net/manual/en/class.pdoexception.php)
 
 # Practice exercises
 
