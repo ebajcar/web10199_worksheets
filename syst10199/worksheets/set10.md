@@ -12,7 +12,7 @@
 ## Read and analyze (analytical reading)
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
 
-1. Dig deeper on [PHP form validation]()
+1. Dig deeper on [PHP form validation](https://www.w3schools.com/php/php_form_validation.asp)
 2. Read about and practice protecting your databases [SQL Injection on w3schools](https://www.w3schools.com/sql/sql_injection.asp)
 4. Read about and practice protecting your databases [SQL Injection on wikipedia](https://en.wikipedia.org/wiki/SQL_injection)
 5. [PHP Manual - PHP Data Objects](https://www.php.net/manual/en/book.pdo.php)
