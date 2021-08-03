@@ -213,6 +213,7 @@ CREATE TABLE `members` (
   `startdate` date NOT NULL,
   `player` varchar(40) NOT NULL,
   `password` varchar(20) NOT NULL
+  PRIMARY KEY (`id`)
 );
 INSERT INTO `members` (`id`, `startdate`, `player`, `password`) VALUES
 (1, '2016-07-14', 'ellen', 'elephant'),
