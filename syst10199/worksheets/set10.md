@@ -65,6 +65,9 @@ require('includes/db.php');
 
 [Using PHP Iterators to create and PDO to populate a table](https://bajcar.dev.fast.sheridanc.on.ca/php10199/pdo/t.php)
 
+An iterable is any value which can be looped through with a foreach() loop. [more about iterables on w3schools](https://www.w3schools.com/php/php_iterables.asp)
+The result set that is returned from a database is an iterable.
+
 Start with https://tryphp.w3schools.com/showphpfile.php?filename=demo_db_select_pdo
 
 Note the flow of events:
