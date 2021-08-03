@@ -44,6 +44,7 @@ Include the file prior to attempting to connect to the database.
 require('includes/db.php');
 ```
 
+> In this course, we are using PDO exclusively. 
 
 ## General Process
 
