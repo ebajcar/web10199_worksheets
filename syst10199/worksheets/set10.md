@@ -55,7 +55,7 @@ require('includes/db.php');
 6. Close connection to data file.
 
 
-> Use print_r() or var_dump() to trace values of data structures as you develop the code (same concept as using console.log() in JS.
+> Use print_r() or var_dump() to trace values of data structures as you develop the code &mdash; same concept as using console.log() in Javascript.
 
 
 
