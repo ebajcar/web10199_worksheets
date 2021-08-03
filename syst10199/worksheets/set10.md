@@ -26,6 +26,10 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 14. Explore [PHP Exception Handling (w3schools)](https://www.w3schools.com/php/php_exception.asp) 
 15. [`PDOException` — Represents an error raised by PDO. You should not throw a PDOException from your own code. ](https://www.php.net/manual/en/class.pdoexception.php)
 
+
+> In this course, we are using PDO exclusively. 
+
+
 # Practice exercises
 
 > Some prep work first!
@@ -44,7 +48,6 @@ Include the file prior to attempting to connect to the database.
 require('includes/db.php');
 ```
 
-> In this course, we are using PDO exclusively. 
 
 ## General Process
 
