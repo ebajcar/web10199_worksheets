@@ -55,6 +55,8 @@ require('includes/db.php');
 6. Close connection to data file.
 
 
+> Use print_r() or var_dump() to trace values of data structures as you develop the code (same concept as using console.log() in JS.
+
 
 
 # Exercise 1: Using PDO and PHP Iterators
@@ -490,6 +492,7 @@ public function registerMember($safeUser, $newPass) {
 }
 ```
 
+> Note the use of `error_log()`. You can customize your error message. See [PHP manual](https://www.php.net/manual/en/function.error-log) for more details.
 
 
 ---
