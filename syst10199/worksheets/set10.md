@@ -200,7 +200,37 @@ $error = "Sorry could not record score";  echo $error;  return;
 ```php
  $dbh = null;
 ```
-  
+You can try it live [here](https://bajcar.dev.fast.sheridanc.on.ca/php10199/scoredb/scoredb.html). run with the same player several times to see the table lengthen.
+
+Code to retrieve results
+
+```php
+//OUTPUT TO HTML
+// prepare statement, select all columns for a given player
+$query = "SELECT * FROM scores WHERE player='$player' ORDER BY score DESC";
+// result variable holds the entire dataset returned 
+$result  = $dbh -> prepare($query);
+if ( $result->execute() ) {
+	echo '<table>
+	<tr><th>SCORE</th><th>DATE</th></tr>';
+	$tally = 0;
+	$total = 0;
+	while ($myrow = $result->fetch()) {
+		$tally = $tally + $myrow['score'];
+		$total = $total + 1;
+		echo "<tr>
+				<td>".$myrow['score']."</td>
+				<td>".$myrow['date']."</td>
+			  </tr>\n";
+	}
+	$ave = $tally / $total;
+	echo "</table> <p>total =".$tally."&nbsp;&nbsp;   average =".$ave."</p>";
+} else {
+	$error = "Sorry could not retrieve scores";  echo $error;  return;
+}
+$dbh = null;
+exit;
+```
   
 # Exercise 3: Registration and Login forms
 
