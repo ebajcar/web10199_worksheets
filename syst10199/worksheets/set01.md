@@ -66,8 +66,8 @@ plan).
 	- (v.1) &mdash; Write a program that calculates roots of a quadratic equation. Implicit equation of a line, when `a != 0`, there are two solutions to `ax^2 + bx + c = 0` and they are `x = -b +- sqrt(b^2-4ac) over 2a`. Display the result in the console, when `a=4`, `b=3`, and `c=2`.
 5. **Prime numbers** 
 	- (v.1) &mdash; Write a program that displays the first 20 prime numbers (starting with 2). Display in console.
-6. **Is it a number or a string?**
-	- [TBD]
+6. **Is it a palindrome**
+	- (v.1) — Write a function that takes one argument, a string or a number, and checks if it is a palindrome, and returns a true or false. The function needs to ignore spaces and casing.
 7. **Game of Casino Craps**
 	- (v.1) Write a program that lets a user to play a game of casino craps in the console.
 8. **Game of Rock Paper Scissors**
