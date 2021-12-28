@@ -1,6 +1,6 @@
-[🗨️ Discussions](https://github.com/ebajcar/web10199_worksheets/discussions)
+🗨️ Discussions will be conducted through Piazza Q&A
 
-[Semester Winter 2022 template](projects/home2021/index_public.html)
+[🗨️ Semester Winter 2022 template](projects/home2021/index_public.html)
 
 ---
 
