@@ -1,6 +1,6 @@
 [🗨️ Discussions](https://github.com/ebajcar/web10199_worksheets/discussions)
 
-[Semester Winter 2022 template](projects/index_public.html)
+[Semester Winter 2022 template](projects/home2021/index_public.html)
 
 ---
 
