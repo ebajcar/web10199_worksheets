@@ -1,5 +1,7 @@
 [🗨️ Discussions](https://github.com/ebajcar/web10199_worksheets/discussions)
 
+[Semester Winter 2022 template](projects/index_public.html)
+
 ---
 
 # JavaScript (client-side, front-end)
