@@ -1,6 +1,6 @@
 [previous](set09.md) 
 : **Worksheet Set 10**
-: [next]()
+: next
 
 
 ## Key terms and concepts to understand
