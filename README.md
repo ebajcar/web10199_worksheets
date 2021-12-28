@@ -4,29 +4,29 @@
 
 # JavaScript (client-side, front-end)
 
-### [Worksheet 1](syst10199/worksheets/set01.md)
+### [Worksheet 1](worksheets/set01.md)
 
-### [Worksheet 2](syst10199/worksheets/set02.md)
+### [Worksheet 2](worksheets/set02.md)
 
-### [Worksheet 3](syst10199/worksheets/set03.md)
+### [Worksheet 3](worksheets/set03.md)
 
-### [Worksheet 4](syst10199/worksheets/set04.md)
+### [Worksheet 4](worksheets/set04.md)
 
-### [Worksheet 5](syst10199/worksheets/set05.md)
+### [Worksheet 5](worksheets/set05.md)
 
 ---
 
 # PHP and MySQL (server-side, back-end))
 
-### [Worksheet 6](syst10199/worksheets/set06.md)
+### [Worksheet 6](worksheets/set06.md)
 
-### [Worksheet 7](syst10199/worksheets/set07.md)
+### [Worksheet 7](worksheets/set07.md)
 
-### [Worksheet 8](syst10199/worksheets/set08.md)
+### [Worksheet 8](worksheets/set08.md)
 
-### [Worksheet 9](syst10199/worksheets/set09.md)
+### [Worksheet 9](worksheets/set09.md)
 
-### [Worksheet 10](syst10199/worksheets/set10.md)
+### [Worksheet 10](worksheets/set10.md)
 
    
 ---
