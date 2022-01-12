@@ -1,4 +1,4 @@
-previous : **Worksheet Set 1** : [next](set02.md)
+ **Worksheet Set 1** 
 
 
 # Key terms and concepts to understand
