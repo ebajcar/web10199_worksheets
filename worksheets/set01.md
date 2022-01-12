@@ -39,6 +39,8 @@ Follow the process, observe, describe in own words, practice:
   	- add vs. concatenate!
 - 6. Finish: dot the i's and cross the t's
 
+[Example](https://plainincrementbyone.ellenbajcar.repl.co/)
+
 
 ### Formulate answers to the following questions. Discuss.
 1. What is an algorithm?
