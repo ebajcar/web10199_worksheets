@@ -8,27 +8,27 @@
 
 ### [Worksheet 1](worksheets/set01.md)
 
-### [Worksheet 2](worksheets/set02.md)
+### Worksheet 2
 
-### [Worksheet 3](worksheets/set03.md)
+### Worksheet 3
 
-### [Worksheet 4](worksheets/set04.md)
+### Worksheet 4
 
-### [Worksheet 5](worksheets/set05.md)
+### Worksheet 5
 
 ---
 
 # PHP and MySQL (server-side, back-end))
 
-### [Worksheet 6](worksheets/set06.md)
+### Worksheet 6
 
-### [Worksheet 7](worksheets/set07.md)
+### Worksheet 7
 
-### [Worksheet 8](worksheets/set08.md)
+### Worksheet 8
 
-### [Worksheet 9](worksheets/set09.md)
+### Worksheet 9
 
-### [Worksheet 10](worksheets/set10.md)
+### Worksheet 10
 
    
 ---
