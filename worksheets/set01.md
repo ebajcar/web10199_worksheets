@@ -26,18 +26,18 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 9. How algorithms shape our world - Kevin Slavin - 15:23  [link]()
 
 ### Class examples
-Explore, implement, and comment well. 
+Follow the process, observe, describe in own words, practice: 
 
-- [introduction: Javascript in the browser](../set1/cm01.html)
-- [1. Start with valid HTML5 and CSS3](../set1/cm02.html)
-- [2. Add Javascript to HTML document](../set1/cm03.html)
-- [3. Use comments to write algorithm, identify variables, data structures, statements, control statements, functions](../set1/cm04.html)
-  	- [Example: Problem statement - add two numbers](../set1/cm05.html)
-- [4. Convert each step to JS code and test in console](../set1/cm06.html)
-- [5. Refactor to connect to the document](../set1/cm07.html)
-  	- [document.write can overwrite your DOM!](../set1/cm08.html)
-  	- [add vs. concatenate!](../set1/cm09.html)
-- [6. Finish: dot the i's and cross the t's](../set1/cm10.html)
+- introduction: Javascript in the browser
+- 1. Start with valid HTML5 and CSS3
+- 2. Add Javascript to HTML document
+- 3. Use comments to write algorithm, identify variables, data structures, statements, control statements, functions
+  	- Problem statement
+- 4. Convert each step to JS code and test in console
+- 5. Refactor to connect to the document
+  	- document.write can overwrite your DOM!
+  	- add vs. concatenate!
+- 6. Finish: dot the i's and cross the t's
 
 
 ### Formulate answers to the following questions. Discuss.
@@ -50,8 +50,11 @@ Explore, implement, and comment well.
 
 # Exercises
 Set up a project for each problem. Keep all versions of your solution for each project.  For each problem, write out the
-algorithm that you plan to use (and modify if your implementation deviates from your original
-plan).
+algorithm that you plan to use (and modify if your implementation deviates from your original plan). This week complete
+the setup (HTML5 and CSS3) use README.md file to make notes and analyze.  Identify what you know, what you understand, what 
+you don't know and what questions to ask. Participate in Piazza to collaborate with the rest of the class, including the professor.
+Use the IPO (input-process-output) to determine what variables you will need, what functionality (operators, functions,...)
+See example below.
 
 
 1. **Fibonacci numbers** 
