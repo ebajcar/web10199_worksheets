@@ -8,7 +8,7 @@
 
 ### [Worksheet 1](worksheets/set01.md)
 
-### Worksheet 2
+### [Worksheet 2](worksheets/set02.md)
 
 ### Worksheet 3
 
