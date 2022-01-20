@@ -1,4 +1,4 @@
-[previous](set01.md) : **Worksheet Set 2** : [next](set03.md)
+**Worksheet Set 2**
 
 
 ## Key terms and concepts to understand
@@ -23,24 +23,6 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 9. [Making decisions in your code — conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) In any programming language, code needs to make decisions and carry out actions accordingly depending on different inputs. For example, in a game, if the player's number of lives is 0, then it's game over. In a weather app, if it is being looked at in the morning, show a sunrise graphic; show stars and a moon if it is nighttime. In this article we'll explore how so-called conditional statements work in JavaScript.
 
 
-
-## Class examples
-
-Explore, implement, and comment well.
-
-- [var vs. let](../../syst10199/set2/var_vs_let.html)
-- [if control structure and conditionals](../../syst10199/set2/if_structure.html)
-- [`for` loop diagram](../../syst10199/set2/diagram_for_loop.html)
-- [`for` loop used to loop through options in a `select` element](../../syst10199/set2/for_loop_options.html)
-- [Fibonacci -console](../../syst10199/set2/fib_v1_console.html)
-- [Fibonacci -console, array](../../syst10199/set2/fib_v1_arr_console.html)
-- [Fibonacci -ES6](../../syst10199/set2/fib_es6_oo.html)
-- [Fibonacci -ES6,iterator](../../syst10199/set2/fib_es6_iterator.html)
-- [Eratosthenes Sieve (prime numbers)](../../syst10199/set2/eratosthenes_sieve.html)
-
-
-## Formulate answers to the following questions
-1. What is ...?
 
 
 
