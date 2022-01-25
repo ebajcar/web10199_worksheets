@@ -32,11 +32,6 @@ Explore, implement, and comment well.
 - explore DOM methods ([*ttt_create_remove_board.html*](../set3/ttt_create_remove_board.html))
 
 
-
-### Formulate answers to the following questions
-1. What is ...?
-
-
 ---
 
 
