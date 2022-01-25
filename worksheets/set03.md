@@ -23,7 +23,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 Explore, implement, and comment well.
  
 - explore primitives Boolean, BigInt, Number, null, undefined ([*primitives.html*](../examples/set3/primitives.html))
-- explore primitives Strings ([*primities_strings.html*](../examples/set3/primitives_strings.html))
+- explore primitives Strings ([*primitives_strings.html*](../examples/set3/primitives_strings.html))
 - explore the Date object ([*built_in_types.html*](../examples/set3/built_in_types.html))
 - explore more loops `for...in`, `for...of`, and array method `foreach()` ([*more_iteration.html*](../examples/set3/more_iteration.html))
 - explore array methods `.join()`, `.reverse()`, `.sort()`, `.shift()`, ... ([*forEach2.html*](../examples/set3/forEach2.html))
