@@ -46,7 +46,6 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
     - (v.3) &mdash; Modify the program to display the numbers in an unordered list.
 7. **Is it a palindrome** 
     - (v.1) &mdash; Write a function that takes one argument, a string or a number, and checks if it is a palindrome, and returns a true or false. The function needs to ignore spaces and casing.
-    - (v.2) &mdash; Create an array and populate with: 02022020, 1001, aba, "was it a car or a cat I saw" "never odd or even" "Step on no pets" "Funny enough"   "new moon", "selfless". You can add your own members. Test your function for each member. Output to console, for examples: `01011010 true` and so on.
 6. **Game of Casino Craps**
 	- (v.1) Write a program that lets a user to play a game of casino craps in the console.
 7. **Game of Rock Paper Scissors**
