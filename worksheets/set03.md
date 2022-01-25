@@ -17,9 +17,6 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 2. [Learn more about arrays](../set3/more_about_arrays.md)
 
 
-### Watch suggested videos
-
-- ...
 
 ### Class examples
 
@@ -60,18 +57,19 @@ plan).
     - 2. (v.4) &mdash; Modify solution to use DOM methods to create and populate the table.
     - 3. (v.5) &mdash; Extend the previous version to a 10x10 table to accommodate `a` and `b` values 1 to 10.
     - 4. (v.6) &mdash; Modify previous version to capture initial values for `a` and `b`, and enter the `c` values from the user.
-4. **Prime numbers** 
+5. **Prime numbers** 
     - (v.4) &mdash; Modify the previous version to create and populate the unordered list using DOM methods.
-7. **Is it a palindrome** 
+6. **Is it a palindrome** 
     - (v.3) &mdash; (optional) How would you modify your function to recognize that the string contains a palindrome (ie., "selfless")?
     - (v.4) &mdash; Write a new version that will allow a user to enter a phrase or a number and it will call your function and reports to the user whether it is a palindrome.
-9. **Game of Casino Craps**
+7. **Game of Casino Craps**
 	- (v.1) Write a program that lets a user to play a game of casino craps in the console.
+8. **Game of Rock Paper Scissors**
+    - 1. Write out the description for the game, including inputs, outputs, algorithm, constraints, and identify what variables and data structures are needed to program the game in Javascript. Create a valid HTML document, include the description in the prologue.  Use the CSS and HTML from the Tic Tac Toe game.
 8. **Game of Tic Tac Toe**
     - 1. Write out the algorithm for a game of Tic Tac Toe. Assume both players sit at the same monitor and take turns using the mouse.
     - 2. Copy the class example version that creates and removes the board and add your algorithm. Identify what other functionality you need to include to complete the game. Identify what input and output you will need and how you would set up the appropriate variables. Do not make changes to the CSS and HTML at this time. All comments should appear in the Description of the prologue. Change instructor's name to yours and add "Citation: SYST10199 Web Programming, Summer 2020, Sheridan College" between Copyright and Description.
-9. **Game of Rock Paper Scissors**
-    - 1. Write out the description for the game, including inputs, outputs, algorithm, constraints, and identify what variables and data structures are needed to program the game in Javascript. Create a valid HTML document, include the description in the prologue.  Use the CSS and HTML from the Tic Tac Toe game.
+
 
    
 ---
