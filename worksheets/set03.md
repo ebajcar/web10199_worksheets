@@ -22,14 +22,14 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 
 Explore, implement, and comment well.
  
-- explore primitives Boolean, BigInt, Number, null, undefined ([*primitives.html*](../set3/primitives.html))
-- explore primitives Strings ([*primities_strings.html*](../set3/primities_strings.html))
+- explore primitives Boolean, BigInt, Number, null, undefined ([*primitives.html*](../examples/set3/primitives.html))
+- explore primitives Strings ([*primities_strings.html*](../examples/set3/primities_strings.html))
 - explore the Date object ([*built_in_types.html*](../set3/built_in_types.html))
-- explore more loops `for...in`, `for...of`, and array method `foreach()` ([*more_iteration.html*](../set3/more_iteration.html))
-- explore array methods `.join()`, `.reverse()`, `.sort()`, `.shift()`, ... ([*forEach2.html*](../set3/forEach2.html))
-- explore DOM methods ([*select_vs_getelement.html*](../set3/select_vs_getelement.html))
-- explore arrays and DOM methods ([*family_array.html*](../set3/family_array.html))
-- explore DOM methods ([*ttt_create_remove_board.html*](../set3/ttt_create_remove_board.html))
+- explore more loops `for...in`, `for...of`, and array method `foreach()` ([*more_iteration.html*](../examples/set3/more_iteration.html))
+- explore array methods `.join()`, `.reverse()`, `.sort()`, `.shift()`, ... ([*forEach2.html*](../examples/set3/forEach2.html))
+- explore DOM methods ([*select_vs_getelement.html*](../examples/set3/select_vs_getelement.html))
+- explore arrays and DOM methods ([*family_array.html*](../examples/set3/family_array.html))
+- explore DOM methods ([*ttt_create_remove_board.html*](../examples/set3/ttt_create_remove_board.html))
 
 
 ---
