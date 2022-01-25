@@ -13,15 +13,16 @@
 
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
 
-1. [JavaScript data types and data structures (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)[Objects](https://ebajcar.github.io/web10199/content/learnjs/objects.html)
-2. [Learn more about arrays (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-3. [Learn more about Date (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
-4. [Built-in objects](https://ebajcar.github.io/web10199/content/learnjs/collections.html)
-5. [DOM and BOM](https://ebajcar.github.io/web10199/content/learnjs/dom.html)
-6. [Functions](https://ebajcar.github.io/web10199/content/learnjs/functions.html)
-7. [JS Functions (w3schools)](https://www.w3schools.com/js/js_function_definition.asp)
-8. [Functions (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)
-9. [Learn more about Functions (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+1. [JavaScript data types and data structures (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+2. [Objects](https://ebajcar.github.io/web10199/content/learnjs/objects.html) - built-in, custom, DOM, BOM (window object)
+3. [Learn more about arrays (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+4. [Learn more about Date (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+5. [Built-in objects](https://ebajcar.github.io/web10199/content/learnjs/collections.html)
+6. [DOM and BOM](https://ebajcar.github.io/web10199/content/learnjs/dom.html)
+7. [Functions](https://ebajcar.github.io/web10199/content/learnjs/functions.html) function definition, calling a function, callback, annonymous, first-class, error handling
+8. [JS Functions (w3schools)](https://www.w3schools.com/js/js_function_definition.asp) 
+9. [Functions (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)
+10. [Learn more about Functions (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
 
 
