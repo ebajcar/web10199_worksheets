@@ -13,8 +13,14 @@
 
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
 
-1. [Javascript language, Objects, Functions](https://ebajcar.github.io/web10199/material/material_js.html)
-2. [Learn more about arrays](../set3/more_about_arrays.md)
+1. [Objects](https://ebajcar.github.io/web10199/content/learnjs/objects.html)
+2. [Built-in objects](https://ebajcar.github.io/web10199/content/learnjs/collections.html)
+3. [DOM and BOM](https://ebajcar.github.io/web10199/content/learnjs/dom.html)
+4. [Functions](https://ebajcar.github.io/web10199/content/learnjs/functions.html)
+5. [Learn more about arrays (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+6. [Learn more about Date (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+7. [JavaScript data types and data structures (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+8. [Learn more about Functions (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
 
 
