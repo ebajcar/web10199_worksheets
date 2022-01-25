@@ -60,6 +60,7 @@ plan).
 5. **Prime numbers** 
     - (v.4) &mdash; Modify the previous version to create and populate the unordered list using DOM methods.
 6. **Is it a palindrome** 
+   - (v.2) &mdash; Create an array and populate with: 02022020, 1001, aba, "was it a car or a cat I saw" "never odd or even" "Step on no pets" "Funny enough"   "new moon", "selfless". You can add your own members. Test your function for each member. Output to console, for examples: `01011010 true` and so on.
     - (v.3) &mdash; (optional) How would you modify your function to recognize that the string contains a palindrome (ie., "selfless")?
     - (v.4) &mdash; Write a new version that will allow a user to enter a phrase or a number and it will call your function and reports to the user whether it is a palindrome.
 7. **Game of Casino Craps**
