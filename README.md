@@ -10,7 +10,7 @@
 
 ### [Worksheet 2](worksheets/set02.md)
 
-### Worksheet 3
+### [Worksheet 3](worksheets/set03.md)
 
 ### Worksheet 4
 
