@@ -27,10 +27,10 @@ See step-by-step development: https://www.intertech.com/Blog/encapsulation-in-ja
 
 The trick is to remember to call the anonymous function immediately after its definition, and assign the return value (the inner object) to the outside variable (person), rather than simply assigning the anonymous function itself to the outside variable.  This is done by using the invocation operator, (), at the end of the function.  Since this is easy to miss, and we want to strive for maximum readability, developers typically wrap the entire anonymous function & invocation operator with parentheses.  While this isn’t required, it’s definitely recommended as a way to signal to other developers, “this function is being executed rather than simply assigned.”
 */
-var person = (function () {
+let person = (function () {
 
-  var fullName = "Jason Shapiro";
-  var reg = new RegExp(/\d+/);
+  let fullName = "Jason Shapiro";
+  let reg = new RegExp(/\d+/);
 
   return {
     setFullName : function (newValue) {
