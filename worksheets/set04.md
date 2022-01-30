@@ -51,10 +51,10 @@ algorithm that you plan to use (and modify if your implementation deviates from 
 plan).
 
 
-1. **Fibonacci numbers** 
+1. **Fibonacci numbers** Piazza post https://piazza.com/class/kx69hmx2w5v79?cid=8
     - (v.6) &mdash; Write a fully functional, unobtrusive Javascript solution.
     - (v.7) &mdash; Convert to object-oriented, unobtrusive Javascript solution.
-2. **Temperature conversion** 
+2. **Temperature conversion** Piazza post https://piazza.com/class/kx69hmx2w5v79?cid=7
     - (v.4) &mdash; Write a fully functional, unobtrusive Javascript solution.   
     - (v.5) &mdash; Convert to object-oriented, unobtrusive Javascript solution.  
 3. **Area of a circle** 
