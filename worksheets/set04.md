@@ -12,11 +12,10 @@
 ### Read and analyze (analytical reading)
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
 
-1. [Javascript Objects](https://ebajcar.github.io/web10199/material/material_js.html#page70) - built-in, custom, DOM, BOM (window object)
+
 2. [JavaScript object basics (MDN)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 3. [Traversing an HTML table with JavaScript and DOM Interfaces (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces)
 4. [JS Browser BOM (w3schools)](https://www.w3schools.com/js/js_window.asp)
-5. [Javascript Functions](https://ebajcar.github.io/web10199/material/material_js.html#page80) - function definition, calling a function, callback, annonymous, first-class, error handling 
 8. [Event handling](https://ebajcar.github.io/web10199/material/material_js.html#page90) - event attributes, event methods, event listeners, event capture and bubbling
 9. [DOM events (w3schools)](https://www.w3schools.com/js/js_htmldom_events.asp)
 10. [DOM Event listeners (w3schools)](https://www.w3schools.com/js/js_htmldom_events.asp)
