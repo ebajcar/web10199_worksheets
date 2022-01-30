@@ -60,7 +60,9 @@ algorithm that you plan to use (and modify if your implementation deviates from 
 - what have you learned? what improvements can you identify? what's the next step?
 - site published? adheres to naming conventions? site follows standard (required) organization?
 
-[Guide](../noteworthy/gradeCalc.md)
+[Guide](../noteworthy/gradeCalc.html)
+
+
 ---
 
 
