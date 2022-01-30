@@ -12,7 +12,7 @@
 
 ### [Worksheet 3](worksheets/set03.md)
 
-### Worksheet 4
+### [Worksheet 3](worksheets/set04.md)
 
 ### Worksheet 5
 
