@@ -21,9 +21,6 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 10. [DOM Event listeners (w3schools)](https://www.w3schools.com/js/js_htmldom_events.asp)
 11. [Introduction to events (MDN)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
 
-### Watch Suggested videos
-
-- ...
 
 ### Class examples
 
