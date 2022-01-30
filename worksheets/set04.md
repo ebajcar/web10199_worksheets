@@ -53,7 +53,7 @@ algorithm that you plan to use (and modify if your implementation deviates from 
 - what paradigm are you using? some procedural? fully functional? object-oriented?
 - does it run without any errors and warnings?
 - is it well documented? prologue? inline comments explain code blocks?
-- does it adhere to code style described in class material?
+- does it adhere to code style described in class material? [Coding style](../noteworthy/coding_style.md)
 - is all markup adhering to HTML5 standards? well-formed? valid? required template used?
 - are all CSS rules compliant with CSS3/4 standards? valid? easy to read? required framework used?
 - is all functionality complete and accurate? 
