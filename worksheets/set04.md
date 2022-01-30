@@ -30,6 +30,11 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 - [Functions - random item](../examples/set4/function_random_name.html)
 - [Functions - mix](../examples/set4/functions_mix.html) create custom methods, nested functions, arguments[i], default parameters, rest parameters
 - see Week 4 slides for additional examples
+- - [window properties and the BOM](https://codepen.io/ebajcar/pen/rLBNoW)
+- - [explore events](https://codepen.io/ebajcar/pen/ZOEwgq)
+- - [working with events](https://codepen.io/ebajcar/pen/RRwdQg)
+- - [event handling](https://codepen.io/ebajcar/pen/PzoLGK)
+- - [callbacks and timers](https://codepen.io/ebajcar/pen/NrNrRq)
 
 ### Formulate answers to the following questions
 1. What is the idea behind encapsulation in Javascript?
