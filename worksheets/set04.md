@@ -51,14 +51,17 @@ algorithm that you plan to use (and modify if your implementation deviates from 
 
 - is it unobtrusive Javascript? 
 - what paradigm are you using? some procedural? fully functional? object-oriented?
-- does it run without any errors and warnings?
+- does it run without any errors and warnings? 
 - is it well documented? prologue? inline comments explain code blocks?
-- does it adhere to code style described in class material? [Coding style](../noteworthy/coding_style.md)
+- does it adhere to code style described in class material? -- [Coding style](../noteworthy/coding_style.md)
 - is all markup adhering to HTML5 standards? well-formed? valid? required template used?
 - are all CSS rules compliant with CSS3/4 standards? valid? easy to read? required framework used?
 - is all functionality complete and accurate? 
 - what have you learned? what improvements can you identify? what's the next step?
 - site published? adheres to naming conventions? site follows standard (required) organization?
+
+[Guide](../noteworthy/gradeCalc.md)
+---
 
 
 1. **Fibonacci numbers** Piazza post https://piazza.com/class/kx69hmx2w5v79?cid=8
