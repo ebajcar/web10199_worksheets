@@ -47,8 +47,18 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 
 # Exercises
 Set up a project for each problem. Keep all versions of your solution for each project.  For each problem, write out the
-algorithm that you plan to use (and modify if your implementation deviates from your original
-plan).
+algorithm that you plan to use (and modify if your implementation deviates from your original plan). Evaluate your solution
+
+1. is it unobtrusive Javascript? 
+2. what paradigm are you using? some procedural? fully functional? object-oriented?
+3. does it run without any errors and warnings?
+4. is it well documented? prologue? inline comments explain code blocks?
+5. does it adhere to code style described in class material?
+6. is all markup adhering to HTML5 standards? well-formed? valid? required template used?
+7. are all CSS rules compliant with CSS3/4 standards? valid? easy to read? required framework used?
+8. is all functionality complete and accurate? 
+9. what have you learned? what improvements can you identify? what's the next step?
+10. site published? adheres to naming conventions? site follows standard (required) organization?
 
 
 1. **Fibonacci numbers** Piazza post https://piazza.com/class/kx69hmx2w5v79?cid=8
