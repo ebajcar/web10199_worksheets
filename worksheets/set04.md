@@ -29,13 +29,13 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 ### Class examples
 
 - [no encapsulation](../examples/set4/encapsulation_no.html)
-- [with encapsulation](syst10199/set4/encapsulation_yes.html)
-- [Fibonacci numbers with arrays and DOM](syst10199/set4/fib_func_dom.html.html)
-- [Functions - random item](syst10199/set4/function_random_name.html)
-- [Functions - mix](syst10199/set4/functions_mix.html)
-- [DOM methods - query* vs. getelement*](syst10199/set4/query_vs_getelement.html)
+- [with encapsulation](../examples/set4/encapsulation_yes.html)
+- [Fibonacci numbers with arrays and DOM](../examples/set4/fib_func_dom.html.html)
+- [Functions - random item](../examples/set4/function_random_name.html)
+- [Functions - mix](../examples/set4/functions_mix.html)
+- [DOM methods - query* vs. getelement*](../examples/set4/query_vs_getelement.html)
 - [Tic Tac Toe game - Create and remove table (board) using DOM methods](https://gist.github.com/ebajcar/4ed3acea8902c07dd7b7f6028fb66862)
-- [Collection of class examples (some repeats, some new)](https://ebajcar.github.io/class_examples/)
+//[Collection of class examples (some repeats, some new)](https://ebajcar.github.io/class_examples/)
 - there are also examples in the Course material and Weekly slides
 
 ### Formulate answers to the following questions
