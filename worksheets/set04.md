@@ -16,7 +16,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 2. [JavaScript object basics (MDN)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 3. [Traversing an HTML table with JavaScript and DOM Interfaces (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces)
 4. [JS Browser BOM (w3schools)](https://www.w3schools.com/js/js_window.asp)
-8. [Event handling](https://ebajcar.github.io/web10199/material/material_js.html#page90) - event attributes, event methods, event listeners, event capture and bubbling
+8. [Event handling](https://ebajcar.github.io/web10199/content/learnjs/events.html) - event attributes, event methods, event listeners, event capture and bubbling
 9. [DOM events (w3schools)](https://www.w3schools.com/js/js_htmldom_events.asp)
 10. [DOM Event listeners (w3schools)](https://www.w3schools.com/js/js_htmldom_events.asp)
 11. [Introduction to events (MDN)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
@@ -29,13 +29,10 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 
 - [no encapsulation](../examples/set4/encapsulation_no.html)
 - [with encapsulation](../examples/set4/encapsulation_yes.html)
-- [Fibonacci numbers with arrays and DOM](../examples/set4/fib_func_dom.html.html)
+- [Fibonacci numbers with arrays and DOM](../examples/set4/fib_func_dom.html)
 - [Functions - random item](../examples/set4/function_random_name.html)
 - [Functions - mix](../examples/set4/functions_mix.html) create custom methods, nested functions, arguments[i], default parameters, rest parameters
-- [DOM methods - query* vs. getelement*](../examples/set4/query_vs_getelement.html)
-- [Tic Tac Toe game - Create and remove table (board) using DOM methods](https://gist.github.com/ebajcar/4ed3acea8902c07dd7b7f6028fb66862)
-//[Collection of class examples (some repeats, some new)](https://ebajcar.github.io/class_examples/)
-- there are also examples in the Course material and Weekly slides
+- see Week 4 slides for additional examples
 
 ### Formulate answers to the following questions
 1. What is the idea behind encapsulation in Javascript?
