@@ -36,7 +36,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 
 Explore, implement, and comment well.
 
-- [Convert internal JS and CSS to external](syst10199/noteworthy/convert_int_to_ext.md)
+- [Convert internal JS and CSS to external](../noteworthy/convert_int_to_ext.md)
 - [Forms - clean data](https://syst10199-examples.w3spaces.com/content-forms/clean-data.html)
 - [compare passwords](https://syst10199-examples.w3spaces.com/content-forms/compare-passwords.html)
 - [constraint validation](https://syst10199-examples.w3spaces.com/content-forms/constraint-validation.html)
