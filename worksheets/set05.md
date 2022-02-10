@@ -29,6 +29,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 12. <a href="http://regexone.com/" target="_blank">Regular Expressions</a>  &mdash; interactive tutorial on regexone.com</dd>
 13. [Form data validation (MDN)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Data_form_validation) &mdash; Form validation helps us to ensure that users fill out forms in the correct format, making sure that submitted data will work successfully with our applications. This article leads you through basic concepts and examples about form validation.
 14. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions" target="_blank">Javascript Guide: Regular Expressions</a> &mdash; Regular expressions are patterns used to match character combinations in strings. In JavaScript, regular expressions are also objects. These patterns are used with the exec and test methods of RegExp, and with the match, replace, search, and split methods of String&hellip;
+15. [RegexOne - Learn Regular Expressions with simple, interactive exercises](https://regexone.com/)
 
 
 ### Class examples
@@ -36,17 +37,16 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 Explore, implement, and comment well.
 
 - [Convert internal JS and CSS to external](syst10199/noteworthy/convert_int_to_ext.md)
-- [Forms - clean data](../set5/clean_data.html)
-- [compare passwords](../set5/compare_passwords.html)
-- [constraint validation](../set5/constraint_validation.html)
-- [email_regex](../set5/email_regex.html)
+- [Forms - clean data](https://syst10199-examples.w3spaces.com/content-forms/clean-data.html)
+- [compare passwords](https://syst10199-examples.w3spaces.com/content-forms/compare-passwords.html)
+- [constraint validation](https://syst10199-examples.w3spaces.com/content-forms/constraint-validation.html)
+- [email_regex](https://syst10199-examples.w3spaces.com/content-forms/email-regex.html)
 - [email validation](../set5/email_validation.html)
-- [forms (CSS)](../set5/forms_css.html)
 - [password strength](../set5/password_strength.html)
 - [range field data](../set5/range_field.html) 
 - [feedback character count](../set5/feedback_form.html) 
-- [detailed custom validation](../set5/detailed_custom_validation.html)
-- [custom_error_message](../set5/custom_error_message.html)
+- [detailed custom validation](https://syst10199-examples.w3spaces.com/content-forms/detailed-custom.html)
+- [custom_error_message](https://syst10199-examples.w3spaces.com/content-forms/custom-error-message.html)
 
 
 ---
