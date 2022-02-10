@@ -41,7 +41,7 @@ Explore, implement, and comment well.
 - [compare passwords](https://syst10199-examples.w3spaces.com/content-forms/compare-passwords.html)
 - [constraint validation](https://syst10199-examples.w3spaces.com/content-forms/constraint-validation.html)
 - [email_regex](https://syst10199-examples.w3spaces.com/content-forms/email-regex.html)
-- [email validation](../set5/email_validation.html)
+- [email validation](https://syst10199-examples.w3spaces.com/content-forms/email-validation.html)
 - [password strength](https://syst10199-examples.w3spaces.com/content-forms/password-strength.html)
 - [range field data](https://syst10199-examples.w3spaces.com/content-forms/range-field.html) 
 - [validating input with HTML and CSS](https://syst10199-examples.w3spaces.com/content-forms/forms-css.html)
