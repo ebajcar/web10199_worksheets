@@ -14,7 +14,7 @@
 
 ### [Worksheet 4](worksheets/set04.md)
 
-### Worksheet 5
+### [Worksheet 5](worksheets/set05.md)
 
 ---
 
