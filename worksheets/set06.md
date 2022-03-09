@@ -75,9 +75,10 @@ Using Notepad++
 
 
 ### Formulate answers to the following questions
-1. How would you rewrite the Casino craps game in PHP.
-2. Rewrite the Rock Paper game in PHP.
-3. Rewrite the Tic Tac Toe game in PHP.
+1. How would you rewrite the Casino craps game in PHP. [modified JS version](https://syst10199-examples.w3spaces.com/week8/modified-cc.html)
+2. Rewrite the Rock Paper game in PHP. [modified JS version](https://syst10199-examples.w3spaces.com/week8/modified-rps.html)
+3. Rewrite the Rock Paper Lizard Spock game in PHP. [modified JS version](https://syst10199-examples.w3spaces.com/week8/modified-rpsls.html)
+4. Rewrite the Tic Tac Toe game in PHP.  [modified JS version](https://syst10199-examples.w3spaces.com/week8/modified-ttt.html)
 
 
   
