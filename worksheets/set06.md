@@ -29,14 +29,18 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 1. [hello world example](../examples/set6/hello_world.php) copy to PHP tryit editor (inside &lt;body> element)
 2. [variables examples](../examples/set6/variables.php)
 3. [print, printf, echo examples](../examples/set6/print_printf.html) copy to PHP tryit editor
+4. [Say hello example using GET method](../examples/set6/say_hello.php) Examine the code.
+  - You can try this [implementation on dev.fast](https://bajcar.dev.fast.sheridanc.on.ca/10199/set06/say_hello.php?name=Sheridan%20College&password=abc) Try changing the value.
+  - Use the **Working remotely on the server using Notepad++** to create your own version of the file
 
+#### Working remotely on the server using Notepad++
 To add the NppFTP plugin in Notepad++
 - click on the Plugins menu
 - click on the Plugins Admin...
 - in Available panel search for NppFTP
 - select it
 - click on Install button
--
+
 Once it is installed it will appear as a menu item in the Plugins menu. When you click on it, it will give you several options to select
 - click on Show NppFTP Window
 
@@ -67,8 +71,6 @@ Using Notepad++
 
 
 
-5. [Say hello example using GET method](../examples/set6/say_hello.php) Examine to code and copy the given URL into your browser address. Try changing the value.
-You can try this [implementation on dev.fast](https://bajcar.dev.fast.sheridanc.on.ca/10199/set06/say_hello.php?name=Sheridan%20College&password=abc)
 
 
 
