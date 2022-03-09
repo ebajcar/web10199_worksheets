@@ -17,11 +17,12 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 3. [PHP Operators](https://ebajcar.github.io/web10199/content/learnphp/operators.html)
 4. [PHP Variables](https://ebajcar.github.io/web10199/content/learnphp/variables.html)
 5. [PHP Data types](https://ebajcar.github.io/web10199/content/learnphp/data_types.html)
-6. [A simple tutorial (PHP Manual)](https://www.php.net/manual/en/tutorial.php)
-7. [PHP Introduction (w3schools)](https://www.w3schools.com/php/php_intro.asp)
-8. [PHP Syntax (w3schools)](https://www.w3schools.com/php/php_syntax.asp)
-9. [PHP Variables (w3schools)](https://www.w3schools.com/php/php_variables.asp)
-10. [PHP echo and print (w3schools)](https://www.w3schools.com/php/php_echo_print.asp)
+6. [PHP Programs and flow control](https://ebajcar.github.io/web10199/content/learnphp/control_flow.html)
+7. [A simple tutorial (PHP Manual)](https://www.php.net/manual/en/tutorial.php)
+8. [PHP Introduction (w3schools)](https://www.w3schools.com/php/php_intro.asp)
+9. [PHP Syntax (w3schools)](https://www.w3schools.com/php/php_syntax.asp)
+10. [PHP Variables (w3schools)](https://www.w3schools.com/php/php_variables.asp)
+11. [PHP echo and print (w3schools)](https://www.w3schools.com/php/php_echo_print.asp)
 
 
 ### Class examples
