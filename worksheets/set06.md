@@ -12,19 +12,16 @@
 
 ### Read and analyze (analytical reading)
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
-1. [PHP Introduction (class material)](https://ebajcar.github.io/web10199/material/material_php.html#page10)
-2. [PHP Programs](https://ebajcar.github.io/web10199/material/material_php.html#page20)
-3. [PHP Operators](https://ebajcar.github.io/web10199/material/material_php.html#page30)
-4. [PHP Variables](https://ebajcar.github.io/web10199/material/material_php.html#page40)
-5. [PHP Data types](https://ebajcar.github.io/web10199/material/material_php.html#page50)
+1. [PHP Introduction (class material)](https://ebajcar.github.io/web10199/content/learnphp/index.html)
+2. [PHP Grammar](https://ebajcar.github.io/web10199/content/learnphp/grammar.html)
+3. [PHP Operators](https://ebajcar.github.io/web10199/content/learnphp/operators.html)
+4. [PHP Variables](https://ebajcar.github.io/web10199/content/learnphp/variables.html)
+5. [PHP Data types](https://ebajcar.github.io/web10199/content/learnphp/data_types.html)
 6. [A simple tutorial (PHP Manual)](https://www.php.net/manual/en/tutorial.php)
 7. [PHP Introduction (w3schools)](https://www.w3schools.com/php/php_intro.asp)
 8. [PHP Syntax (w3schools)](https://www.w3schools.com/php/php_syntax.asp)
 9. [PHP Variables (w3schools)](https://www.w3schools.com/php/php_variables.asp)
 10. [PHP echo and print (w3schools)](https://www.w3schools.com/php/php_echo_print.asp)
-
-
-
 
 
 ### Class examples
