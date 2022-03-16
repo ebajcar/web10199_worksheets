@@ -25,13 +25,13 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 
 ### Class examples
 <a href="https://www.w3schools.com/php/phptryit.asp?filename=tryphp_intro" target="_blank">PHP tryit editor (w3schools)</a> Copy the php code and press run to examine the output.
-1. [array_random.php](../set7/array_random.php) 
-2. [array_associative.php](../set7/array_associative.php)
-3. [array_count.php](../set7/array_count.php) &bull; [function count (PHP Manual)](https://www.php.net/manual/en/function.count.php)
-4. [array_indexed.php](../set7/array_indexed.php)
-5. [array_ksort.php](../set7/array_ksort.php)
-6. [array_multi_dim.php](../set7/array_multi_dim.php)
-7. [circle_area.php](../set7/circle_area.php)
+1. [array_random.php](../examples/set7/array_random.php) 
+2. [array_associative.php](../examples/set7/array_associative.php)
+3. [array_count.php](../examples/set7/array_count.php) &bull; [function count (PHP Manual)](https://www.php.net/manual/en/function.count.php)
+4. [array_indexed.php](../examples/set7/array_indexed.php)
+5. [array_ksort.php](../examples/set7/array_ksort.php)
+6. [array_multi_dim.php](../examples/set7/array_multi_dim.php)
+7. [circle_area.php](../examples/set7/circle_area.php)
 8. [fibonacci_expressions.php](../set7/ibonacci_expressions.php) &bull; expressions; fragmented code
 9. [fibonacci.php](../set7/ibonacci.php) &bull; cleaner version
 10. [function_global.php](../set7/function_global.php)
