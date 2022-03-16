@@ -35,7 +35,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 8. [fibonacci_expressions.php](../examples/set7/ibonacci_expressions.php) &bull; expressions; fragmented code
 9. [fibonacci.php](../examples/set7/ibonacci.php) &bull; cleaner version
 10. [function_global.php](../examples/set7/function_global.php)
-11. [here_doc.php](../examples/set7/here_doc.php) &bull; [run on server](https://bajcar.dev.fast.sheridanc.on.ca/php10199/justdemoing/here_doc.php)
+11. [here_doc.php](../examples/set7/here_doc.php) &bull; [run on server](https://bajcar.dev.fast.sheridanc.on.ca/10199/justdemoing/here_doc.php)
 
 
 
