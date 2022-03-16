@@ -12,9 +12,8 @@
 
 ### Read and analyze (analytical reading)
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
-1. [PHP Functions](https://www.w3schools.com/php/php_functions.asp) What is a PHP Session?
-2. [PHP Functions]() PHP Built-in Functions. PHP User Defined Functions. Create a User Defined Function in PHP. PHP Function Arguments. PHP is a Loosely Typed Language. PHP Default Argument Value. 
-3. [PHP Functions](https://www.w3schools.com/php/php_ref_overview.asp) complete PHP reference - [Array Functions](https://www.w3schools.com/php/php_ref_array.asp) - [Math Functions](https://www.w3schools.com/php/php_ref_math.asp) - [Variable Handling Functions](https://www.w3schools.com/php/php_ref_variable_handling.asp) -  [Regular Expression Functions](https://www.w3schools.com/php/php_ref_regex.asp) -  [String Functions](https://www.w3schools.com/php/php_ref_string.asp) -  [Exception Reference](https://www.w3schools.com/php/php_ref_exception.asp) -  [Error Functions](https://www.w3schools.com/php/php_ref_error.asp) -  [Date/Time Functions](https://www.w3schools.com/php/php_ref_date.asp) -
+
+3. [PHP Functions](https://www.w3schools.com/php/php_ref_overview.asp) complete PHP reference - [Array Functions](https://www.w3schools.com/php/php_ref_array.asp) - [Math Functions](https://www.w3schools.com/php/php_ref_math.asp) - [Variable Handling Functions](https://www.w3schools.com/php/php_ref_variable_handling.asp) -  [Regular Expression Functions](https://www.w3schools.com/php/php_ref_regex.asp) -  [String Functions](https://www.w3schools.com/php/php_ref_string.asp) -  [Exception Reference](https://www.w3schools.com/php/php_ref_exception.asp) -  [Error Functions](https://www.w3schools.com/php/php_ref_error.asp) -  [Date/Time Functions](https://www.w3schools.com/php/php_ref_date.asp) - PHP Built-in Functions. PHP User Defined Functions. Create a User Defined Function in PHP. PHP Function Arguments. PHP is a Loosely Typed Language. PHP Default Argument Value. 
 4. [PHP Sessions (w3schools tutorial)](https://www.w3schools.com/php/php_sessions.asp) What is a PHP Session? Start a PHP Session. Get PHP Session Variable Values. Modify a PHP Session Variable. Destroy a PHP Session.
 5. [PHP Classes and Objects (PHP Manual)](https://www.php.net/manual/en/language.oop5.php) The basics, Properties, Class Constants, Constructors and Destructors, Visibility
 6. [PHP - What is OOP? (w3schools tutorial)](https://www.w3schools.com/php/php_oop_what_is.asp)
@@ -23,11 +22,11 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 
 ### Class examples
 
-See code and information in [Course material PHP Sessions](https://ebajcar.github.io/web10199/material/material_php.html#page80)
+See code and information in [Course material PHP Sessions](https://ebajcar.github.io/web10199/content/learnphp/sessions.html)
 
-- [Example 1: sessionTest.php](https://bajcar.dev.fast.sheridanc.on.ca/php10199/sessions/sessionTest.php)
-- [Example 2: message.php](https://bajcar.dev.fast.sheridanc.on.ca/php10199/sessions/message.php)
-- [Example 3: getStuff.html](https://bajcar.dev.fast.sheridanc.on.ca/php10199/sessions/getStuff.html)
+- [Example 1: sessionTest.php](https://bajcar.dev.fast.sheridanc.on.ca/10199/sessions/sessionTest.php)
+- [Example 2: message.php](https://bajcar.dev.fast.sheridanc.on.ca/10199/sessions/message.php)
+- [Example 3: getStuff.html](https://bajcar.dev.fast.sheridanc.on.ca/10199/sessions/getStuff.html)
 
 
 ### Formulate answers to the following (in preparation for next assignment)
