@@ -20,15 +20,15 @@
 
 # PHP and MySQL (server-side, back-end))
 
-### Worksheet 6
+### [Worksheet 6](worksheets/set06.md)
 
-### Worksheet 7
+### [Worksheet 7](worksheets/set07.md)
 
-### Worksheet 8
+### [Worksheet 8](worksheets/set08.md)
 
-### Worksheet 9
+### [Worksheet 9](worksheets/set09.md)
 
-### Worksheet 10
+### [Worksheet 10](worksheets/set10.md)
 
    
 ---
