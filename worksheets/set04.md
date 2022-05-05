@@ -71,34 +71,6 @@ algorithm that you plan to use (and modify if your implementation deviates from 
 ---
 
 
-1. **Fibonacci numbers** Piazza post https://piazza.com/class/kx69hmx2w5v79?cid=8
-    - (v.6) &mdash; Write a fully functional, unobtrusive Javascript solution.
-    - (v.7) &mdash; Convert to object-oriented, unobtrusive Javascript solution.
-2. **Temperature conversion** Piazza post https://piazza.com/class/kx69hmx2w5v79?cid=7
-    - (v.4) &mdash; Write a fully functional, unobtrusive Javascript solution.   
-    - (v.5) &mdash; Convert to object-oriented, unobtrusive Javascript solution.  
-3. **Area of a circle** Piazza post https://piazza.com/class/kx69hmx2w5v79?cid=9
-    - (v.3) &mdash; Write a fully functional, unobtrusive Javascript solution.   
-    - (v.4) &mdash; Convert to object-oriented, unobtrusive Javascript solution.
-4. **Quadratic roots** Piazza post https://piazza.com/class/kx69hmx2w5v79?cid=10
-    - (v.4) &mdash; Write a fully functional, unobtrusive Javascript solution.
-    - (v.5) &mdash; Convert to object-oriented, unobtrusive Javascript solution.
-5. **Prime numbers** Piazza post https://piazza.com/class/kx69hmx2w5v79?cid=12
-    - (v.4) &mdash; Write a fully functional, unobtrusive Javascript solution.
-    - (v.5) &mdash; Convert to object-oriented, unobtrusive Javascript solution.
-6. **Is it a palindrome** Piazza post https://piazza.com/class/kx69hmx2w5v79?cid=14
-    - (v.3) &mdash; Write a fully functional, unobtrusive Javascript solution.
-    - (v.4) &mdash; Convert to object-oriented, unobtrusive Javascript solution.
-7. **Game of Casino Craps** Piazza post https://piazza.com/class/kx69hmx2w5v79?cid=13
-    - (v.4) &mdash; Write a fully functional, unobtrusive Javascript solution.
-    - (v.5) &mdash; Convert to object-oriented, unobtrusive Javascript solution.
-8. **Game of Tic Tac Toe** Piazza post https://piazza.com/class/kx69hmx2w5v79?cid=11
-    - (v.4) &mdash; Write a fully functional, unobtrusive Javascript solution.
-    - (v.5) &mdash; Convert to object-oriented, unobtrusive Javascript solution.
-9. **Game of Rock Paper Scissors** Piazza post https://piazza.com/class/kx69hmx2w5v79?cid=15
-    - (v.4) &mdash; Write a fully functional, unobtrusive Javascript solution.
-    - (v.5) &mdash; Convert to object-oriented, unobtrusive Javascript solution.
-
 
   
 ---
