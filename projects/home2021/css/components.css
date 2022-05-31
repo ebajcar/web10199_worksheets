@@ -1,19 +1,17 @@
 /* 
-	Author: Ellen Bajcar
-	Program: components.css
-	Date: Summer 2016 
-	Date Updated: Summer 2021
-	Version: 21.5
-	Purpose: learning Javascript programming (SYST10199)
-	Copyright: This work is the intellectual property of Sheridan College. 
-		Any further copying and distribution outside of class must be within 
-		the copyright law. Posting to commercial sites for profit is prohibited.
-	Description:
-		styling components used in assignments during Summer 2021 course
+    Author: Ellen Bajcar
+    Program: components.css
+    Date: Summer 2016 
+    Date Updated: Summer 2021
+    Version: 21.5
+    Purpose: learning Javascript programming (SYST10199)
+    Copyright: This work is the intellectual property of Sheridan College. 
+        Any further copying and distribution outside of class must be within 
+        the copyright law. Posting to commercial sites for profit is prohibited.
+    Description:
+        styling components used in assignments during Summer 2021 course
     used across the site where needed
-		dialog, tooltips, colors and backgrounds
-
-
+        dialog, tooltips, colors and backgrounds
 */
 
 /* 
@@ -21,33 +19,33 @@
  *
  */
 dialog {
-	position: fixed;
-	top: 50%;
-	transform: translate(0, -50%);
-	background: #e0e0e0;
-	padding: 3px;
-	border: 1px solid gray;
-	box-sizing: border-box;
-	width: 50%;
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    background: #e0e0e0;
+    padding: 3px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    width: 50%;
 }
 dialog h2 {
-	font-size: 40px;
+    font-size: 40px;
 }
 
 dialog section {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	background-color: white;
-	text-align: left;
-	padding: 3px;
-	box-sizing: border-box;
-	height: 300px;
-	overflow-y: scroll;
-	overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: left;
+    padding: 3px;
+    box-sizing: border-box;
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 dialog p, dialog ul {
-	font-family: var(--fontbody);
+    font-family: var(--fontbody);
 }
 
 
@@ -58,40 +56,40 @@ dialog p, dialog ul {
  */
 
 .tooltip {
-  border-bottom: 1px dotted black;
-  display: inline-block;
-  position: relative;
+    border-bottom: 1px dotted black;
+    display: inline-block;
+    position: relative;
 }
 
 .tooltip .tooltiptext {
-  background-color: var(--sherblue);
-  border-radius: 6px;
-  color: #fff;
-  font-size: 1.1em;
-  left: 50%;
-  margin-left: -60px;
-  padding: 5px 0;
-  position: absolute;
-  text-align: center;
-  top: 110%;
-  visibility: hidden;
-  width: 120px;  
-  z-index: 1;
+    background-color: var(--sherblue);
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1.1em;
+    left: 50%;
+    margin-left: -60px;
+    padding: 5px 0;
+    position: absolute;
+    text-align: center;
+    top: 110%;
+    visibility: hidden;
+    width: 120px;  
+    z-index: 1;
 }
 
 .tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent black transparent;
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
 }
 
 .tooltip:hover .tooltiptext {
-  visibility: visible;
+    visibility: visible;
 }
 
 
@@ -102,101 +100,112 @@ dialog p, dialog ul {
  */
 
 .tomato {
-  background: tomato;
+    background: tomato;
 }
 .sblue {
-  background: #093D6D;
+    background: #093D6D;
 }
 .steal {
-  background: #47d1d1;
+    background: #47d1d1;
 }
 .galaxy-blue {
-  background: #2A4B7C;
+    background: #2A4B7C;
 }
 .dark-cheddar {
   background: #E08119;
 }
 .bluestone {
-  background: #577284;
+    background: #577284;
 }
 .soybean {
-  background: #D2C29D;
+    background: #D2C29D;
 }
 .sailor-blue {
-  background: #2E4A62;
+    background: #2E4A62;
 }
 .warm-sand {
-  background: #C0AB8E;
+    background: #C0AB8E;
 }
 .red-pear {
-  background: #7F4145;
+    background: #7F4145;
 }
 .guacamole {
-  background: #797B3A;
+    background: #797B3A;
 }
 .evening-blue {
-  background: #2A293E;
+    background: #2A293E;
 }
 .spruce {
-  background: #005960;
+    background: #005960;
 }
 .chili-pepper {
-  background: #9B1B30;
+    background: #9B1B30;
 }
 
-.tic-tac-toe, .rock-paper, .casino-craps, 
-.blackjack, .sliding-puzzle, .bingo,
-.hangman, .yahtzee, .num-scrabble,
-.pick-a-pair, .crypto-puzzle, .ultimate,
-.chess, .pig, .abacus, .wyvern {
-  background-size:  var(--cell-size) var(--cell-size);  
-  background-repeat: no-repeat;
+.tic-tac-toe, 
+.rock-paper, 
+.casino-craps, 
+.blackjack, 
+.sliding-puzzle, 
+.bingo,
+.hangman, 
+.yahtzee, 
+.num-scrabble,
+.pick-a-pair, 
+.crypto-puzzle, 
+.ultimate,
+.chess, 
+.pig, 
+.abacus, 
+.wyvern {
+    background-size:  var(--cell-size) var(--cell-size);  
+    background-repeat: no-repeat;
 }
 .tic-tac-toe {
-  background-image: url("../images/tic-tac-toe.png");
+    background-image: url("../images/tic-tac-toe.png");
 }
 .rock-paper {
-  background-image: url("../images/scissors.png");
+    background-image: url("../images/scissors.png");
 }
 .casino-craps {
-  background-image: url("../images/rolling-dices.png");
+    background-image: url("../images/rolling-dices.png");
 }
 .blackjack {
-  background-image: url("../images/card-queen-clubs.png");
+    background-image: url("../images/card-queen-clubs.png");
 }
 .sliding-puzzle {
-  background-image: url("../images/puzzle.png");
+    background-image: url("../images/puzzle.png");
 }
 .bingo {
-  background-image: url("../images/conway-life-glider.png");
+    background-image: url("../images/conway-life-glider.png");
 }
 .hangman {
-  background-image: url("../images/gibbet.png");
+    background-image: url("../images/gibbet.png");
 }
 .yahtzee {
-  background-image: url("../images/perspective-dice-six-faces-four.png");
+    background-image: url("../images/perspective-dice-six-faces-four.png");
 }
 .num-scrabble {
-  background-image: url("../images/perspective-dice-five.png");
+    background-image: url("../images/perspective-dice-five.png");
 }
 .pick-a-pair {
-  background-image: url("../images/hieroglyph-y.png");
+    background-image: url("../images/hieroglyph-y.png");
 }
 .crypto-puzzle {
-  background-image: url("../images/maze.png");
+    background-image: url("../images/maze.png");
 }
 .chess {
-  background-image: url("../images/empty-chessboard.png");
+    background-image: url("../images/empty-chessboard.png");
 }
 .ultimate {
-  background-image: url("../images/hexes.png");
+    background-image: url("../images/hexes.png");
 }
 .pig {
-  background-image: url("../images/pig.png");
+    background-image: url("../images/pig.png");
 }
 .abacus {
-  background-image: url("../images/abacus.png");
+    background-image: url("../images/abacus.png");
 }
 .wyvern {
-  background-image: url("../images/wyvern.png");
+    background-image: url("../images/wyvern.png");
 }
