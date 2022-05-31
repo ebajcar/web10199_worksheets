@@ -32,7 +32,8 @@ function chooseItem(array, len) {
 }
 
 document.getElementsByTagName("body")[0].onclick = function (h3) {
-  const names = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada'];
+  const names =
+    ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada'];
   var h3 = document.createElement('h3');
   h3.textContent = chooseItem(names, names.length);
   const section = document.querySelector('section');

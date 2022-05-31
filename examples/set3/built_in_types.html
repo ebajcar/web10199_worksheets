@@ -16,7 +16,8 @@ document.write("&lt;p>Today's date is " + d + "&lt;/p>");
 <p></p>
 
 <pre><code>
-// 7 numbers specify year, month, day, hour, minute, second, and millisecond (in that order)
+// 7 numbers specify year, month, day, hour, minute, second,
+// and millisecond (in that order)
 let d = new Date(2018, 11, 24, 10, 33, 30, 0);
 </code></pre>
 <p></p>
@@ -28,7 +29,7 @@ let d = new Date(2018, 11, 24);
 <p></p>
 
 <pre><code>
-let d4 = new Date('June 3, 2020 03:24:00');
+let d4 = new Date('June 3, 2020 03&colon;24&colon;00');
 </code></pre>
 <p></p>
 
@@ -46,7 +47,8 @@ document.getElementsByTagName("p")[4].innerHTML = x.dateTime + "&lt;br>" +  d5;
 let d1 = new Date();
 document.getElementsByTagName("p")[0].innerHTML = "Today's date is " + d1;
 
-// 7 numbers specify year, month, day, hour, minute, second, and millisecond (in that order)
+// 7 numbers specify year, month, day, hour, minute, second, and
+// millisecond (in that order)
 let d2 = new Date(2018, 11, 24, 10, 33, 30, 0);
 document.getElementsByTagName("p")[1].innerHTML = d2;
 
@@ -54,8 +56,8 @@ document.getElementsByTagName("p")[1].innerHTML = d2;
 let d3 = new Date(2018, 11, 24);
 document.getElementsByTagName("p")[2].innerHTML = d3;
 
-// JavaScript stores dates as number of milliseconds since 
-// January 01, 1970, 00:00:00 UTC 
+// JavaScript stores dates as number of milliseconds since
+// January 01, 1970, 00:00:00 UTC
 let d4 = new Date('June 3, 2020 03:24:00');
 document.getElementsByTagName("p")[3].innerHTML = d4;
 

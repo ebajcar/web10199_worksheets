@@ -23,9 +23,18 @@ section {
 
 <script>
 /*
-See step-by-step development: https://www.intertech.com/Blog/encapsulation-in-javascript/
+See step-by-step development:
+https://www.intertech.com/Blog/encapsulation-in-javascript/
 
-The trick is to remember to call the anonymous function immediately after its definition, and assign the return value (the inner object) to the outside variable (person), rather than simply assigning the anonymous function itself to the outside variable.  This is done by using the invocation operator, (), at the end of the function.  Since this is easy to miss, and we want to strive for maximum readability, developers typically wrap the entire anonymous function & invocation operator with parentheses.  While this isn’t required, it’s definitely recommended as a way to signal to other developers, “this function is being executed rather than simply assigned.”
+The trick is to remember to call the anonymous function immediately after its
+definition, and assign the return value (the inner object) to the outside
+variable (person), rather than simply assigning the anonymous function itself
+to the outside variable.  This is done by using the invocation operator, (),
+at the end of the function.  Since this is easy to miss, and we want to strive
+for maximum readability, developers typically wrap the entire anonymous function
+ & invocation operator with parentheses.  While this isn’t required, it’s
+ definitely recommended as a way to signal to other developers, “this function
+ is being executed rather than simply assigned.”
 */
 let person = (function () {
 
@@ -42,15 +51,15 @@ let person = (function () {
       }
     },
     getFullName : function () {
-     return fullName; 
+     return fullName;
     }
   }; // end of the return
 }());
 
- // Note the '()', this means we're calling the function 
-     // and assigning the *returned object,* instead of 
+ // Note the '()', this means we're calling the function
+     // and assigning the *returned object,* instead of
      // the *function itself* for the value of 'person.'
- 
+
 document.write("<br>Call 1: " + person.getFullName());   // Jason Shapiro
 person.setFullName( "Jim White" );
 document.write("<br>Call 2: " + person.getFullName());  // Jim White
