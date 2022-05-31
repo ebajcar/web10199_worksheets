@@ -1,93 +1,91 @@
 /* 
-	Author: Ellen Bajcar
-	Program: style.css
-	Date: Summer 2016 
-	Date Updated: Summer 2021
-	Version: 21.5
-	Purpose: learning Javascript programming (SYST10199)
-	Copyright: This work is the intellectual property of Sheridan College. 
-		Any further copying and distribution outside of class must be within 
-		the copyright law. Posting to commercial sites for profit is prohibited.
-	Description:
-		styling components used in assignments during Summer 2021 course
-    main (core) set of CSS rules used across the site to give it the same look-and-feel
-		includes basic, structural components and layout
-
-
+Author: Ellen Bajcar
+Program: style.css
+Date: Summer 2016 
+Date Updated: Summer 2021
+Version: 21.5
+Purpose: learning Javascript programming (SYST10199)
+Copyright: This work is the intellectual property of Sheridan College. 
+Any further copying and distribution outside of class must be within 
+the copyright law. Posting to commercial sites for profit is prohibited.
+Description:
+styling components used in assignments during Summer 2021 course
+main (core) set of CSS rules used across the site to give it the same look-and-feel
+includes basic, structural components and layout
 */
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Akronim|Asap+Condensed|Barrio|Frijole|Luckiest+Guy|Princess+Sofia');
 :root {
-	--bgwhite: #fff;	
-	--fontcolor: #003767;
+    --bgwhite: #fff;	
+    --fontcolor: #003767;
     --sherblue: #003767;
     --sherteal: #00b2ce;
     --sherorange: #00CCCC;
-  --lightblue: #00b2ce;
-  --darkblue: #0081a1;
-  --darkgray: #333940;
-  --lightgray: #d5d5d5;    
-	--fontfam: 'Luckiest Guy', cursive;
-	--fontbody: 'Asap Condensed', sans-serif;
-	--fonttitle: 'Akronim', cursive;
-	--fontalt: 'Kaushan Script', cursive;  
-	--gap-sm: 2px;
-	--gap-md: 10px;
-	--gap-lg: 25px;
- 
-  --body-bg-color: #a2a2a2;
-  --tiles-bg-color: rgba(255, 255, 255, 0.8);
-  --tiles-bg-color-hover: rgba(230, 230, 230, 0.8);;
-  --tiles-blue-bg-color: #4f62ff;
-  --tiles-red-bg-color: #d22f2f;
-  --cell-size: 105px;
-  --cell-spacing: 10px;
-  --title-height: 80px;
-  --reset-height: 105px;
+    --lightblue: #00b2ce;
+    --darkblue: #0081a1;
+    --darkgray: #333940;
+    --lightgray: #d5d5d5;    
+    --fontfam: 'Luckiest Guy', cursive;
+    --fontbody: 'Asap Condensed', sans-serif;
+    --fonttitle: 'Akronim', cursive;
+    --fontalt: 'Kaushan Script', cursive;  
+    --gap-sm: 2px;
+    --gap-md: 10px;
+    --gap-lg: 25px;
+
+    --body-bg-color: #a2a2a2;
+    --tiles-bg-color: rgba(255, 255, 255, 0.8);
+    --tiles-bg-color-hover: rgba(230, 230, 230, 0.8);;
+    --tiles-blue-bg-color: #4f62ff;
+    --tiles-red-bg-color: #d22f2f;
+    --cell-size: 105px;
+    --cell-spacing: 10px;
+    --title-height: 80px;
+    --reset-height: 105px;
 }
 body {
-	background: var(--darkgray);
-  font-family: var(--fontalt);
-  margin: 0 auto;
-  text-align: center;
+    background: var(--darkgray);
+    font-family: var(--fontalt);
+    margin: 0 auto;
+    text-align: center;
 }
 main {
-	width: 100%;
-	margin: auto;
-	padding-top: 4px;
-	background-color: var(--lightgray);
-	min-height: 600px;
-	display: flex;
-	justify-content: center;	
+    width: 100%;
+    margin: auto;
+    padding-top: 4px;
+    background-color: var(--lightgray);
+    min-height: 600px;
+    display: flex;
+    justify-content: center;	
 }
 main p {
-  font-size: 1.9em;
+    font-size: 1.9em;
 }
 main > div {
-  margin: 5px;
-  padding: 5px;
+    margin: 5px;
+    padding: 5px;
 }
 main a {
-  text-decoration: none;
-  font-family:  var(--fontbody);
-  color: var(--sherblue);   
-	text-shadow: 1px 1px 2px black;
+    text-decoration: none;
+    font-family:  var(--fontbody);
+    color: var(--sherblue);   
+    text-shadow: 1px 1px 2px black;
 }
 header h1, dialog h2, h2 {
-	color: var(--sherteal);   
-	text-shadow: 1px 1px var(--bgwhite);
-  font-size: 60px;
-  font-weight: 400;
-	margin: 16px 0 0;
-  text-align: center;
+    color: var(--sherteal);   
+    text-shadow: 1px 1px var(--bgwhite);
+    font-size: 60px;
+    font-weight: 400;
+    margin: 16px 0 0;
+    text-align: center;
 }
 footer {
-	margin: auto;
-	padding-top: 2px;
-	margin-top: 10px;
-	text-align: center;
-	color: var(--sherteal);
-	clear: both;
+    margin: auto;
+    padding-top: 2px;
+    margin-top: 10px;
+    text-align: center;
+    color: var(--sherteal);
+    clear: both;
 }
 
 
@@ -96,41 +94,40 @@ footer {
  *
  */
 nav {
-  margin: 20px auto;
-  width: 450px;
-	text-align: center;
+    margin: 20px auto;
+    width: 450px;
+    text-align: center;
 }
 nav a, nav span {
-  background-color: var(--lightgray);
-	color: var(--darkgray);
-  display: inline-block;
-	font-family: Lato, sans-serif;
-  font-size: 15px;
-  padding: 7px;
-  text-decoration: none;
+    background-color: var(--lightgray);
+    color: var(--darkgray);
+    display: inline-block;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    padding: 7px;
+    text-decoration: none;
 }
 nav a.active, nav a:hover, nav span:hover {
-  background: var(--sherteal);
-  color: var(--darkgray);
-  cursor: pointer;
+    background: var(--sherteal);
+    color: var(--darkgray);
+    cursor: pointer;
 }
 nav .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 nav .dropdown-content {
-  display: none;
-  position: absolute;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  width: 160px;
-  z-index: 1;
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 160px;
+    z-index: 1;
 }
 nav .dropdown-content > a {
-  display: block;
-  
+    display: block;
 }
 nav .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 
 /* 
@@ -138,37 +135,37 @@ nav .dropdown:hover .dropdown-content {
  *
  */
 .grid-container {
-	display: grid;
-	grid-template-columns: auto;
-	grid-gap: var(--gap-sm);
-	min-height: 320px;
-	width: 600px;
-	padding: 1px;
-	font-family: var(--fontbody);
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: var(--gap-sm);
+    min-height: 320px;
+    width: 600px;
+    padding: 1px;
+    font-family: var(--fontbody);
 }
 .grid-item {
-  border: 0px dotted lightgray;
-	padding: 0;
-	margin: 0;
-	height: 100%;
-	text-align: center;
+    border: 0px dotted lightgray;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    text-align: center;
 }
 .grid-item p {
-  font-family: var(--fontbody);
+    font-family: var(--fontbody);
 }
 .games-container {
-  display: grid;
-  grid-template-columns: var(--cell-size) var(--cell-size) var(--cell-size) var(--cell-size);
-  grid-template-rows: var(--reset-height) var(--cell-size) var(--cell-size) var(--cell-size) var(--reset-height);
-  grid-gap: var(--cell-spacing);
-  justify-content: center;
-  align-content: center;
-  padding-top: 20px;  
-  border: 0px dotted lightgray;
-	padding: 0;
-	margin: 0;
-	height: 100%;
-	text-align: center;  
+    display: grid;
+    grid-template-columns: var(--cell-size) var(--cell-size) var(--cell-size) var(--cell-size);
+    grid-template-rows: var(--reset-height) var(--cell-size) var(--cell-size) var(--cell-size) var(--reset-height);
+    grid-gap: var(--cell-spacing);
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;  
+    border: 0px dotted lightgray;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    text-align: center;  
 }
 
 
@@ -178,54 +175,54 @@ nav .dropdown:hover .dropdown-content {
  *
  */
 .but {
-  font-family:  var(--fontbody);
-  	color: white;   
-	text-shadow: 1px 1px 2px black;
-  font-size: 24px;
-  background-color: var(--tiles-bg-color);
-  width: var(--cell-size);
-  height: var(--cell-size);
-  border: none;
-  display: block;
-  cursor: pointer;
-  padding: 0;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5), 0 0 0 rgba(0, 0, 0, 0.5) inset;
-  transition: 0.1s box-shadow ease-out;
+    font-family:  var(--fontbody);
+    color: white;   
+    text-shadow: 1px 1px 2px black;
+    font-size: 24px;
+    background-color: var(--tiles-bg-color);
+    width: var(--cell-size);
+    height: var(--cell-size);
+    border: none;
+    display: block;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5), 0 0 0 rgba(0, 0, 0, 0.5) inset;
+    transition: 0.1s box-shadow ease-out;
 }
 .but a {
-  padding: 1rem;
-  border: 1px solid #ccc;
-  background-color: #ddd;
-  -webkit-transition: background-color 200ms ease;
-  transition: background-color 200ms ease;
-  width: 100%;
-  box-shadow: 1px 1px 3px gray;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background-color: #ddd;
+    -webkit-transition: background-color 200ms ease;
+    transition: background-color 200ms ease;
+    width: 100%;
+    box-shadow: 1px 1px 3px gray;
 }
 .but a:hover {
-  cursor: pointer;
-  background-color: #eee;
+    cursor: pointer;
+    background-color: #eee;
 }
 a.but:active,
 a.but.ai-active {
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5), 0 2px 5px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5), 0 2px 5px rgba(0, 0, 0, 0.5) inset;
 }
 a.but:hover {
-  background-color: var(--tiles-bg-color-hover);
+    background-color: var(--tiles-bg-color-hover);
 }
 
 .reset {
-  width: 100%;
-  height: var(--reset-height);
-  grid-column-start: 1;
-  grid-column-end: 4;
+    width: 100%;
+    height: var(--reset-height);
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
 .btn-long {
-  width: 100%;
-  height: var(--title-height);
-  text-align: center;
-  color: var(--sherblue);
-  padding-top: 10px;
+    width: 100%;
+    height: var(--title-height);
+    text-align: center;
+    color: var(--sherblue);
+    padding-top: 10px;
 }
 
