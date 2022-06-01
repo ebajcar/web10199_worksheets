@@ -36,6 +36,7 @@ document.getElementsByTagName("body")[0].onclick = function (h3) {
     ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada'];
   var h3 = document.createElement('h3');
   h3.textContent = chooseItem(names, names.length);
+  console.log(h3.textContent);
   const section = document.querySelector('section');
   section.innerHTML = "";
   section.appendChild(h3);
