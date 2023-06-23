@@ -10,6 +10,24 @@
 
 # Course material
 
+### Program flow
+
+### Data structures
+
+#EE Functions
+* built-in functions
+* **print and echo**
+* arrays * strings * implode * explode * array_rand * count * sort strcmp
+* variable handling * empty * isset * unset * is_array * is_int * is_string 
+* **print_r * var_dump**
+* math * rand * ceil * floor * abs * exp * is_non * Max * min * pi * round * sqrt
+* filesystem * fopen * file
+* error handling * error_log * die * try...throw...catch
+* date and time
+
+  
+
+
 ### Read and analyze (analytical reading)
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
 1. [PHP Strings](https://www.w3schools.com/php/php_string.asp)
