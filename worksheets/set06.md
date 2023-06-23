@@ -39,7 +39,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 * 6 [PHP Programs and flow control](https://ebajcar.github.io/web10199/content/learnphp/control_flow.html)
 * 11 [PHP echo and print (w3schools)](https://www.w3schools.com/php/php_echo_print.asp)
 
-
+--
 1. [PHP Introduction (class material)](https://ebajcar.github.io/web10199/content/learnphp/index.html)
 2. [PHP Grammar](https://ebajcar.github.io/web10199/content/learnphp/grammar.html)
 3. [PHP Operators](https://ebajcar.github.io/web10199/content/learnphp/operators.html)
@@ -51,7 +51,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 9. [PHP Syntax (w3schools)](https://www.w3schools.com/php/php_syntax.asp)
 10. [PHP Variables (w3schools)](https://www.w3schools.com/php/php_variables.asp)
 11. [PHP echo and print (w3schools)](https://www.w3schools.com/php/php_echo_print.asp)
-
+--
 
 ### Class examples
 <a href="https://www.w3schools.com/php/phptryit.asp?filename=tryphp_intro" target="_blank">PHP tryit editor (w3schools)</a> Copy the php code and press run to examine the output.
