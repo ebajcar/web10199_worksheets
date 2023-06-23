@@ -12,6 +12,14 @@
 
 ### Read and analyze (analytical reading)
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
+
+### PHP language
+&bull; introduction &bull; resources
+### Grammar
+* start/end processing instructions  *  file extensions  * pure/hybrid scripts  * whitespace  * case-sensitivity * commenting
+
+
+
 1. [PHP Introduction (class material)](https://ebajcar.github.io/web10199/content/learnphp/index.html)
 2. [PHP Grammar](https://ebajcar.github.io/web10199/content/learnphp/grammar.html)
 3. [PHP Operators](https://ebajcar.github.io/web10199/content/learnphp/operators.html)
