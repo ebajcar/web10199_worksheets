@@ -15,9 +15,29 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 
 ### PHP language
 &bull; introduction &bull; resources
+* 1 [PHP Introduction (class material)](https://ebajcar.github.io/web10199/content/learnphp/index.html)
+* 7 [A simple tutorial (PHP Manual)](https://www.php.net/manual/en/tutorial.php)
+* 8 [PHP Introduction (w3schools)](https://www.w3schools.com/php/php_intro.asp)
 ### Grammar
 * start/end processing instructions  *  file extensions  * pure/hybrid scripts  * whitespace  * case-sensitivity * commenting
-
+* 2 [PHP Grammar](https://ebajcar.github.io/web10199/content/learnphp/grammar.html)
+* 9 [PHP Syntax (w3schools)](https://www.w3schools.com/php/php_syntax.asp)
+### Data types
+* int * float * string * bool * null * array * object * resource * pseudo-type * primitives * scalar type
+* 5 [PHP Data types](https://ebajcar.github.io/web10199/content/learnphp/data_types.html)
+### Variables
+* expressions * Identifiers * constant * predefined variables * declaring variables * variable scope
+* 4 [PHP Variables](https://ebajcar.github.io/web10199/content/learnphp/variables.html)
+* 10 [PHP Variables (w3schools)](https://www.w3schools.com/php/php_variables.asp)
+### Operators
+* types * precedence
+* 3 [PHP Operators](https://ebajcar.github.io/web10199/content/learnphp/operators.html)
+### Data structures
+* array
+### Program flow
+* simple statement * selection * iteration * requires and includes
+* 6 [PHP Programs and flow control](https://ebajcar.github.io/web10199/content/learnphp/control_flow.html)
+* 11 [PHP echo and print (w3schools)](https://www.w3schools.com/php/php_echo_print.asp)
 
 
 1. [PHP Introduction (class material)](https://ebajcar.github.io/web10199/content/learnphp/index.html)
