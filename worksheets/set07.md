@@ -25,7 +25,7 @@
 * error handling * error_log * die * try...throw...catch
 * date and time
 
-  
+
 
 
 ### Read and analyze (analytical reading)
