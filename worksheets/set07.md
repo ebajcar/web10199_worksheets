@@ -48,7 +48,7 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 3. math [PHP Math (w3schools) ]](https://www.w3schools.com/php/php_math.asp)
 4. constant [PHP Constants (w3schools) ]](https://www.w3schools.com/php/php_constants.asp)
 5. if - [PHP if...else...elseif (w3schools) ]](https://www.w3schools.com/php/php_if_else.asp)
-6. switch [PHP switch Statement (w3schools) ]](https://www.w3schools.com/php/php_switch.asp)
+6. ---switch [--PHP switch Statement (w3schools)-- ]](https://www.w3schools.com/php/php_switch.asp)---
 7. [PHP Loops (w3schools) ]](https://www.w3schools.com/php/php_looping.asp)
 8. --[PHP Arrays (w3schools) ]](https://www.w3schools.com/php/php_arrays.asp)--
 9. [PHP Superglobals (w3schools) ]](https://www.w3schools.com/php/php_superglobals.asp)
