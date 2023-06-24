@@ -33,7 +33,14 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 ---
 * Rules https://www.php.net/manual/en/userlandnaming.rules.php
 *  » CODING STANDARDS: https://raw.githubusercontent.com/php/php-src/master/CODING_STANDARDS.md
-*  
+     Function names use underscores between words, while class names use both the camelCase and PascalCase rules.
+     Here is an overview of code constructs that go into the global namespace:
+* functions
+* classes
+* interfaces
+* constants (not class constants)
+* variables defined outside of functions/methods
+   
 ---   
 ### Operators
 * types * precedence
