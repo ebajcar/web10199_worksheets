@@ -30,6 +30,11 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 * expressions * Identifiers * constant * predefined variables * declaring variables * variable scope
 * 4 [PHP Variables (class material)](https://ebajcar.github.io/web10199/content/learnphp/variables.html)
 * 10 [PHP Variables (w3schools)](https://www.w3schools.com/php/php_variables.asp)
+---
+* Rules https://www.php.net/manual/en/userlandnaming.rules.php
+*  » CODING STANDARDS: https://raw.githubusercontent.com/php/php-src/master/CODING_STANDARDS.md
+*  
+---   
 ### Operators
 * types * precedence
 * 3 [PHP Operators (class material)](https://ebajcar.github.io/web10199/content/learnphp/operators.html)
