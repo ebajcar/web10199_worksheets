@@ -16,11 +16,12 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 ### PHP language
 &bull; introduction &bull; resources
 * 1 [PHP Introduction (class material)](https://ebajcar.github.io/web10199/content/learnphp/index.html)
-* 7 [A simple tutorial (PHP Manual)](https://www.php.net/manual/en/tutorial.php)
-* 8 [PHP Introduction (w3schools)](https://www.w3schools.com/php/php_intro.asp)
+
 ### Grammar
 * start/end processing instructions  *  file extensions  * pure/hybrid scripts  * whitespace  * case-sensitivity * commenting
 * 2 [PHP Grammar (class material)](https://ebajcar.github.io/web10199/content/learnphp/grammar.html)
+* 7 [A simple tutorial (PHP Manual)](https://www.php.net/manual/en/tutorial.php)
+* 8 [PHP Introduction (w3schools)](https://www.w3schools.com/php/php_intro.asp)
 * 9 [PHP Syntax (w3schools)](https://www.w3schools.com/php/php_syntax.asp)
 ### Data types
 * int * float * string * bool * null * array * object * resource * pseudo-type * primitives * scalar type
