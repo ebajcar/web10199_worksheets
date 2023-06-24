@@ -20,23 +20,23 @@ Observe and describe. Make notes. Explore the links provided in the material. Do
 * 8 [PHP Introduction (w3schools)](https://www.w3schools.com/php/php_intro.asp)
 ### Grammar
 * start/end processing instructions  *  file extensions  * pure/hybrid scripts  * whitespace  * case-sensitivity * commenting
-* 2 [PHP Grammar](https://ebajcar.github.io/web10199/content/learnphp/grammar.html)
+* 2 [PHP Grammar (class material)](https://ebajcar.github.io/web10199/content/learnphp/grammar.html)
 * 9 [PHP Syntax (w3schools)](https://www.w3schools.com/php/php_syntax.asp)
 ### Data types
 * int * float * string * bool * null * array * object * resource * pseudo-type * primitives * scalar type
-* 5 [PHP Data types](https://ebajcar.github.io/web10199/content/learnphp/data_types.html)
+* 5 [PHP Data types (class material) (class material)](https://ebajcar.github.io/web10199/content/learnphp/data_types.html)
 ### Variables
 * expressions * Identifiers * constant * predefined variables * declaring variables * variable scope
-* 4 [PHP Variables](https://ebajcar.github.io/web10199/content/learnphp/variables.html)
+* 4 [PHP Variables (class material)](https://ebajcar.github.io/web10199/content/learnphp/variables.html)
 * 10 [PHP Variables (w3schools)](https://www.w3schools.com/php/php_variables.asp)
 ### Operators
 * types * precedence
-* 3 [PHP Operators](https://ebajcar.github.io/web10199/content/learnphp/operators.html)
+* 3 [PHP Operators (class material)](https://ebajcar.github.io/web10199/content/learnphp/operators.html)
 ### Data structures
 * array
 ### Program flow
 * simple statement * selection * iteration * requires and includes
-* 6 [PHP Programs and flow control](https://ebajcar.github.io/web10199/content/learnphp/control_flow.html)
+* 6 [PHP Programs and flow control (class material)](https://ebajcar.github.io/web10199/content/learnphp/control_flow.html)
 * 11 [PHP echo and print (w3schools)](https://www.w3schools.com/php/php_echo_print.asp)
 
 --
