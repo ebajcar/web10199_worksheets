@@ -25,19 +25,32 @@
 * error handling * error_log * die * try...throw...catch
 * date and time
 
-
+3. [PHP Functions](https://www.w3schools.com/php/php_ref_overview.asp) complete PHP reference
+4. array - [Array Functions](https://www.w3schools.com/php/php_ref_array.asp)
+5. math functions - [Math Functions](https://www.w3schools.com/php/php_ref_math.asp)
+6. variable handling - [Variable Handling Functions](https://www.w3schools.com/php/php_ref_variable_handling.asp)
+7. regex -  [Regular Expression Functions](https://www.w3schools.com/php/php_ref_regex.asp)
+8. string -  [String Functions](https://www.w3schools.com/php/php_ref_string.asp)
+9. exception -  [Exception Reference](https://www.w3schools.com/php/php_ref_exception.asp)
+10. error -  [Error Functions](https://www.w3schools.com/php/php_ref_error.asp)
+11. date/time -  [Date/Time Functions](https://www.w3schools.com/php/php_ref_date.asp)
+12. - PHP Built-in Functions.
+    - PHP User Defined Functions. C
+    - reate a User Defined Function in PHP. PHP Function Arguments.
+    - PHP is a Loosely Typed Language.
+    - PHP Default Argument Value. 
 
 
 ### Read and analyze (analytical reading)
 Observe and describe. Make notes. Explore the links provided in the material. Document what you have learned. When you come to an example, make your own version and explore it deeply. “Curiosity Is the engine of achievement.” —Sir Ken Robinson
-1. [PHP Strings (w3schools) ](https://www.w3schools.com/php/php_string.asp)
-2. [PHP Numbers (w3schools) ]](https://www.w3schools.com/php/php_numbers.asp)
-3. [PHP Math (w3schools) ]](https://www.w3schools.com/php/php_math.asp)
-4. [PHP Constants (w3schools) ]](https://www.w3schools.com/php/php_constants.asp)
-5. [PHP if...else...elseif (w3schools) ]](https://www.w3schools.com/php/php_if_else.asp)
-6. [PHP switch Statement (w3schools) ]](https://www.w3schools.com/php/php_switch.asp)
+1. string [PHP Strings (w3schools) ](https://www.w3schools.com/php/php_string.asp)
+2. number [PHP Numbers (w3schools) ]](https://www.w3schools.com/php/php_numbers.asp)
+3. math [PHP Math (w3schools) ]](https://www.w3schools.com/php/php_math.asp)
+4. constant [PHP Constants (w3schools) ]](https://www.w3schools.com/php/php_constants.asp)
+5. if - [PHP if...else...elseif (w3schools) ]](https://www.w3schools.com/php/php_if_else.asp)
+6. switch [PHP switch Statement (w3schools) ]](https://www.w3schools.com/php/php_switch.asp)
 7. [PHP Loops (w3schools) ]](https://www.w3schools.com/php/php_looping.asp)
-8. [PHP Arrays (w3schools) ]](https://www.w3schools.com/php/php_arrays.asp)
+8. --[PHP Arrays (w3schools) ]](https://www.w3schools.com/php/php_arrays.asp)--
 9. [PHP Superglobals (w3schools) ]](https://www.w3schools.com/php/php_superglobals.asp)
 
 
