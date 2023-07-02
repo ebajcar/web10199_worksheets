@@ -8,10 +8,10 @@ Create valid HTML code
 
 print <<<TAG1
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>here doc and input redirection</title>
-	<meta charset="utf-8">
+  <title>here doc and input redirection</title>
+  <meta charset="utf-8">
 </head>
 <body>
   <header><h1>Page header</h1></header>
