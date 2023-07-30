@@ -1,0 +1,42 @@
+/* 
+ *  public function authenticate($user, $pass)
+ */
+public function authenticate($user, $pass) {
+	// connect to database
+	require('includes/db.php');
+	try {
+      		$dbh = new PDO("mysql:host=localhost;dbname=$DATABASENAME",
+                            $USERNAME, $PASSWORD);
+	} catch (Exception $e) {
+		error_log("Cannot connect to MySQL: $e\n", 3, "myErrors.log");
+		return false;
+	}
+	
+	// retrieve user's record
+	$safeUser = $user;
+	$inPassword = $pass;
+	$query = "SELECT * FROM members WHERE player='$safeUser'";
+	if (!$result = $dbh->prepare($query)) {
+		error_log("Cannot retrieve account for: $safeUser\n", 3, "myErrors.log");
+		return false;
+	}
+	
+	// compare userid and password
+	if ( $result->execute() ) {
+		$row = $result->fetch();		
+		$dbPassword = $row['secret'];			
+		if ($inPassword != $dbPassword) {
+			error_log("Passwords do not match. $safeUser\n", 3, "myErrors.log");
+			return false;				
+		}
+	}
+	
+	$this->firstName = $row['player'];
+	$this->password = $row['secret'];
+	$this->isLoggedIn = true;		
+	//update current session info
+	$this->_setSession();
+	// close connection
+	$dbh = NULL;
+	return true;
+ }
