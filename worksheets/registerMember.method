@@ -1,0 +1,31 @@
+	/* 
+	 *	public function registerMember($safeUser)
+	 */
+	public function registerMember($safeUser, $newPass) {
+		//connect to database
+        require('info.php');
+		try {
+      $dbh = new PDO("mysql:host=localhost;dbname=$DATABASENAME", $USERNAME, $PASSWORD);
+		} catch (Exception $e) {
+			error_log("Cannot connect to MySQL: $e\n", 3, "myErrors.log");
+			return false;
+		}
+		// if not using UNIQUE in database, ensure that the user does not exists already		
+		// otherwise, insert new record
+		$secret = $newPass; 
+		$date = date("Y-m-d");
+		//$address = $_SESSION['address'];
+		$command = "INSERT INTO members ( player, secret, date ) 
+                VALUES ( '$safeUser','$secret','$date')";							
+		if (!$result = $dbh->prepare($command)) {
+			error_log("Query does not appear to be correct: $safeUser\n", 3, "myErrors.log");
+			return false;
+		}	
+		if (!$result->execute() ) {
+			error_log("User already exists. $safeUser\n", 3, "myErrors.log");
+			return false;	
+		}	
+		$this->_setSession();
+		$dbh = "";
+		return true;		
+	}		
