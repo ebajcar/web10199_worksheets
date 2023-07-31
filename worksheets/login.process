@@ -1,46 +1,47 @@
-	/* 
-	 *	public function authenticate($user, $pass)
-	 */
-	public function authenticate($user, $pass) {
-		//connect to database
-        require('info.php');
-		try {
-      $dbh = new PDO("mysql:host=localhost;dbname=$DATABASENAME", $USERNAME, $PASSWORD);
-		} catch (Exception $e) {
-			error_log("Cannot connect to MySQL: $e\n", 3, "myErrors.log");
-			return false;
-		}		
-		//retrieve user's record
-		$safeUser = $user;
-		$inPassword = $pass;
-		$query = "SELECT * FROM members WHERE player='$safeUser'";
-		if (!$result = $dbh->prepare($query)) {
-			error_log("Cannot retrieve account for: $safeUser\n", 3, "myErrors.log");
-			return false;
-		}
-		//TODO compare userid and password
-		if ( $result->execute() ) {
-            try {
-                $row = $result->fetch();		
-                $dbPassword = $row['secret'];			
-                if ($inPassword != $dbPassword) {
-                    error_log("Passwords do not match. $safeUser\n", 3, "myErrors.log");
-                    return;
-                }
-            }
-            catch(PDOException $e) {
-                //echo "Error: " . $e->getMessage();
-                error_log("Error? $safeUser\n". $e->getMessage(), 3, "myErrors.log");
-                return;
-            }
-		}
-		//update this User properties from database
-		$this->player = $row['player'];
-		$this->password = $row['secret'];
-		//$this->startDate = $row['date'];
-		$this->isLoggedIn = true;		
-		//update (set) current session info
-		$this->_setSession();
-		$dbh = "";
-		return true;
-	}	
+<?php
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+	
+	$_SESSION['formAttemp'] = true;
+	$_SESSION['id'] = session_id();
+	$_SESSION['isLoggedIn'] = false;
+
+	if (isset($_POST['password']))
+		if (!empty($_POST['password'])) 
+			$_SESSION['password'] = $_POST['password'];
+
+	// TODO: can be used to record last time the user logged in successfully
+	$_SESSION['loginDate'] = $_POST['curdate'];
+
+	if (isset($_POST['username']))
+		if (!empty($_POST['username'])) {
+			$safeuser = $_POST['username'];
+			$_SESSION['player'] = $_POST['username'];
+		} else
+			echo "handle the bad name";
+	
+	require_once("includes/Member.class");
+	$visitor = new Member;
+	if ($visitor->authenticate($_POST['username'], $_POST['password'])) {	
+		// proceed to member site
+echo <<<_LOG_
+<section>
+<h3 class='w3-green w3-padding-16'>Authentication successful.</h3>
+<a class='w3-button w3-gray'  
+	href=index.php?page=content/home_members.php&members=true&pagetitle=Members-only%20Home%20Page>Proceed</a>
+</section>
+_LOG_;
+
+	} else {
+		// return to login
+		session_destroy();
+echo <<<_NOLOG_
+<section>
+<h3 class='w3-center w3-block w3-red w3-padding-16'>Authentication was unsuccessful.</h3>
+<a class='w3-button w3-gray' href='index.php?page=content/login.php'>Try Again</a>
+</section>
+_NOLOG_;
+		
+	}
+}
+?>
+</main>	
