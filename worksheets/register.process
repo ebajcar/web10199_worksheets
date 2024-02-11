@@ -1,0 +1,73 @@
+<?php
+// Function to clean up a data string (from w3schools.com)
+function clean($data) {
+	$data = trim($data);
+	$data = stripslashes($data);
+	$data = htmlspecialchars($data);
+	return $data;
+}
+
+function initProcess() {
+	$_SESSION['formAttemp'] = true;  // can be implemented to restrict number of attempts
+	$_SESSION['id'] = session_id();
+	$_SESSION['isLoggedIn'] = false;
+	$_SESSION['password'] = $_POST['password'];	
+}
+
+function testUsername() {	
+	global $errMsg, $safeuser;
+	if (isset($_POST['username']))
+		if (!empty($_POST['username'])) {
+			$safeuser = clean($_POST["username"]);
+			$_SESSION['firstName'] = $_POST['username'];
+		} else {
+			$errMsg = "username field is empty. You must choose a username.";
+			return false;
+		}
+	return true;
+}
+
+function testPassword() {	
+	global $password, $errMsg, $safeuser;
+	if (isset($_POST["password"])) {
+		$password = clean($_POST["password"]);
+		// when database field length is set to 40; what would be the minimum?
+		if (strlen($password) < 4 || strlen($password) > 40) {
+			error_log("Password must be between 4 and 40 characters: $password\n", 3, "myErrors.log");
+			$errMsg = "Password parameter must be between 4 and 40 characters" . 
+				  " long. The length of $password is " . strlen($password);
+			return false;
+		}
+	} else {
+		$errMsg = "Second parameter missing."; 
+		error_log("$errMsg -missing.", 3, "myErrors.log");
+		return false;
+	}
+	return true;
+}
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+	$errMsg = '';
+	global $safeuser, $password;
+	initProcess();
+
+	require_once("includes/Member.class");
+	$visitor = new Member;	
+	if (testUsername() && testPassword()) {
+		if ($visitor->registerMember($safeuser, $password)) {
+			// TODO: proceed to member site
+		} else {
+			session_destroy();
+			// TODO: return to registration
+		}			
+	}else {
+		echo "returned false line 102.";
+	}
+/*	
+TODO: if successful, need to decide where to send the user
+	choice 1. log them in authomatically, similar to sucessful authentication
+	choice 2. return them to the login for proper first-time login
+	choice 3. send an email for verification and take them to index.thml
+*/	
+}
+?>

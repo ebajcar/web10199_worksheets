@@ -1,0 +1,67 @@
+<?php
+/* Class name: 	Member
+ * Description: A class that creates a User for members-only web app.
+ * Citation:	PHP, MySQL, Javascript & HTML5 for Dummies, S.Suehring, J.Valade
+ * Member is a data-aware class; data source that connects to a database
+ * 
+ * |----------------------------------------
+ * | $id
+ * | $firstName
+ * | $password
+...
+
+ * | $isLoggedIn
+ * |----------------------------------------
+ * | __construct
+ * | registerMember($safeUser, $newPass)
+ * | authenticate($user, $pass)
+ * | _initUser()
+ * | _setSession()
+ * |----------------------------------------
+ */
+ class Member {
+	private $id;
+	private $firstName;
+	private $password;
+	
+	// TODO: add others fields from the registration form (don't forget to add them in methods appropriately
+ 
+ 
+	/* Constructor: 
+	 * starts session and calls_initUser() method to initialize user info
+	 */
+	function __construct() {
+		if (session_id() == "") {
+			session_start();
+		}
+		$this->_initUser();
+	}    
+  
+	// TODO: add other methods
+    
+
+	/* 
+	 *  private function _initUser() called by the constructor
+	 */
+	private function _initUser() {
+		if (session_id() == '') {
+			session_start();
+		}		
+		$this->id = $_SESSION['id'];
+		$this->firstName = $_SESSION['firstName'];
+		$this->password = $_SESSION['password'];
+		$this->isLoggedIn = $_SESSION['isLoggedIn'];
+	}
+	
+	/* 
+	 *  public function _setSession() called from authenticate() function
+	 */
+	private function _setSession() {
+		$_SESSION['id'] = $this->id;
+		$_SESSION['firstName'] = $this->firstName;
+		$_SESSION['password'] = $this->password;
+		$_SESSION['isLoggedIn'] = $this->isLoggedIn;
+	}	
+
+ } // end class Member
+ ?>
