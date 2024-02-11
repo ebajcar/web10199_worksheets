@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>minimal HTML5 document with comments</title>
+  <meta charset="utf-8">
+<!-- 
+prologue here
+-->  
+</head>
+<body>
+    <form>
+       <!-- input with no attributes; note the defaults -->
+       1. Enter some text: <input> 
+       <br>
+       
+       <!-- text type input; preceded by a label -->
+       2. <label>Enter some text:</label> <input type="text"> 
+       <br>
+       
+       <!-- text type input; associated with a label -->
+       3. <label for="thisone">Enter some text:</label> 
+       <input id="thisone" type="text">  
+       <br>
+       
+       <!-- text type input; default value specified -->
+       4. <input name="default" value="This is the default." type="text"> 
+       <br>
+       
+       <!-- text type input; cursor automatically focused here; prompt using placeholder-->
+       5. <input autofocus placeholder="Enter some text:" type="text">  
+       <br>
+       
+       <!-- text type input; visible size 50 characters; maximum number of 10 characters can be entered -->
+       6. <input placeholder="Enter some text:" type="text" size="50" maxlength="10">
+       <br>
+       
+       <!-- text type input; control disabled, no user interaction -->
+       7. <input disabled placeholder="Enter some text:" type="text" size="50" maxlength="10"> 
+       <br>
+       
+       <!-- multi-column, multi-line text area -->
+       8. <textarea cols="45" rows="10">

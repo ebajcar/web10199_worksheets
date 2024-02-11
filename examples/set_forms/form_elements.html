@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>input types</title>
+  <meta charset="utf-8">
+<!-- 
+prologue here
+-->  
+</head>
+<body>
+  <!-- note that we are not sending data to the server! no action and no method attriutes are specified. default method is get -->
+  <form>
+    <p>
+        <!-- -->
+        <label>What is your favourite colour? </label> 
+        <input type="color">  
+    </p>
+    <p>
+        <!-- -->
+        <label>Which file do you want? </label> 
+        <input type="file">  
+    </p> 
+    <p>       
+       <!-- -->
+       <label>Enter your password: </label> 
+       <input type="password">  
+    </p> 
+    <p>  
+       <!-- -->
+       <label>Choose a date: </label> 
+       <input type="date">  
+    </p> 
+    <p>    
+       <!-- -->
+       <label>Choose a month: </label> 
+       <input type="month">  
+    </p> 
+    <p>  
+       <!-- -->
+       <label>Choose a week: </label> 
+       <input type="week">
+    </p>
+    <p>  
+       <!-- The <input type="time"> allows the user to select a time (no time zone). Depending on browser support, a time picker can show up in the input field. -->
+       <label>Choose time: </label> 
+       <input type="time">
+    </p>
+    <p>  
+       <!-- The <input type="range"> defines a control for entering a number whose exact value is not important (like a slider control). Default range is 0 to 100. However, you can set restrictions on what numbers are accepted with the min, max, and step attributes: -->
+       <label>Volume (between 0 and 50): </label> 
+       <input type="range" name="vol" value="5" min="0" max="50">
+       <input type="range">
+    </p>    
+    <p>
+        <!-- The <input type="tel"> is used for input fields that should contain a telephone number. -->
+        <label>What is your phone number? </label> 
+        <input type="tel">
+        <input type="tel"  name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="999-999-9999">  
+    </p>    
+    <p>  
+       <!-- The <input type="url"> is used for input fields that should contain a URL address. -->
+       <label>Add your homepage: </label> 
+       <input type="url" required>
+    </p>   
+    <p>  
+       <!--  --> 
+       <input type="submit">
+       <input type="reset">
+    </p>      
+  </form>		
+</body>
+</html>

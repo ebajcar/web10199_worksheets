@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>minimal HTML5 document with comments</title>
+  <meta charset="utf-8">
+<!-- 
+prologue here
+-->  
+</head>
+<body>
+<!-- note that we are not sending data to the server! no action and no method attri utes are specified. -->
+<form>
+  <fieldset>
+    <legend>Choose your most favourite pet</legend>
+    <input type="radio"> dog  
+    <input type="radio"> cat 
+    <input type="radio"> rabbit 
+    <input type="radio"> bird     
+    <ul> 
+      <li>This group of radio buttons does not use label and does not share the same name.</li>
+      <li>The user can select all or any combination.</li>
+      <li>The user needs to click on the control. Clicking on the word (label) does not do anything.</li>
+      <li> Clicking on the radio button again does NOT deselect it.</li>
+    </ul>
+  </fieldset>
+
+  <br>
+  <fieldset>
+    <legend>Choose your most favourite pet</legend>
+    <label><input name="one" type="radio"> dog </label>  
+    <label><input name="one" checked type="radio"> cat </label> 
+    <label><input name="one" checked type="radio"> rabbit </label> 
+    <label><input name="one" type="radio"> bird </label> 
+    <ul> 
+      <li>This group of radio buttons uses the label element around the input control AND the label, and shares the same name.</li>
+      <li>The user can select only one item. The user can click on the control or on the label.</li>
+    </ul>           
+  </fieldset>
+        
+  <br>
+  <fieldset>
+   <legend>Select all pets you ever owned</legend>
+   <input name="two" checked type="radio"> dog   
+   <input name="two" type="checkbox"> cat  
+   <input name="two" checked type="checkbox"> rabbit  
+   <input name="two" checked type="radio"> bird
+  </fieldset>
+</form>	
+	
+</body>
+</html>
+
+

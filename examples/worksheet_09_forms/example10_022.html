@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Example10_022</title>
+  <meta charset="utf-8">
+<style>
+label:last-of-type {
+  background-color: green;
+  border: 4px solid orange;
+}
+label:nth-last-of-type(2) {
+  background-color: orange;
+  border: 4px solid red;
+}
+p:nth-last-of-type(2) {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+<section>
+  <h2>Fieldset and Legend—unstyled</h2> 
+  <form>
+    <fieldset>
+      <legend>favourite fuit</legend>
+      <label><input class="data" name="one" type="text" required> Apple</label>
+      <label><input name="one" type="text" required> Orange</label>
+      <label><input class="data" name="one" type="radio"> Banana</label>
+    </fieldset>
+  </form>
+</section>
+<section>
+ <h2>not in a form</h2> 
+      <label><input class="data" name="two" required type="checkbox">     Male</label>
+      <label><mark><input name="three" required type="text" required>   Female</mark></label>
+      <label><input name="four" required type="checkbox">    Other</label>
+</section>
+ <h2>not in a label</h2> 
+<form class="data">
+      <p><input class="data" name="two" type="text" required>     Male</p>
+      <p><input name="three" type="checkbox">   Female</p>
+      <p><input name="four" type="checkbox">    Other</p>
+</form>
+</section>
+</body>
+</html>
+  
+
+
+
+
+

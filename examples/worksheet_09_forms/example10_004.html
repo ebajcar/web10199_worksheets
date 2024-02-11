@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Example10_004</title>
+  <meta charset="utf-8">
+<style>
+section {
+  margin-bottom: 10px;
+  outline: 2px dotted orange;
+  text-align: center;
+}
+[multiple] {
+  background-color: lightblue;
+  color: blue;
+}
+:disabled {
+  background-color: red;
+  color: white;
+  text-align: right;
+}
+</style>
+</head>
+<body>
+  <section>
+    <h2>Select and Options</h2> 
+    <form>
+      <select size="8" multiple>
+        <option value="1">one</option>
+        <option value="2" disabled>two (disabled)</option>
+        <option value="3" disabled>three (disabled)</option>
+        <option value="4">four</option>
+        <option value="5">five</option>
+        <option value="6" selected (pre-selected)>six</option>
+        <option value="7" selected>seven (pre-selected)</option>
+        <option value="8">eight</option>            
+      </select>
+    </form>
+  </section>
+  <section>
+    <h2>Optgroup and Options</h2> 
+	  <form>
+        <select size="10">
+          <optgroup label="First group of options">
+            <option value="1">one</option>
+            <option value="2" disabled>two (disabled)</option>
+            <option value="3">three</option>
+            <option value="4">four</option>
+          </optgroup>
+          <optgroup label="Second group of options">
+            <option value="5">five</option>
+            <option value="6" selected>six (selected)</option>
+            <option value="7">seven</option>
+            <option value="8">eight you can have a long description</option>
+          </optgroup>            
+        </select>
+	  </form>
+  </section>
+</body>
+</html>
+  
+
+

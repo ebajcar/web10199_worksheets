@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Example10_005</title>
+  <meta charset="utf-8">
+<style>
+/* for custom radio buttons, check out
+   https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio */
+section:last-child fieldset {
+  max-width: 360px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+section:last-child legend {
+  font-weight: bold;
+  color: black;
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 0 10px;
+}
+section:last-child label {
+  display: block;
+  font-size: 1.3em;
+}
+section:last-child label:hover {
+  color: blue;
+}
+</style>
+</head>
+<body>
+<section>
+  <h2>Fieldset and Legend—unstyled</h2> 
+  <form>
+    <fieldset>
+      <legend>Gender— select one:</legend>
+      <label><input name="one" type="radio"> Male</label>
+      <label><input name="one" type="radio"> Female</label>
+      <label><input name="one" type="radio"> Other</label>
+    </fieldset>
+  </form>
+</section>
+<section>
+ <h2>Fieldset and Legend—styled</h2> 
+  <form>
+    <fieldset>
+      <legend>Gender— select one:</legend>
+      <label><input name="two" type="radio">     Male</label>
+      <label><input name="three" type="radio">   Female</label>
+      <label><input name="four" type="radio">    Other</label>
+    </fieldset>
+  </form>
+</section>
+</body>
+</html>
+  
+
+
